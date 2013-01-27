@@ -1,7 +1,9 @@
 eP_API_doc
 ==========
 
-Dokumentacja platformy klienta eP_API [Fundacji ePaństwo](http://epanstwo.org.pl/)
+* http://verikami.github.com/eP_API_doc/
+
+Szkicowa wersja automatycznie generowanej dokumentacji platformy klienta eP_API [Fundacji ePaństwo](http://epanstwo.org.pl/)
 
 * https://github.com/epanstwo/eP_API
 
