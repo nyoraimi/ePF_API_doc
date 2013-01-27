@@ -1,4 +1,7 @@
-#: not
 
-!eP_doc-0.1.0-dev/
-!eP_dox-0.1.0-dev/
+#: dev dirs
+eP_dox-0.1.0-dev-0/
+eP_dox-0.1.0-dev-test/
+
+#: doxy conf
+Doxyfile (dev.doc.test)
