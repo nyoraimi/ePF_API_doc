@@ -1,6 +1,14 @@
 var NAVTREE =
 [
   [ "eP_API", "index.html", [
+    [ "Oficjalny klient platformy eP_API", "index.html", [
+      [ "Wprowadzenie", "index.html#intro_sec", null ],
+      [ "Instalacja", "index.html#install_sec", [
+        [ "1: Pobierz", "index.html#step1", null ],
+        [ "2: Skonfiguruj", "index.html#step2", null ],
+        [ "3: Korzystaj", "index.html#step3", null ]
+      ] ]
+    ] ],
     [ "Struktury Danych", null, [
       [ "Struktury danych", "annotated.html", "annotated" ],
       [ "Indeks struktur danych", "classes.html", null ],
@@ -28,7 +36,7 @@ var NAVTREEINDEX =
 "classep___r_c_l___projekt___status.html#af80ca8310b60004454dd02a387deaa2c",
 "classep___s_p___stanowisko.html#a96932ccc35af06bdee80dc8ce108397e",
 "classep___senat___oswiadczenie___majatkowe.html#adc3366b534d8e1e2570fd6a80624d7ed",
-"ep___s_n___wspolsprawozdawca_8php.html"
+"ep___s_p___haslo_8php_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

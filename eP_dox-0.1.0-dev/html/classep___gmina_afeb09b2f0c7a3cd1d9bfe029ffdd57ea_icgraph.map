@@ -1,0 +1,6 @@
+<map id="powiat" name="powiat">
+<area shape="rect" id="node2" href="$classep___gmina.html#a0f86bc9d504d1c4a3a60c1585cb85f97" title="poslowie" alt="" coords="158,5,237,32"/>
+<area shape="rect" id="node3" href="$classep___gmina.html#a12fb54f8ef9461d5c7cad089ab5e35de" title="set_ep_wojewodztwa" alt="" coords="118,56,277,83"/>
+<area shape="rect" id="node4" href="$classep___gmina.html#aad05e7a4455e489123c3cfc364b8583a" title="set_ep_powiaty" alt="" coords="137,107,258,133"/>
+<area shape="rect" id="node5" href="$classep___gmina.html#abb5d24d51da3de254009201026fb912b" title="set_ep_Powiat" alt="" coords="140,157,255,184"/>
+</map>

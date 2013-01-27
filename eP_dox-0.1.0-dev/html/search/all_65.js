@@ -6,7 +6,6 @@ var searchData=
   ['ep_5f_5fobject_2ephp',['ep__Object.php',['../ep_____object_8php.html',1,'']]],
   ['ep_5fapi',['ep_Api',['../classep___api.html',1,'']]],
   ['ep_5fapi_2ephp',['ep_API.php',['../ep___a_p_i_8php.html',1,'']]],
-  ['ep_5fapi_2ephp',['ep_API.php',['../classes_2ep___a_p_i_8php.html',1,'']]],
   ['ep_5fautoloader',['ep_Autoloader',['../classep___autoloader.html',1,'']]],
   ['ep_5fautoloader_2ephp',['ep_Autoloader.php',['../ep___autoloader_8php.html',1,'']]],
   ['ep_5fbdl_5fgrupa',['ep_BDL_Grupa',['../classep___b_d_l___grupa.html',1,'']]],

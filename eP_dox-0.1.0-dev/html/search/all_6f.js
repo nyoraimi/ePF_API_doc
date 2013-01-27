@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['oficjalny_20klient_20platformy_20ep_5fapi',['Oficjalny klient platformy eP_API',['../index.html',1,'']]],
   ['obszar',['obszar',['../classep___gmina.html#aa05db5ea090acb5d431aff0bbb8b97a6',1,'ep_Gmina\obszar()'],['../classep___powiat.html#aa05db5ea090acb5d431aff0bbb8b97a6',1,'ep_Powiat\obszar()'],['../classep___wojewodztwo.html#aa05db5ea090acb5d431aff0bbb8b97a6',1,'ep_Wojewodztwo\obszar()']]],
   ['order_5fby',['order_by',['../classep___dataset.html#aa2b8f6406b39305ce49f2f4e33ce490f',1,'ep_Dataset']]],
   ['orzeczenia',['orzeczenia',['../classep___s_n___izba.html#afafcff5d2bf7a4b4dd56b1a0a7c6a275',1,'ep_SN_Izba']]],
