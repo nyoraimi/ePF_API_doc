@@ -1,5 +1,5 @@
-eP_API_doc
-==========
+eP_API_doc (0.1.0-dev)
+======================
 
 * http://verikami.github.com/eP_API_doc/
 
