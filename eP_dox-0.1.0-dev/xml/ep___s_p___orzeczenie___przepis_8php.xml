@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="ep___s_p___orzeczenie___przepis_8php" kind="file">
+    <compoundname>ep_SP_Orzeczenie_Przepis.php</compoundname>
+    <innerclass refid="classep___s_p___orzeczenie___przepis" prot="public">ep_SP_Orzeczenie_Przepis</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="classep___s_p___orzeczenie___przepis" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classep___s_p___orzeczenie___przepis" kindref="compound">ep_SP_Orzeczenie_Przepis</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classep___object" kindref="compound">ep_Object</ref>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classep___s_p___orzeczenie___przepis_1ab4e31d75f0bc5d512456911e5d01366b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1ab4e31d75f0bc5d512456911e5d01366b" kindref="member">$_aliases</ref><sp/>=<sp/>array(<sp/></highlight><highlight class="stringliteral">&apos;sp_przepisy&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classep___s_p___orzeczenie___przepis_1aa2e1ecb50e6fae26a854ac995f7226b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1aa2e1ecb50e6fae26a854ac995f7226b8" kindref="member">$_orzeczenie_sp</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classep___s_p___orzeczenie___przepis_1af494981dea72d3642ed065d50f9a2db7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1af494981dea72d3642ed065d50f9a2db7" kindref="member">get_lp</ref>(){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>$this-&gt;data[</highlight><highlight class="stringliteral">&apos;lp&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classep___s_p___orzeczenie___przepis_1a98a84a7375b3d05cb4516bbb2c7f3e04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1a98a84a7375b3d05cb4516bbb2c7f3e04" kindref="member">get_orzeczenie_sp_id</ref>(){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>$this-&gt;data[</highlight><highlight class="stringliteral">&apos;orzeczenie_sp_id&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classep___s_p___orzeczenie___przepis_1ae5b24c445c7c4aa3596a9031016c41af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1ae5b24c445c7c4aa3596a9031016c41af" kindref="member">get_przepis</ref>(){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>$this-&gt;data[</highlight><highlight class="stringliteral">&apos;przepis&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classep___s_p___orzeczenie___przepis_1a7516ca30af0db3cdbf9a7739b48ce91d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1a7516ca30af0db3cdbf9a7739b48ce91d" kindref="member">__toString</ref>(){</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>$this-&gt;<ref refid="classep___s_p___orzeczenie___przepis_1ae5b24c445c7c4aa3596a9031016c41af" kindref="member">get_przepis</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classep___s_p___orzeczenie___przepis_1a498c7b61096c1bcb941e93a8d1385318" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1a498c7b61096c1bcb941e93a8d1385318" kindref="member">orzeczenie_sp</ref>(){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!$this-&gt;_orzeczenie_sp<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_orzeczenie_sp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie" kindref="compound">ep_SP_Orzeczenie</ref>(<sp/>$this-&gt;<ref refid="classep___s_p___orzeczenie___przepis_1a98a84a7375b3d05cb4516bbb2c7f3e04" kindref="member">get_orzeczenie_sp_id</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classep___s_p___orzeczenie___przepis_1aa2e1ecb50e6fae26a854ac995f7226b8" kindref="member">$this-&gt;_orzeczenie_sp</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SP_Orzeczenie_Przepis.php"/>
+  </compounddef>
+</doxygen>

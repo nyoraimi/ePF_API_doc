@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="ep___s_n___wspolsprawozdawca_8php" kind="file">
+    <compoundname>ep_SN_Wspolsprawozdawca.php</compoundname>
+    <innerclass refid="classep___s_n___wspolsprawozdawca" prot="public">ep_SN_Wspolsprawozdawca</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="classep___s_n___wspolsprawozdawca" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classep___s_n___wspolsprawozdawca" kindref="compound">ep_SN_Wspolsprawozdawca</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classep___object" kindref="compound">ep_Object</ref>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classep___s_n___wspolsprawozdawca_1ab4e31d75f0bc5d512456911e5d01366b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1ab4e31d75f0bc5d512456911e5d01366b" kindref="member">$_aliases</ref><sp/>=<sp/>array(<sp/></highlight><highlight class="stringliteral">&apos;sn_wspolsprawozdawcy&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classep___s_n___wspolsprawozdawca_1a03da9aa4f10fbe1d2b4ef32521cbedb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kindref="member">$_orzeczenie_sn</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classep___s_n___wspolsprawozdawca_1a9ede817d229955b98ebe3e10f5a45e94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1a9ede817d229955b98ebe3e10f5a45e94" kindref="member">$_orzeczenie_sn_osoba</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classep___s_n___wspolsprawozdawca_1a48819f0e56cb11707ba89150dd449c71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1a48819f0e56cb11707ba89150dd449c71" kindref="member">get_orzeczenie_sn_id</ref>(){</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>$this-&gt;data[</highlight><highlight class="stringliteral">&apos;orzeczenie_sn_id&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classep___s_n___wspolsprawozdawca_1a8a91a727290a24c4f12d72adda38d3df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1a8a91a727290a24c4f12d72adda38d3df" kindref="member">get_orzeczenie_sn_osoba_id</ref>(){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>$this-&gt;data[</highlight><highlight class="stringliteral">&apos;orzeczenie_sn_osoba_id&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classep___s_n___wspolsprawozdawca_1ad3ca9a024234af7b90b52e8edb3406ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1ad3ca9a024234af7b90b52e8edb3406ff" kindref="member">orzeczenie_sn</ref>(){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!$this-&gt;_orzeczenie_sn<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_orzeczenie_sn<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___orzeczenie" kindref="compound">ep_SN_Orzeczenie</ref>(<sp/>$this-&gt;<ref refid="classep___s_n___wspolsprawozdawca_1a48819f0e56cb11707ba89150dd449c71" kindref="member">get_orzeczenie_sn_id</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kindref="member">$this-&gt;_orzeczenie_sn</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classep___s_n___wspolsprawozdawca_1abedbfb98ce259de97cc4ddfd5496797c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1abedbfb98ce259de97cc4ddfd5496797c" kindref="member">orzeczenie_sn_osoba</ref>(){</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!$this-&gt;_orzeczenie_sn_osoba<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_orzeczenie_sn_osoba<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___osoba" kindref="compound">ep_SN_Osoba</ref>(<sp/>$this-&gt;<ref refid="classep___s_n___wspolsprawozdawca_1a8a91a727290a24c4f12d72adda38d3df" kindref="member">get_orzeczenie_sn_osoba_id</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___wspolsprawozdawca_1a9ede817d229955b98ebe3e10f5a45e94" kindref="member">$this-&gt;_orzeczenie_sn_osoba</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Wspolsprawozdawca.php"/>
+  </compounddef>
+</doxygen>

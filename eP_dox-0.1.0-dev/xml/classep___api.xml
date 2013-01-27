@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="classep___api" kind="class" prot="public">
+    <compoundname>ep_Api</compoundname>
+    <derivedcompoundref refid="classep___dataset" prot="public" virt="non-virtual">ep_Dataset</derivedcompoundref>
+    <derivedcompoundref refid="classep___object" prot="public" virt="non-virtual">ep_Object</derivedcompoundref>
+    <derivedcompoundref refid="classep___search" prot="public" virt="non-virtual">ep_Search</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classep___api_1a01caaf3772469caf98e39064bf5d7d8f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_version</definition>
+        <argsstring></argsstring>
+        <name>$_version</name>
+        <initializer>= &apos;0.1&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="4" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___api_1affbb88357e7d111cab3d11d6623828b2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$server_address</definition>
+        <argsstring></argsstring>
+        <name>$server_address</name>
+        <initializer>= &apos;http://ep_api.sejmometr.pl/v1/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="5" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classep___api_1a535630cefaf93746423d63a93daa1099" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$_key</definition>
+        <argsstring></argsstring>
+        <name>$_key</name>
+        <initializer>= eP_API_KEY</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="6" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___api_1a34b48163ff7f2c3ece832f75c4ac5f98" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$_secret</definition>
+        <argsstring></argsstring>
+        <name>$_secret</name>
+        <initializer>= eP_API_SECRET</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="7" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classep___api_1a9f0be6ae273d3669e11c29910a0be338" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___api" kindref="compound">ep_Api</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="12" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classep___api_1a2d4655622385b620a6f18270d0026fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>call</definition>
+        <argsstring>($service, $params)</argsstring>
+        <name>call</name>
+        <param>
+          <declname>$service</declname>
+        </param>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="16" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="16" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classep___api_1abe8b7efca8f6d5857072ab156ebbbc7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>generate_sig</definition>
+        <argsstring>($params)</argsstring>
+        <name>generate_sig</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="61" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="61" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="892">
+        <label>ep_SN_Jednostka</label>
+        <link refid="classep___s_n___jednostka"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="893">
+        <label>ep_SN_Orzeczenie</label>
+        <link refid="classep___s_n___orzeczenie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="849">
+        <label>ep_Prawo</label>
+        <link refid="classep___prawo"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="873">
+        <label>ep_Sejm_Posiedzenie</label>
+        <link refid="classep___sejm___posiedzenie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="869">
+        <label>ep_Sejm_Klub</label>
+        <link refid="classep___sejm___klub"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="880">
+        <label>ep_Senat_Druk</label>
+        <link refid="classep___senat___druk"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="843">
+        <label>ep_Posel_Glos</label>
+        <link refid="classep___posel___glos"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>ep_Senat_Wystapienie</label>
+        <link refid="classep___senat___wystapienie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="884">
+        <label>ep_Senat_senator_komisja</label>
+        <link refid="classep___senat__senator__komisja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>ep_Sejm_Glosowanie</label>
+        <link refid="classep___sejm___glosowanie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="861">
+        <label>ep_Sejm_Druk</label>
+        <link refid="classep___sejm___druk"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="862">
+        <label>ep_Sejm_Druk_Typ</label>
+        <link refid="classep___sejm___druk___typ"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="881">
+        <label>ep_Senat_komisja</label>
+        <link refid="classep___senat__komisja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="889">
+        <label>ep_Senat_zespol_parlamentarny</label>
+        <link refid="classep___senat__zespol__parlamentarny"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="859">
+        <label>ep_SA_Skarzony_Organ</label>
+        <link refid="classep___s_a___skarzony___organ"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="888">
+        <label>ep_Senat_Zespol</label>
+        <link refid="classep___senat___zespol"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="847">
+        <label>ep_Posel_Wspolpracownik</label>
+        <link refid="classep___posel___wspolpracownik"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="816">
+        <label>ep_Dataset</label>
+        <link refid="classep___dataset"/>
+        <childnode refid="815" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="907">
+        <label>ep_SP_Sad</label>
+        <link refid="classep___s_p___sad"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="831">
+        <label>ep_KRS_Wpis</label>
+        <link refid="classep___k_r_s___wpis"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="853">
+        <label>ep_RCL_Projekt_Etap</label>
+        <link refid="classep___r_c_l___projekt___etap"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="844">
+        <label>ep_Posel_Komisja_Stanowisko</label>
+        <link refid="classep___posel___komisja___stanowisko"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="848">
+        <label>ep_Powiat</label>
+        <link refid="classep___powiat"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="854">
+        <label>ep_RCL_Projekt_Status</label>
+        <link refid="classep___r_c_l___projekt___status"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="832">
+        <label>ep_Legislacja_Projekt</label>
+        <link refid="classep___legislacja___projekt"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="860">
+        <label>ep_Sejm_Dezyderat</label>
+        <link refid="classep___sejm___dezyderat"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>ep_Senat_Oswiadczenie_Majatkowe</label>
+        <link refid="classep___senat___oswiadczenie___majatkowe"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="911">
+        <label>ep_Twitt</label>
+        <link refid="classep___twitt"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>ep_Gmina</label>
+        <link refid="classep___gmina"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="905">
+        <label>ep_SP_Orzeczenie_Przepis</label>
+        <link refid="classep___s_p___orzeczenie___przepis"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>ep_Posel</label>
+        <link refid="classep___posel"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="821">
+        <label>ep_BDL_Kategoria</label>
+        <link refid="classep___b_d_l___kategoria"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="890">
+        <label>ep_Senator</label>
+        <link refid="classep___senator"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="834">
+        <label>ep_Legislacja_Projekt_Podpis</label>
+        <link refid="classep___legislacja___projekt___podpis"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="878">
+        <label>ep_Sejm_Wniesiony_Projekt</label>
+        <link refid="classep___sejm___wniesiony___projekt"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="817">
+        <label>ep_Object</label>
+        <link refid="classep___object"/>
+        <childnode refid="815" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="904">
+        <label>ep_SP_Orzeczenie_Czesc</label>
+        <link refid="classep___s_p___orzeczenie___czesc"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="828">
+        <label>ep_Instytucja</label>
+        <link refid="classep___instytucja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="910">
+        <label>ep_Stanowisko</label>
+        <link refid="classep___stanowisko"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="898">
+        <label>ep_SN_Osoba</label>
+        <link refid="classep___s_n___osoba"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="840">
+        <label>ep_PNA</label>
+        <link refid="classep___p_n_a"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="863">
+        <label>ep_Sejm_Dzien</label>
+        <link refid="classep___sejm___dzien"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>ep_Sejm_Komunikat</label>
+        <link refid="classep___sejm___komunikat"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="913">
+        <label>ep_Ustawa</label>
+        <link refid="classep___ustawa"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>ep_Sejm_Glosowanie_Typ</label>
+        <link refid="classep___sejm___glosowanie___typ"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="883">
+        <label>ep_Senat_rejestr_korzysci</label>
+        <link refid="classep___senat__rejestr__korzysci"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="879">
+        <label>ep_Sejm_Wystapienie</label>
+        <link refid="classep___sejm___wystapienie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="894">
+        <label>ep_SN_Orzeczenie_Autor</label>
+        <link refid="classep___s_n___orzeczenie___autor"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="906">
+        <label>ep_SP_Osoba</label>
+        <link refid="classep___s_p___osoba"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="858">
+        <label>ep_SA_Sedzia</label>
+        <link refid="classep___s_a___sedzia"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="876">
+        <label>ep_Sejm_Pytanie_Biezace</label>
+        <link refid="classep___sejm___pytanie___biezace"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="842">
+        <label>ep_Posel_Aktywnosc</label>
+        <link refid="classep___posel___aktywnosc"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="903">
+        <label>ep_SP_Orzeczenie</label>
+        <link refid="classep___s_p___orzeczenie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="865">
+        <label>ep_Sejm_Glosowanie_Glos</label>
+        <link refid="classep___sejm___glosowanie___glos"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="908">
+        <label>ep_SP_Stanowisko</label>
+        <link refid="classep___s_p___stanowisko"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="868">
+        <label>ep_Sejm_Interpelacja_Pismo</label>
+        <link refid="classep___sejm___interpelacja___pismo"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="912">
+        <label>ep_Twitt_Tag</label>
+        <link refid="classep___twitt___tag"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="885">
+        <label>ep_Senat_senator_zespol_parlamentarny</label>
+        <link refid="classep___senat__senator__zespol__parlamentarny"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="818">
+        <label>ep__Dataset</label>
+        <link refid="classep_____dataset"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="891">
+        <label>ep_SN_Izba</label>
+        <link refid="classep___s_n___izba"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="900">
+        <label>ep_SN_Wspolsprawozdawca</label>
+        <link refid="classep___s_n___wspolsprawozdawca"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="838">
+        <label>ep_NIK_Raport</label>
+        <link refid="classep___n_i_k___raport"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="895">
+        <label>ep_SN_Orzeczenie_Forma</label>
+        <link refid="classep___s_n___orzeczenie___forma"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="899">
+        <label>ep_SN_Sklad</label>
+        <link refid="classep___s_n___sklad"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>ep_Legislacja_Projekt_Status</label>
+        <link refid="classep___legislacja___projekt___status"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>ep_Miejscowosc</label>
+        <link refid="classep___miejscowosc"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>ep_ISAP_Plik</label>
+        <link refid="classep___i_s_a_p___plik"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="850">
+        <label>ep_Prawo_Typ</label>
+        <link refid="classep___prawo___typ"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="824">
+        <label>ep_Bip_Instytucja</label>
+        <link refid="classep___bip___instytucja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="914">
+        <label>ep_Wojewodztwo</label>
+        <link refid="classep___wojewodztwo"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="830">
+        <label>ep_Kod_Pocztowy</label>
+        <link refid="classep___kod___pocztowy"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="846">
+        <label>ep_Posel_Rejestr_Korzysci</label>
+        <link refid="classep___posel___rejestr___korzysci"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>ep_SN_Orzeczenie_Izba</label>
+        <link refid="classep___s_n___orzeczenie___izba"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="867">
+        <label>ep_Sejm_Interpelacja</label>
+        <link refid="classep___sejm___interpelacja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="839">
+        <label>ep_Orzeczenie_sp_osoba_stanowisko</label>
+        <link refid="classep___orzeczenie__sp__osoba__stanowisko"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="837">
+        <label>ep_NIK_raport</label>
+        <link refid="classep___n_i_k__raport"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="915">
+        <label>sp_Orzeczenie_SN_Sprawozdawca</label>
+        <link refid="classsp___orzeczenie___s_n___sprawozdawca"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="856">
+        <label>ep_SA_Orzeczenie_Wynik</label>
+        <link refid="classep___s_a___orzeczenie___wynik"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>ep_BDL_Wskaznik_Wariacja</label>
+        <link refid="classep___b_d_l___wskaznik___wariacja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="826">
+        <label>ep_Glosowanie_Sejmowe_Glos</label>
+        <link refid="classep___glosowanie___sejmowe___glos"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>ep_Sejm_Komisja</label>
+        <link refid="classep___sejm___komisja"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="916">
+        <label>ep_Search</label>
+        <link refid="classep___search"/>
+        <childnode refid="815" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="874">
+        <label>ep_Sejm_Posiedzenie_Debata</label>
+        <link refid="classep___sejm___posiedzenie___debata"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="820">
+        <label>ep_BDL_Grupa</label>
+        <link refid="classep___b_d_l___grupa"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>ep_RCL_Dokument</label>
+        <link refid="classep___r_c_l___dokument"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="845">
+        <label>ep_Posel_Oswiadczenie_Majatkowe</label>
+        <link refid="classep___posel___oswiadczenie___majatkowe"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="872">
+        <label>ep_Sejm_Okreg_Wyborczy</label>
+        <link refid="classep___sejm___okreg___wyborczy"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="855">
+        <label>ep_SA_Orzeczenie</label>
+        <link refid="classep___s_a___orzeczenie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="857">
+        <label>ep_SA_Sad</label>
+        <link refid="classep___s_a___sad"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="825">
+        <label>ep_Czlowiek</label>
+        <link refid="classep___czlowiek"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="902">
+        <label>ep_SP_Haslo_Tematyczne</label>
+        <link refid="classep___s_p___haslo___tematyczne"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="819">
+        <label>ep__Object</label>
+        <link refid="classep_____object"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>ep_RCL_Projekt</label>
+        <link refid="classep___r_c_l___projekt"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="897">
+        <label>ep_SN_Orzeczenie_Sedzia</label>
+        <link refid="classep___s_n___orzeczenie___sedzia"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="822">
+        <label>ep_BDL_Podgrupa</label>
+        <link refid="classep___b_d_l___podgrupa"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="875">
+        <label>ep_Sejm_Posiedzenie_Punkt</label>
+        <link refid="classep___sejm___posiedzenie___punkt"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="833">
+        <label>ep_Legislacja_Projekt_Etap</label>
+        <link refid="classep___legislacja___projekt___etap"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="901">
+        <label>ep_SP_Haslo</label>
+        <link refid="classep___s_p___haslo"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="877">
+        <label>ep_Sejm_Sprawozdanie</label>
+        <link refid="classep___sejm___sprawozdanie"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="886">
+        <label>ep_Senat_senator_zespol_senacki</label>
+        <link refid="classep___senat__senator__zespol__senacki"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="909">
+        <label>ep_SP_Teza</label>
+        <link refid="classep___s_p___teza"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" line="2" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_API.php" bodystart="2" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classep___api_1a535630cefaf93746423d63a93daa1099" prot="private" virt="non-virtual"><scope>ep_Api</scope><name>$_key</name></member>
+      <member refid="classep___api_1a34b48163ff7f2c3ece832f75c4ac5f98" prot="private" virt="non-virtual"><scope>ep_Api</scope><name>$_secret</name></member>
+      <member refid="classep___api_1a01caaf3772469caf98e39064bf5d7d8f" prot="public" virt="non-virtual"><scope>ep_Api</scope><name>$_version</name></member>
+      <member refid="classep___api_1affbb88357e7d111cab3d11d6623828b2" prot="public" virt="non-virtual"><scope>ep_Api</scope><name>$server_address</name></member>
+      <member refid="classep___api_1a2d4655622385b620a6f18270d0026fd8" prot="public" virt="non-virtual"><scope>ep_Api</scope><name>call</name></member>
+      <member refid="classep___api_1abe8b7efca8f6d5857072ab156ebbbc7d" prot="private" virt="non-virtual"><scope>ep_Api</scope><name>generate_sig</name></member>
+      <member refid="classep___api_1a9f0be6ae273d3669e11c29910a0be338" prot="public" virt="non-virtual"><scope>ep_Api</scope><name>init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="classep___s_n___orzeczenie" kind="class" prot="public">
+    <compoundname>ep_SN_Orzeczenie</compoundname>
+    <basecompoundref refid="classep___object" prot="public" virt="non-virtual">ep_Object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1ab4e31d75f0bc5d512456911e5d01366b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_aliases</definition>
+        <argsstring></argsstring>
+        <name>$_aliases</name>
+        <initializer>= array( &apos;sn_orzeczenia&apos; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="4" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1a4a4d54ae35428077a7c61ec8a5139af3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_field_init_lookup</definition>
+        <argsstring></argsstring>
+        <name>$_field_init_lookup</name>
+        <initializer>= &apos;sygnatura&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="6" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1a95b4aef311558b8233d9934bd08406ec" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_forma</definition>
+        <argsstring></argsstring>
+        <name>$_forma</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="11" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1ad1b42e8f431ce2f82d2ccf9395587947" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_jednostka</definition>
+        <argsstring></argsstring>
+        <name>$_jednostka</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="16" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1aeeba512286131af36395e8e6bddafbac" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_sklad</definition>
+        <argsstring></argsstring>
+        <name>$_sklad</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="21" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1a979f172256d5c0c7e9a858abeddcfc18" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_autorzy</definition>
+        <argsstring></argsstring>
+        <name>$_autorzy</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="26" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1a32e61795984a518ce9fe14cbd1a68306" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_izby_orzeczenia</definition>
+        <argsstring></argsstring>
+        <name>$_izby_orzeczenia</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="31" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1a9515f25f368eef1b6825d9568f40c4bc" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_sedziowie</definition>
+        <argsstring></argsstring>
+        <name>$_sedziowie</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="36" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1a714759738f329fda5eebaffc97a6be38" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_sprawozdawcy</definition>
+        <argsstring></argsstring>
+        <name>$_sprawozdawcy</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="41" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___s_n___orzeczenie_1ad912d3fe15f8233d48bc2a574708cfc2" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_wspolsprawozdawcy</definition>
+        <argsstring></argsstring>
+        <name>$_wspolsprawozdawcy</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="46" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a76d66bf9d593a034ae91951dcfb8596c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_akcept</definition>
+        <argsstring>()</argsstring>
+        <name>get_akcept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="51" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1ab5976d1ba325a739761c2eb6662f58a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_data</definition>
+        <argsstring>()</argsstring>
+        <name>get_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="58" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1adc3366b534d8e1e2570fd6a80624d7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_dokument_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_dokument_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="65" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a1bddc6deeff779552edc10c439053c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_forma</definition>
+        <argsstring>()</argsstring>
+        <name>get_forma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="72" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a4e3ee9b67d81c24fd49cc82ba5116a57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_item_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_item_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="79" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1ab3f6033539ec592f4639edf8c7561d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_izby_str</definition>
+        <argsstring>()</argsstring>
+        <name>get_izby_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="86" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1ad3ab86985bf3688c5de5a95d718de03c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_jednostka_str</definition>
+        <argsstring>()</argsstring>
+        <name>get_jednostka_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="93" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1af3ab4f45cfd59bc09d5f8154bb58d1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_orzeczenie_sn_forma_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_orzeczenie_sn_forma_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="100" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a4fa6a41af1aa00c454ba78a56b557539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_orzeczenie_sn_jednostka_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_orzeczenie_sn_jednostka_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="107" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="107" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1ab5cb075dc2818876714bc49a8181543f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_orzeczenie_sn_sklad_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_orzeczenie_sn_sklad_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="114" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a66121e5b485d83675a1e0dfeec8d0fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_przewodniczacy</definition>
+        <argsstring>()</argsstring>
+        <name>get_przewodniczacy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="121" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a7351666042a6cbd5f6af727ef06e24fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_przewodniczacy_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_przewodniczacy_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="128" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="128" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a7c1260a14404fc48a9aa5da636909e71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_sprawozdawcy_str</definition>
+        <argsstring>()</argsstring>
+        <name>get_sprawozdawcy_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="135" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a2816085ef7f03472a9c8aaf65df2d6d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_sygnatura</definition>
+        <argsstring>()</argsstring>
+        <name>get_sygnatura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="142" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a0853d84cd54c6da9b292b3be3b53d919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_wspolsprawozdawcy_str</definition>
+        <argsstring>()</argsstring>
+        <name>get_wspolsprawozdawcy_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="149" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="149" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a7516ca30af0db3cdbf9a7739b48ce91d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__toString</definition>
+        <argsstring>()</argsstring>
+        <name>__toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="156" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a608fa64fd97142801ced83ea87121df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>forma</definition>
+        <argsstring>()</argsstring>
+        <name>forma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___s_n___orzeczenie___forma" kindref="compound">ep_SN_Orzeczenie_Forma</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="163" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a9770abfccd8d758bc47ff823619f4322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>jednostka</definition>
+        <argsstring>()</argsstring>
+        <name>jednostka</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___s_n___jednostka" kindref="compound">ep_SN_Jednostka</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="173" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a6b9228e10a1bc1f8a597116e902d231d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sklad</definition>
+        <argsstring>()</argsstring>
+        <name>sklad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___s_n___sklad" kindref="compound">ep_SN_Sklad</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="183" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="183" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1ac66efa4209f50d765772be02a881381e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>autorzy</definition>
+        <argsstring>()</argsstring>
+        <name>autorzy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___dataset" kindref="compound">ep_Dataset</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="193" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="193" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a5f63a0d971299ec2faf962f75055dd16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>izby_orzeczenia</definition>
+        <argsstring>()</argsstring>
+        <name>izby_orzeczenia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___dataset" kindref="compound">ep_Dataset</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="204" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="204" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a8a15d60da65e02bae2cbdbf37b916e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sedziowie</definition>
+        <argsstring>()</argsstring>
+        <name>sedziowie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___dataset" kindref="compound">ep_Dataset</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="215" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="215" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a76d3ecd15358754b888e8224f0bb525d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sprawozdawcy</definition>
+        <argsstring>()</argsstring>
+        <name>sprawozdawcy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___dataset" kindref="compound">ep_Dataset</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="226" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="226" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___s_n___orzeczenie_1a6c6f87dc07e219e95c13638d943a60eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wspolsprawozdawcy</definition>
+        <argsstring>()</argsstring>
+        <name>wspolsprawozdawcy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classep___dataset" kindref="compound">ep_Dataset</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="237" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="237" bodyend="243"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1468">
+        <label>ep_SN_Orzeczenie</label>
+        <link refid="classep___s_n___orzeczenie"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1470">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="1469">
+        <label>ep_Object</label>
+        <link refid="classep___object"/>
+        <childnode refid="1470" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1471">
+        <label>ep_SN_Orzeczenie</label>
+        <link refid="classep___s_n___orzeczenie"/>
+        <childnode refid="1472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1473">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="1472">
+        <label>ep_Object</label>
+        <link refid="classep___object"/>
+        <childnode refid="1473" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" line="2" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Orzeczenie.php" bodystart="2" bodyend="244"/>
+    <listofallmembers>
+      <member refid="classep___s_n___orzeczenie_1ab4e31d75f0bc5d512456911e5d01366b" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_aliases</name></member>
+      <member refid="classep___s_n___orzeczenie_1a979f172256d5c0c7e9a858abeddcfc18" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_autorzy</name></member>
+      <member refid="classep___s_n___orzeczenie_1a4a4d54ae35428077a7c61ec8a5139af3" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_field_init_lookup</name></member>
+      <member refid="classep___s_n___orzeczenie_1a95b4aef311558b8233d9934bd08406ec" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_forma</name></member>
+      <member refid="classep___s_n___orzeczenie_1a32e61795984a518ce9fe14cbd1a68306" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_izby_orzeczenia</name></member>
+      <member refid="classep___s_n___orzeczenie_1ad1b42e8f431ce2f82d2ccf9395587947" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_jednostka</name></member>
+      <member refid="classep___s_n___orzeczenie_1a9515f25f368eef1b6825d9568f40c4bc" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_sedziowie</name></member>
+      <member refid="classep___s_n___orzeczenie_1aeeba512286131af36395e8e6bddafbac" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_sklad</name></member>
+      <member refid="classep___s_n___orzeczenie_1a714759738f329fda5eebaffc97a6be38" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_sprawozdawcy</name></member>
+      <member refid="classep___api_1a01caaf3772469caf98e39064bf5d7d8f" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_version</name></member>
+      <member refid="classep___s_n___orzeczenie_1ad912d3fe15f8233d48bc2a574708cfc2" prot="protected" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$_wspolsprawozdawcy</name></member>
+      <member refid="classep___object_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$data</name></member>
+      <member refid="classep___object_1ae97941710d863131c700f069b109991e" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$id</name></member>
+      <member refid="classep___object_1a56b31ecb84a0f78f558158981557e0dd" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$layers</name></member>
+      <member refid="classep___api_1affbb88357e7d111cab3d11d6623828b2" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>$server_address</name></member>
+      <member refid="classep___object_1a8c384d5e0f13f64cbf8c51096faa7738" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>__construct</name></member>
+      <member refid="classep___s_n___orzeczenie_1a7516ca30af0db3cdbf9a7739b48ce91d" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>__toString</name></member>
+      <member refid="classep___s_n___orzeczenie_1ac66efa4209f50d765772be02a881381e" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>autorzy</name></member>
+      <member refid="classep___api_1a2d4655622385b620a6f18270d0026fd8" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>call</name></member>
+      <member refid="classep___s_n___orzeczenie_1a608fa64fd97142801ced83ea87121df2" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>forma</name></member>
+      <member refid="classep___s_n___orzeczenie_1a76d66bf9d593a034ae91951dcfb8596c" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_akcept</name></member>
+      <member refid="classep___s_n___orzeczenie_1ab5976d1ba325a739761c2eb6662f58a9" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_data</name></member>
+      <member refid="classep___s_n___orzeczenie_1adc3366b534d8e1e2570fd6a80624d7ed" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_dokument_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1a1bddc6deeff779552edc10c439053c9f" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_forma</name></member>
+      <member refid="classep___object_1a8a94003b9d888b085c68d6eac44be175" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1a4e3ee9b67d81c24fd49cc82ba5116a57" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_item_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1ab3f6033539ec592f4639edf8c7561d1e" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_izby_str</name></member>
+      <member refid="classep___s_n___orzeczenie_1ad3ab86985bf3688c5de5a95d718de03c" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_jednostka_str</name></member>
+      <member refid="classep___s_n___orzeczenie_1af3ab4f45cfd59bc09d5f8154bb58d1d9" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_orzeczenie_sn_forma_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1a4fa6a41af1aa00c454ba78a56b557539" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_orzeczenie_sn_jednostka_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1ab5cb075dc2818876714bc49a8181543f" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_orzeczenie_sn_sklad_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1a66121e5b485d83675a1e0dfeec8d0fd4" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_przewodniczacy</name></member>
+      <member refid="classep___s_n___orzeczenie_1a7351666042a6cbd5f6af727ef06e24fb" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_przewodniczacy_id</name></member>
+      <member refid="classep___s_n___orzeczenie_1a7c1260a14404fc48a9aa5da636909e71" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_sprawozdawcy_str</name></member>
+      <member refid="classep___s_n___orzeczenie_1a2816085ef7f03472a9c8aaf65df2d6d5" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_sygnatura</name></member>
+      <member refid="classep___s_n___orzeczenie_1a0853d84cd54c6da9b292b3be3b53d919" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>get_wspolsprawozdawcy_str</name></member>
+      <member refid="classep___object_1a2e7bb35c71bf1824456ceb944cb7a845" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>getDescription</name></member>
+      <member refid="classep___object_1a95e859a4588a39a1824b717378a84c29" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>getTitle</name></member>
+      <member refid="classep___api_1a9f0be6ae273d3669e11c29910a0be338" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>init</name></member>
+      <member refid="classep___object_1a86cd9c33a728ce9abfcf0141434a4685" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>isloaded</name></member>
+      <member refid="classep___s_n___orzeczenie_1a5f63a0d971299ec2faf962f75055dd16" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>izby_orzeczenia</name></member>
+      <member refid="classep___s_n___orzeczenie_1a9770abfccd8d758bc47ff823619f4322" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>jednostka</name></member>
+      <member refid="classep___object_1a4dcaa8f72c8423d4de25a9e87fa6f3e4" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>load</name></member>
+      <member refid="classep___object_1a16e862a2b83507e636da4d2255935e78" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>load_from_db</name></member>
+      <member refid="classep___object_1a2a98b8e18d13cdc780c0eb53a77985b2" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>load_layer</name></member>
+      <member refid="classep___object_1ac313783ab7146c71e639bf7ddf54b0db" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>parse_data</name></member>
+      <member refid="classep___s_n___orzeczenie_1a8a15d60da65e02bae2cbdbf37b916e9f" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>sedziowie</name></member>
+      <member refid="classep___s_n___orzeczenie_1a6b9228e10a1bc1f8a597116e902d231d" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>sklad</name></member>
+      <member refid="classep___s_n___orzeczenie_1a76d3ecd15358754b888e8224f0bb525d" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>sprawozdawcy</name></member>
+      <member refid="classep___s_n___orzeczenie_1a6c6f87dc07e219e95c13638d943a60eb" prot="public" virt="non-virtual"><scope>ep_SN_Orzeczenie</scope><name>wspolsprawozdawcy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

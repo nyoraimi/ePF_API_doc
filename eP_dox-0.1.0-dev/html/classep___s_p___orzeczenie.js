@@ -1,0 +1,27 @@
+var classep___s_p___orzeczenie =
+[
+    [ "__toString", "classep___s_p___orzeczenie.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
+    [ "bloki", "classep___s_p___orzeczenie.html#ac6344ab36289e3d6b79a0fdae42d2146", null ],
+    [ "get_akcept", "classep___s_p___orzeczenie.html#a76d66bf9d593a034ae91951dcfb8596c", null ],
+    [ "get_data", "classep___s_p___orzeczenie.html#ab5976d1ba325a739761c2eb6662f58a9", null ],
+    [ "get_hasla_tematyczne", "classep___s_p___orzeczenie.html#a48c2554be87c9d1d5d2007426b6e7078", null ],
+    [ "get_podstawa_prawna", "classep___s_p___orzeczenie.html#a1fdcf85a8e95be9b40da82735dd4a325", null ],
+    [ "get_sad", "classep___s_p___orzeczenie.html#a61ac3997aeddb982bdd7895dc272a20a", null ],
+    [ "get_sad_sp_id", "classep___s_p___orzeczenie.html#a4cc0af051119b86c2a7c1cf7f46c8fa3", null ],
+    [ "get_str_ident", "classep___s_p___orzeczenie.html#a3c54f5f55e5023ca7ce3e284a91d17ce", null ],
+    [ "get_sygnatura", "classep___s_p___orzeczenie.html#a2816085ef7f03472a9c8aaf65df2d6d5", null ],
+    [ "get_teza", "classep___s_p___orzeczenie.html#a682b834334df7ce9d39ac07be04c03e6", null ],
+    [ "get_typ", "classep___s_p___orzeczenie.html#ad1992740551b9c2895616d62fd551a3f", null ],
+    [ "get_typ_id", "classep___s_p___orzeczenie.html#a4b45567d267edbb1938513035022bf89", null ],
+    [ "get_wydzial", "classep___s_p___orzeczenie.html#a5707ecfa38e5c684b1916f810faec796", null ],
+    [ "hasla", "classep___s_p___orzeczenie.html#a5aa6a641a9d13bc9350ba92b07680244", null ],
+    [ "osoby_stanowiska", "classep___s_p___orzeczenie.html#aeed2d21ed1c7ed38d96e4ff27dead9cd", null ],
+    [ "przepisy", "classep___s_p___orzeczenie.html#a5a7fd63e53799ac8f60829be1adc37e1", null ],
+    [ "sad_sp", "classep___s_p___orzeczenie.html#a938cd0e29c0e27685e0402857cf681e7", null ],
+    [ "$_aliases", "classep___s_p___orzeczenie.html#ab4e31d75f0bc5d512456911e5d01366b", null ],
+    [ "$_bloki", "classep___s_p___orzeczenie.html#aee90f3b27d0ab721378343d2bd0d71ba", null ],
+    [ "$_hasla", "classep___s_p___orzeczenie.html#a7b7a4173e85d440890bd5305cfd10667", null ],
+    [ "$_osoby_stanowiska", "classep___s_p___orzeczenie.html#a652b265eb5a0c97e3cbad17334ceffe8", null ],
+    [ "$_przepisy", "classep___s_p___orzeczenie.html#a070b291e5f4d9685f5e035cfe91aaa7e", null ],
+    [ "$_sad_sp", "classep___s_p___orzeczenie.html#a811580445f6e2ef962379396050552c6", null ]
+];

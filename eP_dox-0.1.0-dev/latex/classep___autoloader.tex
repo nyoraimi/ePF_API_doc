@@ -1,0 +1,127 @@
+\hypertarget{classep___autoloader}{\subsection{Dokumentacja klasy ep\-\_\-\-Autoloader}
+\label{classep___autoloader}\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}}
+}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classep___autoloader_a095c5d389db211932136b53f25f39685}{\-\_\-\-\_\-construct} ()
+\item 
+\hyperlink{classep___autoloader_a831bfd2e8f3f041f518f9815cb503bda}{get\-Map} ()
+\item 
+\hyperlink{classep___autoloader_ac694cb021e418682beed0570fd887545}{regenerate\-Class\-Map} (\$return=false)
+\item 
+\hyperlink{classep___autoloader_aad6cfb5484c7eda55731134910c7a280}{autoload} (\$class)
+\item 
+\hyperlink{classep___autoloader_acc294a6cc8e69743746820e3d15e3f78}{register} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Metody chronione}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classep___autoloader_ace4f40ab9782779ad0314d1a98b113b1}{get\-Default\-Map} ()
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+Autoloader of ep\-\_\-\-A\-P\-I classes. Uses spl autoloader. 
+
+Definicja w linii 5 pliku ep\-\_\-\-Autoloader.\-php.
+
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classep___autoloader_a095c5d389db211932136b53f25f39685}{\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!ep_Autoloader@{ep\-\_\-\-Autoloader}}
+\paragraph[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___autoloader_a095c5d389db211932136b53f25f39685}
+
+
+Definicja w linii 12 pliku ep\-\_\-\-Autoloader.\-php.
+
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{classep___autoloader_aad6cfb5484c7eda55731134910c7a280}{\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}!autoload@{autoload}}
+\index{autoload@{autoload}!ep_Autoloader@{ep\-\_\-\-Autoloader}}
+\paragraph[{autoload}]{\setlength{\rightskip}{0pt plus 5cm}autoload (
+\begin{DoxyParamCaption}
+\item[{}]{\$class}
+\end{DoxyParamCaption}
+)}}\label{classep___autoloader_aad6cfb5484c7eda55731134910c7a280}
+Autoload callback to be registered with spl\-\_\-autoload\-\_\-register 
+\begin{DoxyParams}[1]{Parametry}
+string & {\em \$class} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+boolean 
+\end{DoxyReturn}
+
+
+Definicja w linii 192 pliku ep\-\_\-\-Autoloader.\-php.
+
+\hypertarget{classep___autoloader_ace4f40ab9782779ad0314d1a98b113b1}{\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}!get\-Default\-Map@{get\-Default\-Map}}
+\index{get\-Default\-Map@{get\-Default\-Map}!ep_Autoloader@{ep\-\_\-\-Autoloader}}
+\paragraph[{get\-Default\-Map}]{\setlength{\rightskip}{0pt plus 5cm}get\-Default\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___autoloader_ace4f40ab9782779ad0314d1a98b113b1}
+Default classes expected in e\-P\-\_\-\-A\-P\-I. We map them manually since some of the classes have different name and file name. \begin{DoxyReturn}{Zwraca}
+array Autoloader class map with class names as keys and paths to the files as values 
+\end{DoxyReturn}
+
+
+Definicja w linii 28 pliku ep\-\_\-\-Autoloader.\-php.
+
+\hypertarget{classep___autoloader_a831bfd2e8f3f041f518f9815cb503bda}{\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}!get\-Map@{get\-Map}}
+\index{get\-Map@{get\-Map}!ep_Autoloader@{ep\-\_\-\-Autoloader}}
+\paragraph[{get\-Map}]{\setlength{\rightskip}{0pt plus 5cm}get\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___autoloader_a831bfd2e8f3f041f518f9815cb503bda}
+\begin{DoxyReturn}{Zwraca}
+array Autoloader class map with class names as keys and paths to the files as values 
+\end{DoxyReturn}
+
+
+Definicja w linii 19 pliku ep\-\_\-\-Autoloader.\-php.
+
+\hypertarget{classep___autoloader_ac694cb021e418682beed0570fd887545}{\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}!regenerate\-Class\-Map@{regenerate\-Class\-Map}}
+\index{regenerate\-Class\-Map@{regenerate\-Class\-Map}!ep_Autoloader@{ep\-\_\-\-Autoloader}}
+\paragraph[{regenerate\-Class\-Map}]{\setlength{\rightskip}{0pt plus 5cm}regenerate\-Class\-Map (
+\begin{DoxyParamCaption}
+\item[{}]{\$return = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classep___autoloader_ac694cb021e418682beed0570fd887545}
+Generate and output classmap for autoloader 
+\begin{DoxyParams}[1]{Parametry}
+bool & {\em \$return} & If true, returns P\-H\-P code instead of outputting it. Default\-: false \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+string 
+\end{DoxyReturn}
+
+
+Definicja w linii 141 pliku ep\-\_\-\-Autoloader.\-php.
+
+\hypertarget{classep___autoloader_acc294a6cc8e69743746820e3d15e3f78}{\index{ep\-\_\-\-Autoloader@{ep\-\_\-\-Autoloader}!register@{register}}
+\index{register@{register}!ep_Autoloader@{ep\-\_\-\-Autoloader}}
+\paragraph[{register}]{\setlength{\rightskip}{0pt plus 5cm}register (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___autoloader_acc294a6cc8e69743746820e3d15e3f78}
+Registers this instance of \hyperlink{classep___autoloader}{ep\-\_\-\-Autoloader} in spl autoloader 
+
+Definicja w linii 201 pliku ep\-\_\-\-Autoloader.\-php.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/veri\-Kami/\-Git\-Hub/\-\_\-\-\_\-\-E\-P\-\_\-\-\_\-/e\-P\-\_\-\-A\-P\-I\-\_\-srokap/classes/\hyperlink{ep___autoloader_8php}{ep\-\_\-\-Autoloader.\-php}\end{DoxyCompactItemize}

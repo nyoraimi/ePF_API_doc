@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="ep___search_8php" kind="file">
+    <compoundname>ep_Search.php</compoundname>
+    <innerclass refid="classep___search" prot="public">ep_Search</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="classep___search" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classep___search" kindref="compound">ep_Search</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classep___api" kindref="compound">ep_Api</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classep___search_1abb0f8f809252372e25f48d52b63ef29d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___search_1abb0f8f809252372e25f48d52b63ef29d" kindref="member">$q</ref>;</highlight></codeline>
+<codeline lineno="5" refid="classep___search_1a737abdef83dabb219182c1e88887c6c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a737abdef83dabb219182c1e88887c6c3" kindref="member">$items</ref>;</highlight></codeline>
+<codeline lineno="6" refid="classep___search_1ab6ac9b33076d715d3f1376b426e25da0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___search_1ab6ac9b33076d715d3f1376b426e25da0" kindref="member">$tabs</ref>;</highlight></codeline>
+<codeline lineno="7" refid="classep___search_1ae05862a0294251c88629b141b5ce329a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___search_1ae05862a0294251c88629b141b5ce329a" kindref="member">$limit</ref>;</highlight></codeline>
+<codeline lineno="8" refid="classep___search_1a65539c516b1dfa0af15bb2bab190193b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a65539c516b1dfa0af15bb2bab190193b" kindref="member">$items_found_rows</ref>;</highlight></codeline>
+<codeline lineno="9" refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" kindref="member">$dataset</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classep___search_1a1b8d79db0f723d8187d80a2e435b9e6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a1b8d79db0f723d8187d80a2e435b9e6a" kindref="member">set_q</ref>(<sp/><ref refid="classep___search_1abb0f8f809252372e25f48d52b63ef29d" kindref="member">$q</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;q<sp/>=<sp/>trim(<sp/><ref refid="classep___search_1abb0f8f809252372e25f48d52b63ef29d" kindref="member">$q</ref><sp/>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classep___search_1a454970aff52196d59eeff994419e0d8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a454970aff52196d59eeff994419e0d8c" kindref="member">set_dataset</ref>(<sp/><ref refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" kindref="member">$dataset</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;dataset<sp/>=<sp/>trim(<sp/><ref refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" kindref="member">$dataset</ref><sp/>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classep___search_1a6a71885a6440a34e8cfc7553306f95a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a6a71885a6440a34e8cfc7553306f95a6" kindref="member">find_all</ref>(<ref refid="classep___search_1ae05862a0294251c88629b141b5ce329a" kindref="member">$limit</ref>,<sp/>$offset){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;limit<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>$offset<sp/>){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;offset<sp/>=<sp/>$offset;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$params<sp/>=<sp/>array(</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="charliteral">&apos;q&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$this-&gt;q,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="charliteral">&apos;l&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$this-&gt;limit,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;of&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$this-&gt;offset,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>$this-&gt;dataset<sp/>){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$params[</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" kindref="member">$this-&gt;dataset</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$data<sp/>=<sp/>$this-&gt;<ref refid="classep___api_1a2d4655622385b620a6f18270d0026fd8" kindref="member">call</ref>(<sp/></highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">,<sp/>$params<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;items<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;tabs<sp/>=<sp/>$data[</highlight><highlight class="stringliteral">&apos;tabs&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;limit<sp/>=<sp/>$data[</highlight><highlight class="stringliteral">&apos;limit&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;items_found_rows<sp/>=<sp/>$data[</highlight><highlight class="stringliteral">&apos;items_found_rows&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<sp/>$data[</highlight><highlight class="stringliteral">&apos;items&apos;</highlight><highlight class="normal">]<sp/>as<sp/>$i<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$class<sp/>=<sp/>$i[</highlight><highlight class="stringliteral">&apos;class&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$object_id<sp/>=<sp/>$i[</highlight><highlight class="stringliteral">&apos;object_id&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$o<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>$class(<sp/>$object_id,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$o-&gt;data<sp/>=<sp/>json_decode(<sp/>$i[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;items[]<sp/>=<sp/>$o;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classep___search_1a737abdef83dabb219182c1e88887c6c3" kindref="member">$this-&gt;items</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php"/>
+  </compounddef>
+</doxygen>

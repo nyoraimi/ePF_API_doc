@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dir_a79f45b500d5f9a848b1d4a40fc1a43a" kind="dir">
+    <compoundname>/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes</compoundname>
+    <innerdir refid="dir_f2e793d71aa7ba5470eb90e8c12925b9">/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects</innerdir>
+    <innerfile refid="classes_2ep___a_p_i_8php">ep_API.php</innerfile>
+    <innerfile refid="ep___autoloader_8php">ep_Autoloader.php</innerfile>
+    <innerfile refid="ep___dataset_8php">ep_Dataset.php</innerfile>
+    <innerfile refid="ep___object_8php">ep_Object.php</innerfile>
+    <innerfile refid="ep___search_8php">ep_Search.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/"/>
+  </compounddef>
+</doxygen>

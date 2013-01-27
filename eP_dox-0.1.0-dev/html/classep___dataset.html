@@ -1,0 +1,1324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>eP_API: Dokumentacja klasy ep_Dataset</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">eP_API
+   &#160;<span id="projectnumber">0.1.0-dev</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Struktury&#160;Danych</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Struktury&#160;danych</span></a></li>
+      <li><a href="classes.html"><span>Indeks&#160;struktur&#160;danych</span></a></li>
+      <li><a href="inherits.html"><span>Hierarchia&#160;klas</span></a></li>
+      <li><a href="functions.html"><span>Pola&#160;danych</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classep___dataset.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Struktury Danych</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Zmienne</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pub-attribs">Pola danych</a> &#124;
+<a href="#pro-methods">Metody chronione</a> &#124;
+<a href="#pro-attribs">Atrybuty chronione</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy ep_Dataset</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagram dziedziczenia dla ep_Dataset</div>
+<div class="dyncontent">
+<div class="center"><img src="classep___dataset__inherit__graph.png" border="0" usemap="#ep___dataset_inherit__map" alt="Inheritance graph"/></div>
+<map name="ep___dataset_inherit__map" id="ep___dataset_inherit__map">
+<area shape="rect" id="node2" href="classep___api.html" title="ep_Api" alt="" coords="19,5,84,32"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla ep_Dataset:</div>
+<div class="dyncontent">
+<div class="center"><img src="classep___dataset__coll__graph.png" border="0" usemap="#ep___dataset_coll__map" alt="Collaboration graph"/></div>
+<map name="ep___dataset_coll__map" id="ep___dataset_coll__map">
+<area shape="rect" id="node2" href="classep___api.html" title="ep_Api" alt="" coords="19,5,84,32"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a4717bbfc70a40a57ee741ed70766c309"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a4717bbfc70a40a57ee741ed70766c309">__construct</a> ($name)</td></tr>
+<tr class="separator:a4717bbfc70a40a57ee741ed70766c309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ade294e9edd356f3a8584ec43658e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aa3ade294e9edd356f3a8584ec43658e7">keyword</a> ($keyword)</td></tr>
+<tr class="separator:aa3ade294e9edd356f3a8584ec43658e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa850d279b606c6c1e77d3bb71e6bd65b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aa850d279b606c6c1e77d3bb71e6bd65b">where</a> ($key, $operator, $value)</td></tr>
+<tr class="separator:aa850d279b606c6c1e77d3bb71e6bd65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321109a87bb59bf0ec5700ef6a57cfe4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a321109a87bb59bf0ec5700ef6a57cfe4">init_where</a> ($key, $operator, $value)</td></tr>
+<tr class="separator:a321109a87bb59bf0ec5700ef6a57cfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af555192d4cf0a6efaf743e6b75b01ecd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#af555192d4cf0a6efaf743e6b75b01ecd">init_layer</a> ($layer)</td></tr>
+<tr class="separator:af555192d4cf0a6efaf743e6b75b01ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2b8f6406b39305ce49f2f4e33ce490f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aa2b8f6406b39305ce49f2f4e33ce490f">order_by</a> ($field, $direction= 'ASC')</td></tr>
+<tr class="separator:aa2b8f6406b39305ce49f2f4e33ce490f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5815135ec6285b6f6e609d1848cfdc83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a5815135ec6285b6f6e609d1848cfdc83">get_info</a> ()</td></tr>
+<tr class="separator:a5815135ec6285b6f6e609d1848cfdc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b11e8b3fa1f694d0c0de60a231aa94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ad4b11e8b3fa1f694d0c0de60a231aa94">set_limit</a> ($l)</td></tr>
+<tr class="separator:ad4b11e8b3fa1f694d0c0de60a231aa94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16871786b17450d6c2d67ea1d31fc819"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a16871786b17450d6c2d67ea1d31fc819">find_all</a> ($limit=null, $offset=null, $<a class="el" href="classep___dataset.html#a6e59d0e2fae50446d13d19e34bdeb49e">return_objects</a>=true)</td></tr>
+<tr class="separator:a16871786b17450d6c2d67ea1d31fc819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac751e87b3d4c4bf2feb03bee8b092755"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ac751e87b3d4c4bf2feb03bee8b092755">count</a> ()</td></tr>
+<tr class="separator:ac751e87b3d4c4bf2feb03bee8b092755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552afadc57ae009e433613a4f905fa93"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a552afadc57ae009e433613a4f905fa93">find_one</a> ($<a class="el" href="classep___dataset.html#a6e59d0e2fae50446d13d19e34bdeb49e">return_objects</a>=true)</td></tr>
+<tr class="separator:a552afadc57ae009e433613a4f905fa93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72170a484e70f91313f55ad95a120308"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a72170a484e70f91313f55ad95a120308">find</a> ($<a class="el" href="classep___dataset.html#a6e59d0e2fae50446d13d19e34bdeb49e">return_objects</a>=true)</td></tr>
+<tr class="separator:a72170a484e70f91313f55ad95a120308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94cd7e6181ac47fa879dfd6cd4323ef5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a94cd7e6181ac47fa879dfd6cd4323ef5">get_params</a> ()</td></tr>
+<tr class="separator:a94cd7e6181ac47fa879dfd6cd4323ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c1fa208c116445649af36f41259a1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a09c1fa208c116445649af36f41259a1f">get_runtime_wheres</a> ()</td></tr>
+<tr class="separator:a09c1fa208c116445649af36f41259a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cbb752297aa6f783417ce6ecda1e50b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a3cbb752297aa6f783417ce6ecda1e50b">set_runtime_wheres</a> ($val)</td></tr>
+<tr class="separator:a3cbb752297aa6f783417ce6ecda1e50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d537a1e4cbaac89d78ef4dd873d0a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a79d537a1e4cbaac89d78ef4dd873d0a2">add_runtime_wheres</a> ($val)</td></tr>
+<tr class="separator:a79d537a1e4cbaac89d78ef4dd873d0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac807364473f967e688069c86c28ce38b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ac807364473f967e688069c86c28ce38b">add_runtime_keywords</a> ($<a class="el" href="classep___dataset.html#aa3ade294e9edd356f3a8584ec43658e7">keyword</a>)</td></tr>
+<tr class="separator:ac807364473f967e688069c86c28ce38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d25be1e3f5ae02359da9d8a25a3cf9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ab3d25be1e3f5ae02359da9d8a25a3cf9">get_init_wheres</a> ()</td></tr>
+<tr class="separator:ab3d25be1e3f5ae02359da9d8a25a3cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf1110477f0d3c61b9f3c302e510ca9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#acdf1110477f0d3c61b9f3c302e510ca9">set_init_wheres</a> ($val)</td></tr>
+<tr class="separator:acdf1110477f0d3c61b9f3c302e510ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46068ffadc47260874614e96ec4d5e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aa46068ffadc47260874614e96ec4d5e0">add_init_where</a> ($val)</td></tr>
+<tr class="separator:aa46068ffadc47260874614e96ec4d5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad063c2f26ee29a2c05a2af161dbd2223"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ad063c2f26ee29a2c05a2af161dbd2223">add_init_wheres</a> ($val)</td></tr>
+<tr class="separator:ad063c2f26ee29a2c05a2af161dbd2223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0321e4b97f9f313244d7306a90fe2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#abb0321e4b97f9f313244d7306a90fe2e">get_runtime_orders</a> ()</td></tr>
+<tr class="separator:abb0321e4b97f9f313244d7306a90fe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988f53c5e42b3a6616b126c5e963ac73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a988f53c5e42b3a6616b126c5e963ac73">set_runtime_orders</a> ($val)</td></tr>
+<tr class="separator:a988f53c5e42b3a6616b126c5e963ac73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a682208bcd2d31f564f29725ff6506942"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a682208bcd2d31f564f29725ff6506942">add_runtime_orders</a> ($val)</td></tr>
+<tr class="separator:a682208bcd2d31f564f29725ff6506942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa0fc386c95e829c26ffd4081e9b746"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a0aa0fc386c95e829c26ffd4081e9b746">get_init_orders</a> ()</td></tr>
+<tr class="separator:a0aa0fc386c95e829c26ffd4081e9b746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee698a8bc6837880bc59d85af6f6bbd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aee698a8bc6837880bc59d85af6f6bbd6">set_init_orders</a> ($val)</td></tr>
+<tr class="separator:aee698a8bc6837880bc59d85af6f6bbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb25086f5f699e7e33ee3454cbfc4de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a4fb25086f5f699e7e33ee3454cbfc4de">add_init_orders</a> ($val)</td></tr>
+<tr class="separator:a4fb25086f5f699e7e33ee3454cbfc4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea26f0aaf413fdc15c46ebb209d5294"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a8ea26f0aaf413fdc15c46ebb209d5294">add_join</a> ($alias)</td></tr>
+<tr class="separator:a8ea26f0aaf413fdc15c46ebb209d5294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef7bfb715e2747ab93c9f3b8c62adb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a2ef7bfb715e2747ab93c9f3b8c62adb3">set_joins</a> ($joins)</td></tr>
+<tr class="separator:a2ef7bfb715e2747ab93c9f3b8c62adb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classep___api"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classep___api')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="classep___api.html">ep_Api</a></td></tr>
+<tr class="memitem:a2d4655622385b620a6f18270d0026fd8 inherit pub_methods_classep___api"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___api.html#a2d4655622385b620a6f18270d0026fd8">call</a> ($service, $params)</td></tr>
+<tr class="separator:a2d4655622385b620a6f18270d0026fd8 inherit pub_methods_classep___api"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Pola danych</h2></td></tr>
+<tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ab2fc40d43824ea3e1ce5d86dee0d763b">$name</a></td></tr>
+<tr class="separator:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aaf40baac36e278c7d7c9139df1750c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a3aaf40baac36e278c7d7c9139df1750c">$mode</a></td></tr>
+<tr class="separator:a3aaf40baac36e278c7d7c9139df1750c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6325e5d913d5f63195525aa6a082bc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aa6325e5d913d5f63195525aa6a082bc4">$items_class</a></td></tr>
+<tr class="separator:aa6325e5d913d5f63195525aa6a082bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65539c516b1dfa0af15bb2bab190193b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a65539c516b1dfa0af15bb2bab190193b">$items_found_rows</a> = 0</td></tr>
+<tr class="separator:a65539c516b1dfa0af15bb2bab190193b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737abdef83dabb219182c1e88887c6c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a737abdef83dabb219182c1e88887c6c3">$items</a> = array()</td></tr>
+<tr class="separator:a737abdef83dabb219182c1e88887c6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2303c817e3b402b77b7f99627b9c319"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ab2303c817e3b402b77b7f99627b9c319">$fields</a> = array()</td></tr>
+<tr class="separator:ab2303c817e3b402b77b7f99627b9c319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a6efc15b5a2314dd4b5aaa556a375c6d6">$data</a> = array()</td></tr>
+<tr class="separator:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05862a0294251c88629b141b5ce329a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ae05862a0294251c88629b141b5ce329a">$limit</a> = 0</td></tr>
+<tr class="separator:ae05862a0294251c88629b141b5ce329a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4de82415d7f05cb9748d12d3a95a87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aec4de82415d7f05cb9748d12d3a95a87">$offset</a> = 0</td></tr>
+<tr class="separator:aec4de82415d7f05cb9748d12d3a95a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d3d1509ebebbe642c6c820a752c75c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a91d3d1509ebebbe642c6c820a752c75c">$performance</a> = array()</td></tr>
+<tr class="separator:a91d3d1509ebebbe642c6c820a752c75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0f8f809252372e25f48d52b63ef29d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#abb0f8f809252372e25f48d52b63ef29d">$q</a></td></tr>
+<tr class="separator:abb0f8f809252372e25f48d52b63ef29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af679319b32be717b99242a2d66f04d71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#af679319b32be717b99242a2d66f04d71">$respect_limit</a> = true</td></tr>
+<tr class="separator:af679319b32be717b99242a2d66f04d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classep___api"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classep___api')"><img src="closed.png" alt="-"/>&#160;Pola danych dziedziczone z <a class="el" href="classep___api.html">ep_Api</a></td></tr>
+<tr class="memitem:a01caaf3772469caf98e39064bf5d7d8f inherit pub_attribs_classep___api"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___api.html#a01caaf3772469caf98e39064bf5d7d8f">$_version</a> = '0.1'</td></tr>
+<tr class="separator:a01caaf3772469caf98e39064bf5d7d8f inherit pub_attribs_classep___api"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbb88357e7d111cab3d11d6623828b2 inherit pub_attribs_classep___api"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___api.html#affbb88357e7d111cab3d11d6623828b2">$server_address</a> = 'http://ep_api.sejmometr.pl/v1/'</td></tr>
+<tr class="separator:affbb88357e7d111cab3d11d6623828b2 inherit pub_attribs_classep___api"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Metody chronione</h2></td></tr>
+<tr class="memitem:a4cc7b151c094997a9a9f417875c14c43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a4cc7b151c094997a9a9f417875c14c43">get_wheres</a> ()</td></tr>
+<tr class="separator:a4cc7b151c094997a9a9f417875c14c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d545290ed264d2f541a325948faa153"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a1d545290ed264d2f541a325948faa153">get_layers</a> ()</td></tr>
+<tr class="separator:a1d545290ed264d2f541a325948faa153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e59d0e2fae50446d13d19e34bdeb49e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a6e59d0e2fae50446d13d19e34bdeb49e">return_objects</a> ()</td></tr>
+<tr class="separator:a6e59d0e2fae50446d13d19e34bdeb49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa821bec12eaa7e0f649397c9675ff505"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#aa821bec12eaa7e0f649397c9675ff505">clear</a> ()</td></tr>
+<tr class="separator:aa821bec12eaa7e0f649397c9675ff505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atrybuty chronione</h2></td></tr>
+<tr class="memitem:a074fbb994b91c79a03143df21e4a38a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a074fbb994b91c79a03143df21e4a38a3">$_init_wheres</a> = array()</td></tr>
+<tr class="separator:a074fbb994b91c79a03143df21e4a38a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab818f3e1d0a00e62e1f1f2b7a5aa1819"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ab818f3e1d0a00e62e1f1f2b7a5aa1819">$_init_layers</a> = array()</td></tr>
+<tr class="separator:ab818f3e1d0a00e62e1f1f2b7a5aa1819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1752dae6ac25dd0e7f2f01de7523199c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a1752dae6ac25dd0e7f2f01de7523199c">$_runtime_wheres</a> = array()</td></tr>
+<tr class="separator:a1752dae6ac25dd0e7f2f01de7523199c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc23fddba718484f9eee888d3b58660d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#acc23fddba718484f9eee888d3b58660d">$_init_orders</a> = array()</td></tr>
+<tr class="separator:acc23fddba718484f9eee888d3b58660d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70162a9ae01f3d977f023a277412a799"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a70162a9ae01f3d977f023a277412a799">$_runtime_orders</a> = array()</td></tr>
+<tr class="separator:a70162a9ae01f3d977f023a277412a799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc86aa4020238ff1f892690e0a004770"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#afc86aa4020238ff1f892690e0a004770">$_init_keywords</a> = array()</td></tr>
+<tr class="separator:afc86aa4020238ff1f892690e0a004770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33c1579faca2df92507d0552643e5ffb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#a33c1579faca2df92507d0552643e5ffb">$_runtime_keywords</a> = array()</td></tr>
+<tr class="separator:a33c1579faca2df92507d0552643e5ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69ccb166efb7af65bde8d9ddbd3b272"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#ac69ccb166efb7af65bde8d9ddbd3b272">$_runtime_layers</a> = array()</td></tr>
+<tr class="separator:ac69ccb166efb7af65bde8d9ddbd3b272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48695014d0704d736400749c9c09817"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___dataset.html#af48695014d0704d736400749c9c09817">$_joins</a> = array()</td></tr>
+<tr class="separator:af48695014d0704d736400749c9c09817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Dodatkowe Dziedziczone Składowe</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classep___api"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classep___api')"><img src="closed.png" alt="-"/>&#160;Statyczne metody publiczne dziedziczone z <a class="el" href="classep___api.html">ep_Api</a></td></tr>
+<tr class="memitem:a9f0be6ae273d3669e11c29910a0be338 inherit pub_static_methods_classep___api"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classep___api.html#a9f0be6ae273d3669e11c29910a0be338">init</a> ()</td></tr>
+<tr class="separator:a9f0be6ae273d3669e11c29910a0be338 inherit pub_static_methods_classep___api"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock">
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00002">2</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a4717bbfc70a40a57ee741ed70766c309"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__construct </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00026">26</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a4fb25086f5f699e7e33ee3454cbfc4de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_init_orders </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00301">301</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa46068ffadc47260874614e96ec4d5e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_init_where </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00268">268</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad063c2f26ee29a2c05a2af161dbd2223"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_init_wheres </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00273">273</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ea26f0aaf413fdc15c46ebb209d5294"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_join </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$alias</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00308">308</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac807364473f967e688069c86c28ce38b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_runtime_keywords </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$keyword</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00252">252</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a682208bcd2d31f564f29725ff6506942"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_runtime_orders </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00287">287</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79d537a1e4cbaac89d78ef4dd873d0a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">add_runtime_wheres </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00247">247</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa821bec12eaa7e0f649397c9675ff505"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00233">233</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac751e87b3d4c4bf2feb03bee8b092755"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">count </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00155">155</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a72170a484e70f91313f55ad95a120308"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">find </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$return_objects</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00171">171</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16871786b17450d6c2d67ea1d31fc819"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">find_all </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$limit</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$offset</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$return_objects</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00083">83</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a552afadc57ae009e433613a4f905fa93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">find_one </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$return_objects</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00166">166</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5815135ec6285b6f6e609d1848cfdc83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_info </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00072">72</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0aa0fc386c95e829c26ffd4081e9b746"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_init_orders </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00292">292</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab3d25be1e3f5ae02359da9d8a25a3cf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_init_wheres </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00259">259</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d545290ed264d2f541a325948faa153"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_layers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00201">201</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a94cd7e6181ac47fa879dfd6cd4323ef5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_params </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00175">175</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb0321e4b97f9f313244d7306a90fe2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_runtime_orders </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00278">278</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a09c1fa208c116445649af36f41259a1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_runtime_wheres </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00238">238</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4cc7b151c094997a9a9f417875c14c43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_wheres </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00189">189</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af555192d4cf0a6efaf743e6b75b01ecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">init_layer </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$layer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00045">45</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a321109a87bb59bf0ec5700ef6a57cfe4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">init_where </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$operator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00040">40</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa3ade294e9edd356f3a8584ec43658e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">keyword </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$keyword</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00030">30</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa2b8f6406b39305ce49f2f4e33ce490f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">order_by </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$direction</em> = <code>'ASC'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00052">52</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6e59d0e2fae50446d13d19e34bdeb49e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">return_objects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00213">213</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aee698a8bc6837880bc59d85af6f6bbd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_init_orders </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00296">296</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acdf1110477f0d3c61b9f3c302e510ca9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_init_wheres </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00263">263</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2ef7bfb715e2747ab93c9f3b8c62adb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_joins </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$joins</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00312">312</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4b11e8b3fa1f694d0c0de60a231aa94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_limit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$l</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00078">78</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a988f53c5e42b3a6616b126c5e963ac73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_runtime_orders </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00282">282</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3cbb752297aa6f783417ce6ecda1e50b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_runtime_wheres </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00242">242</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa850d279b606c6c1e77d3bb71e6bd65b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">where </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$operator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00035">35</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja pól</h2>
+<a class="anchor" id="afc86aa4020238ff1f892690e0a004770"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_init_keywords = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00022">22</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab818f3e1d0a00e62e1f1f2b7a5aa1819"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_init_layers = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00018">18</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acc23fddba718484f9eee888d3b58660d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_init_orders = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00020">20</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a074fbb994b91c79a03143df21e4a38a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_init_wheres = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00017">17</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af48695014d0704d736400749c9c09817"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_joins = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00306">306</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a33c1579faca2df92507d0552643e5ffb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_runtime_keywords = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00023">23</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac69ccb166efb7af65bde8d9ddbd3b272"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_runtime_layers = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00024">24</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a70162a9ae01f3d977f023a277412a799"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_runtime_orders = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00021">21</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1752dae6ac25dd0e7f2f01de7523199c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$_runtime_wheres = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00019">19</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6efc15b5a2314dd4b5aaa556a375c6d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$data = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00010">10</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2303c817e3b402b77b7f99627b9c319"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$fields = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00009">9</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a737abdef83dabb219182c1e88887c6c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$items = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00008">8</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6325e5d913d5f63195525aa6a082bc4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$items_class</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00006">6</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65539c516b1dfa0af15bb2bab190193b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$items_found_rows = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00007">7</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae05862a0294251c88629b141b5ce329a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$limit = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00011">11</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3aaf40baac36e278c7d7c9139df1750c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$mode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00005">5</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2fc40d43824ea3e1ce5d86dee0d763b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00004">4</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec4de82415d7f05cb9748d12d3a95a87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$offset = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00012">12</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91d3d1509ebebbe642c6c820a752c75c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$performance = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00013">13</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb0f8f809252372e25f48d52b63ef29d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$q</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00014">14</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af679319b32be717b99242a2d66f04d71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$respect_limit = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="ep___dataset_8php_source.html#l00015">15</a> pliku <a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/<a class="el" href="ep___dataset_8php_source.html">ep_Dataset.php</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classep___dataset.html">ep_Dataset</a></li>
+    <li class="footer">Wygenerowano N, 27 sty 2013 02:52:56 dla eP_API programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
+  </ul>
+</div>
+</body>
+</html>

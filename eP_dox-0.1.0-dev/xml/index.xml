@@ -1,0 +1,1552 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.3.1">
+  <compound refid="classep_____dataset" kind="class"><name>ep__Dataset</name>
+    <member refid="classep_____dataset_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep_____dataset_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep_____dataset_1ab452db2d5d284bffa31c9accbaeec836" kind="function"><name>__construct</name></member>
+    <member refid="classep_____dataset_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep_____dataset_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep_____dataset_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep_____dataset_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep_____dataset_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep_____dataset_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep_____dataset_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep_____dataset_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep_____dataset_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep_____object" kind="class"><name>ep__Object</name>
+    <member refid="classep_____object_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep_____object_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep_____object_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep_____object_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep_____object_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep_____object_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep_____object_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep_____object_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep_____object_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep_____object_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep_____object_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___api" kind="class"><name>ep_Api</name>
+    <member refid="classep___api_1a01caaf3772469caf98e39064bf5d7d8f" kind="variable"><name>$_version</name></member>
+    <member refid="classep___api_1affbb88357e7d111cab3d11d6623828b2" kind="variable"><name>$server_address</name></member>
+    <member refid="classep___api_1a535630cefaf93746423d63a93daa1099" kind="variable"><name>$_key</name></member>
+    <member refid="classep___api_1a34b48163ff7f2c3ece832f75c4ac5f98" kind="variable"><name>$_secret</name></member>
+    <member refid="classep___api_1a9f0be6ae273d3669e11c29910a0be338" kind="function"><name>init</name></member>
+    <member refid="classep___api_1a2d4655622385b620a6f18270d0026fd8" kind="function"><name>call</name></member>
+    <member refid="classep___api_1abe8b7efca8f6d5857072ab156ebbbc7d" kind="function"><name>generate_sig</name></member>
+  </compound>
+  <compound refid="classep___autoloader" kind="class"><name>ep_Autoloader</name>
+    <member refid="classep___autoloader_1adc083f7e1f2dd14ca2ddbaa63c2faf46" kind="variable"><name>$classMap</name></member>
+    <member refid="classep___autoloader_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="classep___autoloader_1a831bfd2e8f3f041f518f9815cb503bda" kind="function"><name>getMap</name></member>
+    <member refid="classep___autoloader_1ac694cb021e418682beed0570fd887545" kind="function"><name>regenerateClassMap</name></member>
+    <member refid="classep___autoloader_1aad6cfb5484c7eda55731134910c7a280" kind="function"><name>autoload</name></member>
+    <member refid="classep___autoloader_1acc294a6cc8e69743746820e3d15e3f78" kind="function"><name>register</name></member>
+    <member refid="classep___autoloader_1ace4f40ab9782779ad0314d1a98b113b1" kind="function"><name>getDefaultMap</name></member>
+  </compound>
+  <compound refid="classep___b_d_l___grupa" kind="class"><name>ep_BDL_Grupa</name>
+    <member refid="classep___b_d_l___grupa_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___b_d_l___grupa_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___b_d_l___grupa_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___b_d_l___grupa_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___b_d_l___grupa_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___b_d_l___grupa_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___b_d_l___grupa_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___b_d_l___grupa_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___b_d_l___grupa_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___b_d_l___grupa_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___b_d_l___kategoria" kind="class"><name>ep_BDL_Kategoria</name>
+    <member refid="classep___b_d_l___kategoria_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___b_d_l___kategoria_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___b_d_l___kategoria_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___b_d_l___kategoria_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___b_d_l___kategoria_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___b_d_l___kategoria_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___b_d_l___kategoria_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___b_d_l___kategoria_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___b_d_l___kategoria_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___b_d_l___kategoria_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___b_d_l___podgrupa" kind="class"><name>ep_BDL_Podgrupa</name>
+    <member refid="classep___b_d_l___podgrupa_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___b_d_l___podgrupa_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___b_d_l___podgrupa_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___b_d_l___podgrupa_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___b_d_l___podgrupa_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___b_d_l___podgrupa_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___b_d_l___podgrupa_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___b_d_l___podgrupa_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___b_d_l___podgrupa_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___b_d_l___podgrupa_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___b_d_l___wskaznik___wariacja" kind="class"><name>ep_BDL_Wskaznik_Wariacja</name>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a0934a4cb9461f93073fd56a63cca6747" kind="variable"><name>$_podgrupa</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a6e1a526b14484684c050725e04fc6185" kind="variable"><name>$_wojewodztwa</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a97dc3eb2e2695666ed8ade0546691171" kind="variable"><name>$_powiaty</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1add21f4eeab439ee12da5a0429fdc1e04" kind="function"><name>get_podgrupa_id</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a6c73717d6fab642c6d5f3c5961724180" kind="function"><name>podgrupa</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1acb04fcd1fcf58babff11d13c0b03d053" kind="function"><name>wojewodztwa</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a1fb07b52f2e231d447866762258ab070" kind="function"><name>powiaty</name></member>
+    <member refid="classep___b_d_l___wskaznik___wariacja_1a885f04b428d85dab7d92552ae9dba979" kind="function"><name>gminy</name></member>
+  </compound>
+  <compound refid="classep___bip___instytucja" kind="class"><name>ep_Bip_Instytucja</name>
+    <member refid="classep___bip___instytucja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___bip___instytucja_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___bip___instytucja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___czlowiek" kind="class"><name>ep_Czlowiek</name>
+    <member refid="classep___czlowiek_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___czlowiek_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___czlowiek_1a1192326d568efecaa005d7af560a56aa" kind="variable"><name>$_stanowiska</name></member>
+    <member refid="classep___czlowiek_1a9dd4480bf7002df382ab888d880131c2" kind="function"><name>stanowiska</name></member>
+    <member refid="classep___czlowiek_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___dataset" kind="class"><name>ep_Dataset</name>
+    <member refid="classep___dataset_1ab2fc40d43824ea3e1ce5d86dee0d763b" kind="variable"><name>$name</name></member>
+    <member refid="classep___dataset_1a3aaf40baac36e278c7d7c9139df1750c" kind="variable"><name>$mode</name></member>
+    <member refid="classep___dataset_1aa6325e5d913d5f63195525aa6a082bc4" kind="variable"><name>$items_class</name></member>
+    <member refid="classep___dataset_1a65539c516b1dfa0af15bb2bab190193b" kind="variable"><name>$items_found_rows</name></member>
+    <member refid="classep___dataset_1a737abdef83dabb219182c1e88887c6c3" kind="variable"><name>$items</name></member>
+    <member refid="classep___dataset_1ab2303c817e3b402b77b7f99627b9c319" kind="variable"><name>$fields</name></member>
+    <member refid="classep___dataset_1a6efc15b5a2314dd4b5aaa556a375c6d6" kind="variable"><name>$data</name></member>
+    <member refid="classep___dataset_1ae05862a0294251c88629b141b5ce329a" kind="variable"><name>$limit</name></member>
+    <member refid="classep___dataset_1aec4de82415d7f05cb9748d12d3a95a87" kind="variable"><name>$offset</name></member>
+    <member refid="classep___dataset_1a91d3d1509ebebbe642c6c820a752c75c" kind="variable"><name>$performance</name></member>
+    <member refid="classep___dataset_1abb0f8f809252372e25f48d52b63ef29d" kind="variable"><name>$q</name></member>
+    <member refid="classep___dataset_1af679319b32be717b99242a2d66f04d71" kind="variable"><name>$respect_limit</name></member>
+    <member refid="classep___dataset_1a074fbb994b91c79a03143df21e4a38a3" kind="variable"><name>$_init_wheres</name></member>
+    <member refid="classep___dataset_1ab818f3e1d0a00e62e1f1f2b7a5aa1819" kind="variable"><name>$_init_layers</name></member>
+    <member refid="classep___dataset_1a1752dae6ac25dd0e7f2f01de7523199c" kind="variable"><name>$_runtime_wheres</name></member>
+    <member refid="classep___dataset_1acc23fddba718484f9eee888d3b58660d" kind="variable"><name>$_init_orders</name></member>
+    <member refid="classep___dataset_1a70162a9ae01f3d977f023a277412a799" kind="variable"><name>$_runtime_orders</name></member>
+    <member refid="classep___dataset_1afc86aa4020238ff1f892690e0a004770" kind="variable"><name>$_init_keywords</name></member>
+    <member refid="classep___dataset_1a33c1579faca2df92507d0552643e5ffb" kind="variable"><name>$_runtime_keywords</name></member>
+    <member refid="classep___dataset_1ac69ccb166efb7af65bde8d9ddbd3b272" kind="variable"><name>$_runtime_layers</name></member>
+    <member refid="classep___dataset_1af48695014d0704d736400749c9c09817" kind="variable"><name>$_joins</name></member>
+    <member refid="classep___dataset_1a4717bbfc70a40a57ee741ed70766c309" kind="function"><name>__construct</name></member>
+    <member refid="classep___dataset_1aa3ade294e9edd356f3a8584ec43658e7" kind="function"><name>keyword</name></member>
+    <member refid="classep___dataset_1aa850d279b606c6c1e77d3bb71e6bd65b" kind="function"><name>where</name></member>
+    <member refid="classep___dataset_1a321109a87bb59bf0ec5700ef6a57cfe4" kind="function"><name>init_where</name></member>
+    <member refid="classep___dataset_1af555192d4cf0a6efaf743e6b75b01ecd" kind="function"><name>init_layer</name></member>
+    <member refid="classep___dataset_1aa2b8f6406b39305ce49f2f4e33ce490f" kind="function"><name>order_by</name></member>
+    <member refid="classep___dataset_1a5815135ec6285b6f6e609d1848cfdc83" kind="function"><name>get_info</name></member>
+    <member refid="classep___dataset_1ad4b11e8b3fa1f694d0c0de60a231aa94" kind="function"><name>set_limit</name></member>
+    <member refid="classep___dataset_1a16871786b17450d6c2d67ea1d31fc819" kind="function"><name>find_all</name></member>
+    <member refid="classep___dataset_1ac751e87b3d4c4bf2feb03bee8b092755" kind="function"><name>count</name></member>
+    <member refid="classep___dataset_1a552afadc57ae009e433613a4f905fa93" kind="function"><name>find_one</name></member>
+    <member refid="classep___dataset_1a72170a484e70f91313f55ad95a120308" kind="function"><name>find</name></member>
+    <member refid="classep___dataset_1a94cd7e6181ac47fa879dfd6cd4323ef5" kind="function"><name>get_params</name></member>
+    <member refid="classep___dataset_1a09c1fa208c116445649af36f41259a1f" kind="function"><name>get_runtime_wheres</name></member>
+    <member refid="classep___dataset_1a3cbb752297aa6f783417ce6ecda1e50b" kind="function"><name>set_runtime_wheres</name></member>
+    <member refid="classep___dataset_1a79d537a1e4cbaac89d78ef4dd873d0a2" kind="function"><name>add_runtime_wheres</name></member>
+    <member refid="classep___dataset_1ac807364473f967e688069c86c28ce38b" kind="function"><name>add_runtime_keywords</name></member>
+    <member refid="classep___dataset_1ab3d25be1e3f5ae02359da9d8a25a3cf9" kind="function"><name>get_init_wheres</name></member>
+    <member refid="classep___dataset_1acdf1110477f0d3c61b9f3c302e510ca9" kind="function"><name>set_init_wheres</name></member>
+    <member refid="classep___dataset_1aa46068ffadc47260874614e96ec4d5e0" kind="function"><name>add_init_where</name></member>
+    <member refid="classep___dataset_1ad063c2f26ee29a2c05a2af161dbd2223" kind="function"><name>add_init_wheres</name></member>
+    <member refid="classep___dataset_1abb0321e4b97f9f313244d7306a90fe2e" kind="function"><name>get_runtime_orders</name></member>
+    <member refid="classep___dataset_1a988f53c5e42b3a6616b126c5e963ac73" kind="function"><name>set_runtime_orders</name></member>
+    <member refid="classep___dataset_1a682208bcd2d31f564f29725ff6506942" kind="function"><name>add_runtime_orders</name></member>
+    <member refid="classep___dataset_1a0aa0fc386c95e829c26ffd4081e9b746" kind="function"><name>get_init_orders</name></member>
+    <member refid="classep___dataset_1aee698a8bc6837880bc59d85af6f6bbd6" kind="function"><name>set_init_orders</name></member>
+    <member refid="classep___dataset_1a4fb25086f5f699e7e33ee3454cbfc4de" kind="function"><name>add_init_orders</name></member>
+    <member refid="classep___dataset_1a8ea26f0aaf413fdc15c46ebb209d5294" kind="function"><name>add_join</name></member>
+    <member refid="classep___dataset_1a2ef7bfb715e2747ab93c9f3b8c62adb3" kind="function"><name>set_joins</name></member>
+    <member refid="classep___dataset_1a4cc7b151c094997a9a9f417875c14c43" kind="function"><name>get_wheres</name></member>
+    <member refid="classep___dataset_1a1d545290ed264d2f541a325948faa153" kind="function"><name>get_layers</name></member>
+    <member refid="classep___dataset_1a6e59d0e2fae50446d13d19e34bdeb49e" kind="function"><name>return_objects</name></member>
+    <member refid="classep___dataset_1aa821bec12eaa7e0f649397c9675ff505" kind="function"><name>clear</name></member>
+  </compound>
+  <compound refid="classep___glosowanie___sejmowe___glos" kind="class"><name>ep_Glosowanie_Sejmowe_Glos</name>
+    <member refid="classep___glosowanie___sejmowe___glos_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1a2580d1f4623afc6103d80024142d23d2" kind="variable"><name>$_posel</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1a6a354494d54778bcc9254b5826b5f28c" kind="function"><name>set_ep_poslowie</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1ad3b9fc55831f7bcabb4870306bc08f4b" kind="function"><name>posel</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___glosowanie___sejmowe___glos_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___gmina" kind="class"><name>ep_Gmina</name>
+    <member refid="classep___gmina_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___gmina_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___gmina_1a2eb2874fc04ee242baed1a1cb1d032db" kind="variable"><name>$_pna</name></member>
+    <member refid="classep___gmina_1a2a0a830e555a9e31b5118be82dbc33c7" kind="variable"><name>$_wojewodztwo</name></member>
+    <member refid="classep___gmina_1a928275f8378baade592a64f89da229ef" kind="variable"><name>$_powiat</name></member>
+    <member refid="classep___gmina_1a78dbe56396c80cf6fc9d3f319bb5ec8c" kind="variable"><name>$_obszar</name></member>
+    <member refid="classep___gmina_1a7035a68c4348c4759daf71ac5c02b72e" kind="variable"><name>$_poslowie_dataset</name></member>
+    <member refid="classep___gmina_1ac313783ab7146c71e639bf7ddf54b0db" kind="function"><name>parse_data</name></member>
+    <member refid="classep___gmina_1a49db364aca99bded10aecb3c03b88151" kind="function"><name>pna</name></member>
+    <member refid="classep___gmina_1a2c735142a4af50d47b17d8103a9ab9ab" kind="function"><name>wojewodztwo</name></member>
+    <member refid="classep___gmina_1a0f86bc9d504d1c4a3a60c1585cb85f97" kind="function"><name>poslowie</name></member>
+    <member refid="classep___gmina_1afeb09b2f0c7a3cd1d9bfe029ffdd57ea" kind="function"><name>powiat</name></member>
+    <member refid="classep___gmina_1a12fb54f8ef9461d5c7cad089ab5e35de" kind="function"><name>set_ep_wojewodztwa</name></member>
+    <member refid="classep___gmina_1aad05e7a4455e489123c3cfc364b8583a" kind="function"><name>set_ep_powiaty</name></member>
+    <member refid="classep___gmina_1abb5d24d51da3de254009201026fb912b" kind="function"><name>set_ep_Powiat</name></member>
+    <member refid="classep___gmina_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___gmina_1a4b45567d267edbb1938513035022bf89" kind="function"><name>get_typ_id</name></member>
+    <member refid="classep___gmina_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___gmina_1aa05db5ea090acb5d431aff0bbb8b97a6" kind="function"><name>obszar</name></member>
+  </compound>
+  <compound refid="classep___instytucja" kind="class"><name>ep_Instytucja</name>
+    <member refid="classep___instytucja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___instytucja_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___instytucja_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___instytucja_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___instytucja_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___instytucja_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___instytucja_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___instytucja_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___instytucja_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___instytucja_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___instytucja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___i_s_a_p___plik" kind="class"><name>ep_ISAP_Plik</name>
+    <member refid="classep___i_s_a_p___plik_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___i_s_a_p___plik_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___kod___pocztowy" kind="class"><name>ep_Kod_Pocztowy</name>
+    <member refid="classep___kod___pocztowy_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___kod___pocztowy_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___kod___pocztowy_1ab6324c1695085ba50e421bbfc68a5a5e" kind="variable"><name>$_gminy</name></member>
+    <member refid="classep___kod___pocztowy_1a2a0a830e555a9e31b5118be82dbc33c7" kind="variable"><name>$_wojewodztwo</name></member>
+    <member refid="classep___kod___pocztowy_1a885f04b428d85dab7d92552ae9dba979" kind="function"><name>gminy</name></member>
+    <member refid="classep___kod___pocztowy_1a013f0dbe044fb129e4ddd98598b4e34a" kind="function"><name>get_kod</name></member>
+    <member refid="classep___kod___pocztowy_1a7707101ef5dc05d7b439e7d08f1c3d10" kind="function"><name>get_kod_int</name></member>
+    <member refid="classep___kod___pocztowy_1a36399d80f5ab76bb2d958a481f9002ff" kind="function"><name>get_wojewodztwo_id</name></member>
+    <member refid="classep___kod___pocztowy_1a2c735142a4af50d47b17d8103a9ab9ab" kind="function"><name>wojewodztwo</name></member>
+  </compound>
+  <compound refid="classep___k_r_s___wpis" kind="class"><name>ep_KRS_Wpis</name>
+    <member refid="classep___k_r_s___wpis_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___k_r_s___wpis_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___k_r_s___wpis_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___k_r_s___wpis_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___k_r_s___wpis_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___k_r_s___wpis_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___k_r_s___wpis_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___k_r_s___wpis_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___k_r_s___wpis_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___k_r_s___wpis_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___k_r_s___wpis_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___legislacja___projekt" kind="class"><name>ep_Legislacja_Projekt</name>
+    <member refid="classep___legislacja___projekt_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___legislacja___projekt_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___legislacja___projekt_1a28fb9effb700f1586bd88fa3dc9e16b7" kind="variable"><name>$_etapy</name></member>
+    <member refid="classep___legislacja___projekt_1af69499e53954d8c8c3711daf5803e662" kind="variable"><name>$_zmieniane_ustawy</name></member>
+    <member refid="classep___legislacja___projekt_1a398d0ea04222fe8347c55d68826edc98" kind="variable"><name>$_podpisy_poslowie</name></member>
+    <member refid="classep___legislacja___projekt_1a3dcbe271e680ead3863303e13573c195" kind="function"><name>etapy</name></member>
+    <member refid="classep___legislacja___projekt_1a8f7f16f34f1627d96a79ae2a18423970" kind="function"><name>zmieniane_ustawy</name></member>
+    <member refid="classep___legislacja___projekt_1aa812d46d8996685e9583b7258aed9edd" kind="function"><name>podpisy_poslowie</name></member>
+    <member refid="classep___legislacja___projekt_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___legislacja___projekt___etap" kind="class"><name>ep_Legislacja_Projekt_Etap</name>
+    <member refid="classep___legislacja___projekt___etap_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___legislacja___projekt___etap_1ac313783ab7146c71e639bf7ddf54b0db" kind="function"><name>parse_data</name></member>
+    <member refid="classep___legislacja___projekt___etap_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___legislacja___projekt___etap_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___legislacja___projekt___etap_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___legislacja___projekt___etap_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___legislacja___projekt___etap_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___legislacja___projekt___etap_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___legislacja___projekt___etap_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___legislacja___projekt___etap_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___legislacja___projekt___etap_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___legislacja___projekt___podpis" kind="class"><name>ep_Legislacja_Projekt_Podpis</name>
+    <member refid="classep___legislacja___projekt___podpis_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___legislacja___projekt___podpis_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___legislacja___projekt___status" kind="class"><name>ep_Legislacja_Projekt_Status</name>
+    <member refid="classep___legislacja___projekt___status_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___legislacja___projekt___status_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___miejscowosc" kind="class"><name>ep_Miejscowosc</name>
+    <member refid="classep___miejscowosc_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___miejscowosc_1ab0313b743bc1be610472dfee711e929a" kind="variable"><name>$_gmina</name></member>
+    <member refid="classep___miejscowosc_1a928275f8378baade592a64f89da229ef" kind="variable"><name>$_powiat</name></member>
+    <member refid="classep___miejscowosc_1a2a0a830e555a9e31b5118be82dbc33c7" kind="variable"><name>$_wojewodztwo</name></member>
+    <member refid="classep___miejscowosc_1a63aa148dc21ae1078168b2ea9507ac8b" kind="function"><name>get_gmina_id</name></member>
+    <member refid="classep___miejscowosc_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___miejscowosc_1a85b2f9370c626b7a21dd7f4333260936" kind="function"><name>get_nazwa_gminy</name></member>
+    <member refid="classep___miejscowosc_1a7c13f20e38e0898d072c067a64cb9065" kind="function"><name>get_powiat_id</name></member>
+    <member refid="classep___miejscowosc_1a36399d80f5ab76bb2d958a481f9002ff" kind="function"><name>get_wojewodztwo_id</name></member>
+    <member refid="classep___miejscowosc_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___miejscowosc_1ae13445f31d6a2e43182ca0e2ce2f821d" kind="function"><name>gmina</name></member>
+    <member refid="classep___miejscowosc_1afeb09b2f0c7a3cd1d9bfe029ffdd57ea" kind="function"><name>powiat</name></member>
+    <member refid="classep___miejscowosc_1a2c735142a4af50d47b17d8103a9ab9ab" kind="function"><name>wojewodztwo</name></member>
+  </compound>
+  <compound refid="classep___n_i_k___raport" kind="class"><name>ep_NIK_Raport</name>
+    <member refid="classep___n_i_k___raport_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___n_i_k___raport_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___n_i_k___raport_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___n_i_k___raport_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___n_i_k___raport_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___n_i_k___raport_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___n_i_k___raport_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___n_i_k___raport_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___n_i_k___raport_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___n_i_k___raport_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___n_i_k___raport_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___n_i_k__raport" kind="class"><name>ep_NIK_raport</name>
+    <member refid="classep___n_i_k__raport_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___n_i_k__raport_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___n_i_k__raport_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___n_i_k__raport_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___n_i_k__raport_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___n_i_k__raport_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___n_i_k__raport_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___n_i_k__raport_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___n_i_k__raport_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___n_i_k__raport_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___n_i_k__raport_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___object" kind="class"><name>ep_Object</name>
+    <member refid="classep___object_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="classep___object_1a6efc15b5a2314dd4b5aaa556a375c6d6" kind="variable"><name>$data</name></member>
+    <member refid="classep___object_1a56b31ecb84a0f78f558158981557e0dd" kind="variable"><name>$layers</name></member>
+    <member refid="classep___object_1a3b5a1179b24abbc9be2a18eeda5ba297" kind="variable"><name>$loaded</name></member>
+    <member refid="classep___object_1a8c384d5e0f13f64cbf8c51096faa7738" kind="function"><name>__construct</name></member>
+    <member refid="classep___object_1a4dcaa8f72c8423d4de25a9e87fa6f3e4" kind="function"><name>load</name></member>
+    <member refid="classep___object_1a16e862a2b83507e636da4d2255935e78" kind="function"><name>load_from_db</name></member>
+    <member refid="classep___object_1ac313783ab7146c71e639bf7ddf54b0db" kind="function"><name>parse_data</name></member>
+    <member refid="classep___object_1a86cd9c33a728ce9abfcf0141434a4685" kind="function"><name>isloaded</name></member>
+    <member refid="classep___object_1a2a98b8e18d13cdc780c0eb53a77985b2" kind="function"><name>load_layer</name></member>
+    <member refid="classep___object_1a95e859a4588a39a1824b717378a84c29" kind="function"><name>getTitle</name></member>
+    <member refid="classep___object_1a2e7bb35c71bf1824456ceb944cb7a845" kind="function"><name>getDescription</name></member>
+    <member refid="classep___object_1a8a94003b9d888b085c68d6eac44be175" kind="function"><name>get_id</name></member>
+  </compound>
+  <compound refid="classep___orzeczenie__sp__osoba__stanowisko" kind="class"><name>ep_Orzeczenie_sp_osoba_stanowisko</name>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1aa2e1ecb50e6fae26a854ac995f7226b8" kind="variable"><name>$_orzeczenie_sp</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1aa30d4201fc3a8b5a7765a48d49d5fce3" kind="variable"><name>$_orzeczenie_sp_osoba</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a40db8434e34a6782c8dbb2e847a99d40" kind="variable"><name>$_orzeczenie_sp_stanowisko</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a98a84a7375b3d05cb4516bbb2c7f3e04" kind="function"><name>get_orzeczenie_sp_id</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a35caef412ddaa0a4fde201dd8a68d34c" kind="function"><name>get_orzeczenie_sp_osoba_id</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a0f20c2e82e4ea518b53a7bdca333d9ec" kind="function"><name>get_orzeczenie_sp_stanowisko_id</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a498c7b61096c1bcb941e93a8d1385318" kind="function"><name>orzeczenie_sp</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a104627da416bbb3f34f3de3cc273cc3e" kind="function"><name>orzeczenie_sp_osoba</name></member>
+    <member refid="classep___orzeczenie__sp__osoba__stanowisko_1a161a70d3faff50c13d35616bdf233ce6" kind="function"><name>orzeczenie_sp_stanowisko</name></member>
+  </compound>
+  <compound refid="classep___p_n_a" kind="class"><name>ep_PNA</name>
+    <member refid="classep___p_n_a_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___p_n_a_1ab0313b743bc1be610472dfee711e929a" kind="variable"><name>$_gmina</name></member>
+    <member refid="classep___p_n_a_1a928275f8378baade592a64f89da229ef" kind="variable"><name>$_powiat</name></member>
+    <member refid="classep___p_n_a_1a2a0a830e555a9e31b5118be82dbc33c7" kind="variable"><name>$_wojewodztwo</name></member>
+    <member refid="classep___p_n_a_1a63aa148dc21ae1078168b2ea9507ac8b" kind="function"><name>get_gmina_id</name></member>
+    <member refid="classep___p_n_a_1a013f0dbe044fb129e4ddd98598b4e34a" kind="function"><name>get_kod</name></member>
+    <member refid="classep___p_n_a_1a7707101ef5dc05d7b439e7d08f1c3d10" kind="function"><name>get_kod_int</name></member>
+    <member refid="classep___p_n_a_1a256282dfe2df9b8b7173b834b9a80df3" kind="function"><name>get_miejscowosc</name></member>
+    <member refid="classep___p_n_a_1a7c13f20e38e0898d072c067a64cb9065" kind="function"><name>get_powiat_id</name></member>
+    <member refid="classep___p_n_a_1a36399d80f5ab76bb2d958a481f9002ff" kind="function"><name>get_wojewodztwo_id</name></member>
+    <member refid="classep___p_n_a_1ae13445f31d6a2e43182ca0e2ce2f821d" kind="function"><name>gmina</name></member>
+    <member refid="classep___p_n_a_1afeb09b2f0c7a3cd1d9bfe029ffdd57ea" kind="function"><name>powiat</name></member>
+    <member refid="classep___p_n_a_1a2c735142a4af50d47b17d8103a9ab9ab" kind="function"><name>wojewodztwo</name></member>
+  </compound>
+  <compound refid="classep___posel" kind="class"><name>ep_Posel</name>
+    <member refid="classep___posel_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___posel_1acba645df0791054ea42458f51a4954e5" kind="variable"><name>$_wystapienia</name></member>
+    <member refid="classep___posel_1a39ee634be18e1f0918a02926b2c9947a" kind="variable"><name>$_glosy</name></member>
+    <member refid="classep___posel_1a4aeace896696ace63e1b3a8e582fc58b" kind="variable"><name>$_mowca</name></member>
+    <member refid="classep___posel_1aca8a0298d669d3f1d4d1cce550a19015" kind="variable"><name>$_klub</name></member>
+    <member refid="classep___posel_1a4d7f8e727c6edd5e8cda69c7f6a84979" kind="variable"><name>$_wspolpracownicy</name></member>
+    <member refid="classep___posel_1a124893647a9703d5327ab2b707ae9b99" kind="variable"><name>$_oswiadczenia_majatkowe</name></member>
+    <member refid="classep___posel_1a836a54bda8e8855fc97f94632dbf7990" kind="variable"><name>$_rejestr_korzysci</name></member>
+    <member refid="classep___posel_1a0c4b90967576d074ae41f384221a90d1" kind="variable"><name>$_projekty_ustaw</name></member>
+    <member refid="classep___posel_1af689a5861b8cd5f7fb838fe71f1300e7" kind="variable"><name>$_projekty_uchwal</name></member>
+    <member refid="classep___posel_1af8a1d42fde573d01a3a97949d2918293" kind="variable"><name>$_aktywnosci</name></member>
+    <member refid="classep___posel_1a1e6580355869ca7f98425ec66033ff9f" kind="variable"><name>$_twitty</name></member>
+    <member refid="classep___posel_1a26923a78d5c508d37507edd1b617893c" kind="function"><name>set_ep_ludzie</name></member>
+    <member refid="classep___posel_1ab890bc062f51edbd126a1b10bd326e71" kind="function"><name>set_ep_sejm_kluby</name></member>
+    <member refid="classep___posel_1a0a281f2a729be7088e24f59b2a897bb6" kind="function"><name>mowca</name></member>
+    <member refid="classep___posel_1aedba85bfa40b8bf60cfad39464010834" kind="function"><name>klub</name></member>
+    <member refid="classep___posel_1af32786fc0cc85c7b2d9d66c3923b3197" kind="function"><name>aktywnosci</name></member>
+    <member refid="classep___posel_1a18b1bf1c04262c23e5edc5c81a4f897c" kind="function"><name>wystapienia</name></member>
+    <member refid="classep___posel_1aab9cc82c80e91ad71187a3c4a9999561" kind="function"><name>glosy</name></member>
+    <member refid="classep___posel_1a8ef2e15fbe3d18191cb256c026a211be" kind="function"><name>twitty</name></member>
+    <member refid="classep___posel_1a77464a8191912ee711ebcaa03fb0bf94" kind="function"><name>projekty_ustaw</name></member>
+    <member refid="classep___posel_1a14881c701cfb2df51d012218c1494a51" kind="function"><name>projekty_uchwal</name></member>
+    <member refid="classep___posel_1a79f06cfb4c9c98b98876067012f2c413" kind="function"><name>komisje_stanowiska</name></member>
+    <member refid="classep___posel_1a7139261a26ea9ad6c952fddb860c80d9" kind="function"><name>wspolpracownicy</name></member>
+    <member refid="classep___posel_1ab7a97df64d38268bc2d006b6666d0275" kind="function"><name>oswiadczenia_majatkowe</name></member>
+    <member refid="classep___posel_1a6c022f0121768edc931338ecb59e0dca" kind="function"><name>rejestr_korzysci</name></member>
+    <member refid="classep___posel_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___posel_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___posel_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___posel_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___posel_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___posel_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___posel_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___posel_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___posel_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___posel___aktywnosc" kind="class"><name>ep_Posel_Aktywnosc</name>
+    <member refid="classep___posel___aktywnosc_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel___aktywnosc_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___posel___aktywnosc_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___posel___aktywnosc_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___posel___aktywnosc_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___posel___aktywnosc_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___posel___aktywnosc_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___posel___aktywnosc_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___posel___aktywnosc_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___posel___aktywnosc_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___posel___glos" kind="class"><name>ep_Posel_Glos</name>
+    <member refid="classep___posel___glos_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel___glos_1a3c7e13c381280b226c0cd9e7231ca083" kind="variable"><name>$_glosowanie</name></member>
+    <member refid="classep___posel___glos_1a7dcb564db1d48eef20ad98cfaaddb4b7" kind="function"><name>set_ep_sejm_glosowania</name></member>
+    <member refid="classep___posel___glos_1aa9c48ea23fb8c76dd004f67b72fd4d90" kind="function"><name>glosowanie</name></member>
+    <member refid="classep___posel___glos_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___posel___glos_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___posel___glos_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___posel___glos_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___posel___glos_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___posel___glos_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___posel___glos_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___posel___glos_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___posel___glos_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___posel___komisja___stanowisko" kind="class"><name>ep_Posel_Komisja_Stanowisko</name>
+    <member refid="classep___posel___komisja___stanowisko_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1ab936b50f468b6fd3adebb3c8c64ce3e4" kind="variable"><name>$_komisja</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a2580d1f4623afc6103d80024142d23d2" kind="variable"><name>$_posel</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a6a354494d54778bcc9254b5826b5f28c" kind="function"><name>set_ep_poslowie</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1ad3b9fc55831f7bcabb4870306bc08f4b" kind="function"><name>posel</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a1a21d8ba0207f2d4a8c26575c8b30970" kind="function"><name>set_ep_sejm_komisje</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a1d71a6ebf9406f2a818e18f4df5a5728" kind="function"><name>komisja</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___posel___komisja___stanowisko_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___posel___oswiadczenie___majatkowe" kind="class"><name>ep_Posel_Oswiadczenie_Majatkowe</name>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1a2580d1f4623afc6103d80024142d23d2" kind="variable"><name>$_posel</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1a6a354494d54778bcc9254b5826b5f28c" kind="function"><name>set_ep_poslowie</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1ad3b9fc55831f7bcabb4870306bc08f4b" kind="function"><name>posel</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1ab5976d1ba325a739761c2eb6662f58a9" kind="function"><name>get_data</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1adc3366b534d8e1e2570fd6a80624d7ed" kind="function"><name>get_dokument_id</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1ae47740401fd789790ece81a1b64abfb2" kind="function"><name>get_posel_id</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1abdc537eb3d5a2920cd5d5ea317750660" kind="function"><name>get_label</name></member>
+    <member refid="classep___posel___oswiadczenie___majatkowe_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___posel___rejestr___korzysci" kind="class"><name>ep_Posel_Rejestr_Korzysci</name>
+    <member refid="classep___posel___rejestr___korzysci_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1a2580d1f4623afc6103d80024142d23d2" kind="variable"><name>$_posel</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1a6a354494d54778bcc9254b5826b5f28c" kind="function"><name>set_ep_poslowie</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1ad3b9fc55831f7bcabb4870306bc08f4b" kind="function"><name>posel</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1ab5976d1ba325a739761c2eb6662f58a9" kind="function"><name>get_data</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1adc3366b534d8e1e2570fd6a80624d7ed" kind="function"><name>get_dokument_id</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1ae47740401fd789790ece81a1b64abfb2" kind="function"><name>get_posel_id</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1abdc537eb3d5a2920cd5d5ea317750660" kind="function"><name>get_label</name></member>
+    <member refid="classep___posel___rejestr___korzysci_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___posel___wspolpracownik" kind="class"><name>ep_Posel_Wspolpracownik</name>
+    <member refid="classep___posel___wspolpracownik_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___posel___wspolpracownik_1a2580d1f4623afc6103d80024142d23d2" kind="variable"><name>$_posel</name></member>
+    <member refid="classep___posel___wspolpracownik_1a6a354494d54778bcc9254b5826b5f28c" kind="function"><name>set_ep_poslowie</name></member>
+    <member refid="classep___posel___wspolpracownik_1ad3b9fc55831f7bcabb4870306bc08f4b" kind="function"><name>posel</name></member>
+    <member refid="classep___posel___wspolpracownik_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___posel___wspolpracownik_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___posel___wspolpracownik_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___posel___wspolpracownik_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___posel___wspolpracownik_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___posel___wspolpracownik_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___posel___wspolpracownik_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___posel___wspolpracownik_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___posel___wspolpracownik_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___powiat" kind="class"><name>ep_Powiat</name>
+    <member refid="classep___powiat_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___powiat_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___powiat_1a2a0a830e555a9e31b5118be82dbc33c7" kind="variable"><name>$_wojewodztwo</name></member>
+    <member refid="classep___powiat_1a78dbe56396c80cf6fc9d3f319bb5ec8c" kind="variable"><name>$_obszar</name></member>
+    <member refid="classep___powiat_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___powiat_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___powiat_1a2c735142a4af50d47b17d8103a9ab9ab" kind="function"><name>wojewodztwo</name></member>
+    <member refid="classep___powiat_1ada1a8341471222061c3c8ae5bae028f3" kind="function"><name>set_ep_wojewodztwo</name></member>
+    <member refid="classep___powiat_1aa05db5ea090acb5d431aff0bbb8b97a6" kind="function"><name>obszar</name></member>
+  </compound>
+  <compound refid="classep___prawo" kind="class"><name>ep_Prawo</name>
+    <member refid="classep___prawo_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___prawo_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___prawo_1a2e7bb35c71bf1824456ceb944cb7a845" kind="function"><name>getDescription</name></member>
+    <member refid="classep___prawo_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___prawo___typ" kind="class"><name>ep_Prawo_Typ</name>
+    <member refid="classep___prawo___typ_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___prawo___typ_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___prawo___typ_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___prawo___typ_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___prawo___typ_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___prawo___typ_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___prawo___typ_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___prawo___typ_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___prawo___typ_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___prawo___typ_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___r_c_l___dokument" kind="class"><name>ep_RCL_Dokument</name>
+    <member refid="classep___r_c_l___dokument_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___r_c_l___dokument_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___r_c_l___dokument_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___r_c_l___dokument_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___r_c_l___dokument_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___r_c_l___dokument_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___r_c_l___dokument_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___r_c_l___dokument_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___r_c_l___dokument_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___r_c_l___dokument_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___r_c_l___projekt" kind="class"><name>ep_RCL_Projekt</name>
+    <member refid="classep___r_c_l___projekt_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___r_c_l___projekt_1acb765d0ea6bdec0a9dfffdfcef0127e9" kind="variable"><name>$_tablica</name></member>
+    <member refid="classep___r_c_l___projekt_1a3e73019b4ca8d1ebbbd1b471fe6d08b7" kind="variable"><name>$_autor</name></member>
+    <member refid="classep___r_c_l___projekt_1a562ec137b68d83aa36dd84a6f26c3394" kind="function"><name>tablica</name></member>
+    <member refid="classep___r_c_l___projekt_1a1d4b47aa7cd504faefc542efb5a975a1" kind="function"><name>set_ep_instytucje</name></member>
+    <member refid="classep___r_c_l___projekt_1abbc80445668f2cd4fc3f91e27afdaebe" kind="function"><name>autor</name></member>
+    <member refid="classep___r_c_l___projekt_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___r_c_l___projekt_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___r_c_l___projekt_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___r_c_l___projekt_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___r_c_l___projekt_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___r_c_l___projekt_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___r_c_l___projekt_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___r_c_l___projekt_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___r_c_l___projekt_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___r_c_l___projekt___etap" kind="class"><name>ep_RCL_Projekt_Etap</name>
+    <member refid="classep___r_c_l___projekt___etap_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___r_c_l___projekt___etap_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___r_c_l___projekt___status" kind="class"><name>ep_RCL_Projekt_Status</name>
+    <member refid="classep___r_c_l___projekt___status_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___r_c_l___projekt___status_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___r_c_l___projekt___status_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___r_c_l___projekt___status_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___r_c_l___projekt___status_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___r_c_l___projekt___status_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___r_c_l___projekt___status_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___r_c_l___projekt___status_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___r_c_l___projekt___status_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___r_c_l___projekt___status_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___s_a___orzeczenie" kind="class"><name>ep_SA_Orzeczenie</name>
+    <member refid="classep___s_a___orzeczenie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_a___orzeczenie_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_a___orzeczenie_1a0341170287fa4c3934de1f4a03f48dfd" kind="variable"><name>$_sad</name></member>
+    <member refid="classep___s_a___orzeczenie_1a4b25b4a1a02dae167b1a8db3d71405bd" kind="variable"><name>$_organ</name></member>
+    <member refid="classep___s_a___orzeczenie_1a158e836a868ba42b6db7fe6952c8dce0" kind="variable"><name>$_wynik</name></member>
+    <member refid="classep___s_a___orzeczenie_1a9515f25f368eef1b6825d9568f40c4bc" kind="variable"><name>$_sedziowie</name></member>
+    <member refid="classep___s_a___orzeczenie_1a8c384d5e0f13f64cbf8c51096faa7738" kind="function"><name>__construct</name></member>
+    <member refid="classep___s_a___orzeczenie_1a8a15d60da65e02bae2cbdbf37b916e9f" kind="function"><name>sedziowie</name></member>
+    <member refid="classep___s_a___orzeczenie_1ad89dcca53362d835ea728d79a7ef4161" kind="function"><name>set_ep_sa_sady</name></member>
+    <member refid="classep___s_a___orzeczenie_1a975f85bebff72c666d5edbcda34b71f2" kind="function"><name>sad</name></member>
+    <member refid="classep___s_a___orzeczenie_1a09fc5ad08f45ee935307eaf11ae3223d" kind="function"><name>set_ep_sa_skarzone_organy</name></member>
+    <member refid="classep___s_a___orzeczenie_1a04a204d329b613d36ca895102f98e42e" kind="function"><name>skarzony_organ</name></member>
+    <member refid="classep___s_a___orzeczenie_1af21ad6bed19b284eec64bbf92d0cd688" kind="function"><name>set_ep_sa_orzeczenia_wyniki</name></member>
+    <member refid="classep___s_a___orzeczenie_1a4fc8dd9c4cd638f3254e1cd146211b7d" kind="function"><name>wynik</name></member>
+    <member refid="classep___s_a___orzeczenie_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_a___orzeczenie_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___s_a___orzeczenie_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___s_a___orzeczenie_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___s_a___orzeczenie_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___s_a___orzeczenie_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___s_a___orzeczenie_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___s_a___orzeczenie_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___s_a___orzeczenie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___s_a___orzeczenie___wynik" kind="class"><name>ep_SA_Orzeczenie_Wynik</name>
+    <member refid="classep___s_a___orzeczenie___wynik_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___s_a___orzeczenie___wynik_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___s_a___sad" kind="class"><name>ep_SA_Sad</name>
+    <member refid="classep___s_a___sad_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_a___sad_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_a___sad_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_a___sad_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___s_a___sad_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___s_a___sad_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___s_a___sad_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___s_a___sad_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___s_a___sad_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___s_a___sad_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___s_a___sad_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___s_a___sedzia" kind="class"><name>ep_SA_Sedzia</name>
+    <member refid="classep___s_a___sedzia_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_a___sedzia_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_a___sedzia_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_a___sedzia_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___s_a___sedzia_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___s_a___sedzia_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___s_a___sedzia_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___s_a___sedzia_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___s_a___sedzia_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___s_a___sedzia_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___s_a___sedzia_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___s_a___skarzony___organ" kind="class"><name>ep_SA_Skarzony_Organ</name>
+    <member refid="classep___s_a___skarzony___organ_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_a___skarzony___organ_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_a___skarzony___organ_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___s_a___skarzony___organ_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___s_a___skarzony___organ_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___s_a___skarzony___organ_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___s_a___skarzony___organ_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___s_a___skarzony___organ_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___s_a___skarzony___organ_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___s_a___skarzony___organ_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___search" kind="class"><name>ep_Search</name>
+    <member refid="classep___search_1abb0f8f809252372e25f48d52b63ef29d" kind="variable"><name>$q</name></member>
+    <member refid="classep___search_1a737abdef83dabb219182c1e88887c6c3" kind="variable"><name>$items</name></member>
+    <member refid="classep___search_1ab6ac9b33076d715d3f1376b426e25da0" kind="variable"><name>$tabs</name></member>
+    <member refid="classep___search_1ae05862a0294251c88629b141b5ce329a" kind="variable"><name>$limit</name></member>
+    <member refid="classep___search_1a65539c516b1dfa0af15bb2bab190193b" kind="variable"><name>$items_found_rows</name></member>
+    <member refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" kind="variable"><name>$dataset</name></member>
+    <member refid="classep___search_1a1b8d79db0f723d8187d80a2e435b9e6a" kind="function"><name>set_q</name></member>
+    <member refid="classep___search_1a454970aff52196d59eeff994419e0d8c" kind="function"><name>set_dataset</name></member>
+    <member refid="classep___search_1a6a71885a6440a34e8cfc7553306f95a6" kind="function"><name>find_all</name></member>
+  </compound>
+  <compound refid="classep___sejm___dezyderat" kind="class"><name>ep_Sejm_Dezyderat</name>
+    <member refid="classep___sejm___dezyderat_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___dezyderat_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___dezyderat_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___dezyderat_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___dezyderat_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___dezyderat_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___dezyderat_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___dezyderat_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___dezyderat_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___dezyderat_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___dezyderat_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___druk" kind="class"><name>ep_Sejm_Druk</name>
+    <member refid="classep___sejm___druk_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___druk_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___druk_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___druk___typ" kind="class"><name>ep_Sejm_Druk_Typ</name>
+    <member refid="classep___sejm___druk___typ_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___druk___typ_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___druk___typ_1ad4ee07e032539588ff9eef67a0b97e93" kind="variable"><name>$_druki</name></member>
+    <member refid="classep___sejm___druk___typ_1af22894fe8830155fc20716e34f1f1c33" kind="function"><name>druki</name></member>
+    <member refid="classep___sejm___druk___typ_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___dzien" kind="class"><name>ep_Sejm_Dzien</name>
+    <member refid="classep___sejm___dzien_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___dzien_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___sejm___dzien_1a448708168d1e41aa8d3691e24704d3d3" kind="variable"><name>$_debaty</name></member>
+    <member refid="classep___sejm___dzien_1a8c384d5e0f13f64cbf8c51096faa7738" kind="function"><name>__construct</name></member>
+    <member refid="classep___sejm___dzien_1a1ebe2368dbaefa70f34cea7885c4cbdd" kind="function"><name>set_ep_sejm_posiedzenia</name></member>
+    <member refid="classep___sejm___dzien_1abfdc29f0533665ad6c77341c5fa3f7c7" kind="function"><name>posiedzenie</name></member>
+    <member refid="classep___sejm___dzien_1a61f284b69abf1b9994fb0531fd5072ec" kind="function"><name>debaty</name></member>
+    <member refid="classep___sejm___dzien_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___dzien_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___dzien_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___dzien_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___dzien_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___dzien_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___dzien_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___dzien_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___dzien_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___glosowanie" kind="class"><name>ep_Sejm_Glosowanie</name>
+    <member refid="classep___sejm___glosowanie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___glosowanie_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___glosowanie_1a39ee634be18e1f0918a02926b2c9947a" kind="variable"><name>$_glosy</name></member>
+    <member refid="classep___sejm___glosowanie_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___sejm___glosowanie_1aaba102f74c4c1e5be1ec0f9aa36a3795" kind="variable"><name>$_dzien</name></member>
+    <member refid="classep___sejm___glosowanie_1a218f2c8bc0742a90af521d422dfc5243" kind="variable"><name>$_debata</name></member>
+    <member refid="classep___sejm___glosowanie_1a610873ff49d63aa048b9ec76ac77ee08" kind="variable"><name>$_wystapienie</name></member>
+    <member refid="classep___sejm___glosowanie_1abfdc29f0533665ad6c77341c5fa3f7c7" kind="function"><name>posiedzenie</name></member>
+    <member refid="classep___sejm___glosowanie_1a211a968a9f3aa1e4a58516f8c344ec00" kind="function"><name>dzien</name></member>
+    <member refid="classep___sejm___glosowanie_1a7fe12606c5b0d87a6f1d26d2470a10c2" kind="function"><name>debata</name></member>
+    <member refid="classep___sejm___glosowanie_1aa051a476b68537f178e14ee797250288" kind="function"><name>wystapienie</name></member>
+    <member refid="classep___sejm___glosowanie_1aa8056e435aeb70114dcd8800fd64a142" kind="function"><name>kluby</name></member>
+    <member refid="classep___sejm___glosowanie_1aab9cc82c80e91ad71187a3c4a9999561" kind="function"><name>glosy</name></member>
+    <member refid="classep___sejm___glosowanie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___glosowanie___glos" kind="class"><name>ep_Sejm_Glosowanie_Glos</name>
+    <member refid="classep___sejm___glosowanie___glos_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___glosowanie___glos_1a74425217dc2f8a93fa462f1f68bb58fd" kind="function"><name>get_color</name></member>
+    <member refid="classep___sejm___glosowanie___glos_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___glosowanie___glos_1aa8a152107373f8648c297435b36f32f0" kind="function"><name>get_opis</name></member>
+    <member refid="classep___sejm___glosowanie___glos_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___glosowanie___typ" kind="class"><name>ep_Sejm_Glosowanie_Typ</name>
+    <member refid="classep___sejm___glosowanie___typ_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___glosowanie___typ_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___interpelacja" kind="class"><name>ep_Sejm_Interpelacja</name>
+    <member refid="classep___sejm___interpelacja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___interpelacja_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___interpelacja_1acb765d0ea6bdec0a9dfffdfcef0127e9" kind="variable"><name>$_tablica</name></member>
+    <member refid="classep___sejm___interpelacja_1a230df196cc830300d981e32edf8433aa" kind="variable"><name>$_poslowie</name></member>
+    <member refid="classep___sejm___interpelacja_1a0f86bc9d504d1c4a3a60c1585cb85f97" kind="function"><name>poslowie</name></member>
+    <member refid="classep___sejm___interpelacja_1a562ec137b68d83aa36dd84a6f26c3394" kind="function"><name>tablica</name></member>
+    <member refid="classep___sejm___interpelacja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___interpelacja___pismo" kind="class"><name>ep_Sejm_Interpelacja_Pismo</name>
+    <member refid="classep___sejm___interpelacja___pismo_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___interpelacja___pismo_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___klub" kind="class"><name>ep_Sejm_Klub</name>
+    <member refid="classep___sejm___klub_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___klub_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___klub_1a230df196cc830300d981e32edf8433aa" kind="variable"><name>$_poslowie</name></member>
+    <member refid="classep___sejm___klub_1a0f86bc9d504d1c4a3a60c1585cb85f97" kind="function"><name>poslowie</name></member>
+    <member refid="classep___sejm___klub_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___klub_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___klub_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___klub_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___klub_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___klub_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___klub_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___klub_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___klub_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___komisja" kind="class"><name>ep_Sejm_Komisja</name>
+    <member refid="classep___sejm___komisja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___komisja_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___komisja_1a1192326d568efecaa005d7af560a56aa" kind="variable"><name>$_stanowiska</name></member>
+    <member refid="classep___sejm___komisja_1a9dd4480bf7002df382ab888d880131c2" kind="function"><name>stanowiska</name></member>
+    <member refid="classep___sejm___komisja_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___komisja_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___komisja_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___komisja_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___komisja_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___komisja_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___komisja_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___komisja_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___komisja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___komunikat" kind="class"><name>ep_Sejm_Komunikat</name>
+    <member refid="classep___sejm___komunikat_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___komunikat_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___komunikat_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___komunikat_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___komunikat_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___komunikat_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___komunikat_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___komunikat_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___komunikat_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___komunikat_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___okreg___wyborczy" kind="class"><name>ep_Sejm_Okreg_Wyborczy</name>
+    <member refid="classep___sejm___okreg___wyborczy_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___okreg___wyborczy_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___posiedzenie" kind="class"><name>ep_Sejm_Posiedzenie</name>
+    <member refid="classep___sejm___posiedzenie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___posiedzenie_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___posiedzenie_1a2623ceb25ee686471811ed5b304dc059" kind="variable"><name>$_dni</name></member>
+    <member refid="classep___sejm___posiedzenie_1a45b8489e9b29b0560e75546321e6a645" kind="variable"><name>$_punkty</name></member>
+    <member refid="classep___sejm___posiedzenie_1acba645df0791054ea42458f51a4954e5" kind="variable"><name>$_wystapienia</name></member>
+    <member refid="classep___sejm___posiedzenie_1ae5de77b859572acb00a05069918f4937" kind="variable"><name>$_glosowania</name></member>
+    <member refid="classep___sejm___posiedzenie_1a230df196cc830300d981e32edf8433aa" kind="variable"><name>$_poslowie</name></member>
+    <member refid="classep___sejm___posiedzenie_1a8c384d5e0f13f64cbf8c51096faa7738" kind="function"><name>__construct</name></member>
+    <member refid="classep___sejm___posiedzenie_1ad8bc0547af9d7792114185786ca4d8e9" kind="function"><name>dni</name></member>
+    <member refid="classep___sejm___posiedzenie_1a0f86bc9d504d1c4a3a60c1585cb85f97" kind="function"><name>poslowie</name></member>
+    <member refid="classep___sejm___posiedzenie_1a3ac343e2a424bd292fff8ff5301666c4" kind="function"><name>punkty</name></member>
+    <member refid="classep___sejm___posiedzenie_1a18b1bf1c04262c23e5edc5c81a4f897c" kind="function"><name>wystapienia</name></member>
+    <member refid="classep___sejm___posiedzenie_1a053e53f5c6126e89ed49774ba8f12ec9" kind="function"><name>glosowania</name></member>
+    <member refid="classep___sejm___posiedzenie_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___posiedzenie_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___posiedzenie_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___posiedzenie_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___posiedzenie_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___posiedzenie_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___posiedzenie_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___posiedzenie_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___posiedzenie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___posiedzenie___debata" kind="class"><name>ep_Sejm_Posiedzenie_Debata</name>
+    <member refid="classep___sejm___posiedzenie___debata_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a448708168d1e41aa8d3691e24704d3d3" kind="variable"><name>$_debaty</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1acba645df0791054ea42458f51a4954e5" kind="variable"><name>$_wystapienia</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1ae5de77b859572acb00a05069918f4937" kind="variable"><name>$_glosowania</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1aaba102f74c4c1e5be1ec0f9aa36a3795" kind="variable"><name>$_dzien</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a1748c9e002a54db94b87fdc8b3a2590f" kind="variable"><name>$_punkt</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a33d6419a012729a56ab84c223a587ee2" kind="function"><name>punkt</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a18b1bf1c04262c23e5edc5c81a4f897c" kind="function"><name>wystapienia</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a053e53f5c6126e89ed49774ba8f12ec9" kind="function"><name>glosowania</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1abfdc29f0533665ad6c77341c5fa3f7c7" kind="function"><name>posiedzenie</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a211a968a9f3aa1e4a58516f8c344ec00" kind="function"><name>dzien</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___posiedzenie___debata_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___posiedzenie___punkt" kind="class"><name>ep_Sejm_Posiedzenie_Punkt</name>
+    <member refid="classep___sejm___posiedzenie___punkt_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a448708168d1e41aa8d3691e24704d3d3" kind="variable"><name>$_debaty</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1acba645df0791054ea42458f51a4954e5" kind="variable"><name>$_wystapienia</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1ae5de77b859572acb00a05069918f4937" kind="variable"><name>$_glosowania</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1ad4ee07e032539588ff9eef67a0b97e93" kind="variable"><name>$_druki</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1abfdc29f0533665ad6c77341c5fa3f7c7" kind="function"><name>posiedzenie</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a61f284b69abf1b9994fb0531fd5072ec" kind="function"><name>debaty</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a18b1bf1c04262c23e5edc5c81a4f897c" kind="function"><name>wystapienia</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a053e53f5c6126e89ed49774ba8f12ec9" kind="function"><name>glosowania</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1af22894fe8830155fc20716e34f1f1c33" kind="function"><name>druki</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___posiedzenie___punkt_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___pytanie___biezace" kind="class"><name>ep_Sejm_Pytanie_Biezace</name>
+    <member refid="classep___sejm___pytanie___biezace_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1acba645df0791054ea42458f51a4954e5" kind="variable"><name>$_wystapienia</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1ae5de77b859572acb00a05069918f4937" kind="variable"><name>$_glosowania</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1aaba102f74c4c1e5be1ec0f9aa36a3795" kind="variable"><name>$_dzien</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a1748c9e002a54db94b87fdc8b3a2590f" kind="variable"><name>$_punkt</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a33d6419a012729a56ab84c223a587ee2" kind="function"><name>punkt</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a18b1bf1c04262c23e5edc5c81a4f897c" kind="function"><name>wystapienia</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a053e53f5c6126e89ed49774ba8f12ec9" kind="function"><name>glosowania</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1abfdc29f0533665ad6c77341c5fa3f7c7" kind="function"><name>posiedzenie</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a211a968a9f3aa1e4a58516f8c344ec00" kind="function"><name>dzien</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___pytanie___biezace_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___sprawozdanie" kind="class"><name>ep_Sejm_Sprawozdanie</name>
+    <member refid="classep___sejm___sprawozdanie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___sprawozdanie_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___sprawozdanie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___wniesiony___projekt" kind="class"><name>ep_Sejm_Wniesiony_Projekt</name>
+    <member refid="classep___sejm___wniesiony___projekt_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___wniesiony___projekt_1ad3132c55407ef32ae6a862502ba354a9" kind="function"><name>projekt</name></member>
+    <member refid="classep___sejm___wniesiony___projekt_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___sejm___wystapienie" kind="class"><name>ep_Sejm_Wystapienie</name>
+    <member refid="classep___sejm___wystapienie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___sejm___wystapienie_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___sejm___wystapienie_1a4aeace896696ace63e1b3a8e582fc58b" kind="variable"><name>$_mowca</name></member>
+    <member refid="classep___sejm___wystapienie_1a463181ef3774993bdc40d5dd3e68cb28" kind="variable"><name>$_stanowisko</name></member>
+    <member refid="classep___sejm___wystapienie_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___sejm___wystapienie_1a218f2c8bc0742a90af521d422dfc5243" kind="variable"><name>$_debata</name></member>
+    <member refid="classep___sejm___wystapienie_1a1748c9e002a54db94b87fdc8b3a2590f" kind="variable"><name>$_punkt</name></member>
+    <member refid="classep___sejm___wystapienie_1a8c384d5e0f13f64cbf8c51096faa7738" kind="function"><name>__construct</name></member>
+    <member refid="classep___sejm___wystapienie_1abfdc29f0533665ad6c77341c5fa3f7c7" kind="function"><name>posiedzenie</name></member>
+    <member refid="classep___sejm___wystapienie_1a7fe12606c5b0d87a6f1d26d2470a10c2" kind="function"><name>debata</name></member>
+    <member refid="classep___sejm___wystapienie_1a33d6419a012729a56ab84c223a587ee2" kind="function"><name>punkt</name></member>
+    <member refid="classep___sejm___wystapienie_1a394835ac1f34d44b5181f5e2e704deb4" kind="function"><name>set_ep_mowcy</name></member>
+    <member refid="classep___sejm___wystapienie_1a0a281f2a729be7088e24f59b2a897bb6" kind="function"><name>mowca</name></member>
+    <member refid="classep___sejm___wystapienie_1a57f2e23f1d143edd2d513c213b5a0f52" kind="function"><name>set_ep_stanowiska</name></member>
+    <member refid="classep___sejm___wystapienie_1a3d84fd752ff96edc69fbe27a52d8d3d7" kind="function"><name>stanowisko</name></member>
+    <member refid="classep___sejm___wystapienie_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___sejm___wystapienie_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___sejm___wystapienie_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___sejm___wystapienie_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___sejm___wystapienie_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___sejm___wystapienie_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___sejm___wystapienie_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___sejm___wystapienie_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___sejm___wystapienie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat___druk" kind="class"><name>ep_Senat_Druk</name>
+    <member refid="classep___senat___druk_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat___druk_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___senat___druk_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat__komisja" kind="class"><name>ep_Senat_komisja</name>
+    <member refid="classep___senat__komisja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat__komisja_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___senat__komisja_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senat__komisja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat___oswiadczenie___majatkowe" kind="class"><name>ep_Senat_Oswiadczenie_Majatkowe</name>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1af8e65cd433a9e0cbfb3dbb0f45f2d1c2" kind="variable"><name>$_senator</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1a92c4ef3c275a33bee3292b42c47233cd" kind="function"><name>set_ep_senatorowie</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1af076312b536f7707cda87563bd9113d9" kind="function"><name>senator</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1ab5976d1ba325a739761c2eb6662f58a9" kind="function"><name>get_data</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1adc3366b534d8e1e2570fd6a80624d7ed" kind="function"><name>get_dokument_id</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1aa0c141b1e9aba9fed3eb13ed8901de76" kind="function"><name>get_senator_id</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senat___oswiadczenie___majatkowe_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat__rejestr__korzysci" kind="class"><name>ep_Senat_rejestr_korzysci</name>
+    <member refid="classep___senat__rejestr__korzysci_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1af8e65cd433a9e0cbfb3dbb0f45f2d1c2" kind="variable"><name>$_senator</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1a92c4ef3c275a33bee3292b42c47233cd" kind="function"><name>set_ep_senatorowie</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1af076312b536f7707cda87563bd9113d9" kind="function"><name>senator</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1adc3366b534d8e1e2570fd6a80624d7ed" kind="function"><name>get_dokument_id</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1ae47740401fd789790ece81a1b64abfb2" kind="function"><name>get_posel_id</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senat__rejestr__korzysci_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat__senator__komisja" kind="class"><name>ep_Senat_senator_komisja</name>
+    <member refid="classep___senat__senator__komisja_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat__senator__komisja_1ab936b50f468b6fd3adebb3c8c64ce3e4" kind="variable"><name>$_komisja</name></member>
+    <member refid="classep___senat__senator__komisja_1af8e65cd433a9e0cbfb3dbb0f45f2d1c2" kind="variable"><name>$_senator</name></member>
+    <member refid="classep___senat__senator__komisja_1ad690400f135a1256aca1fec359aed14f" kind="function"><name>get_komisja_id</name></member>
+    <member refid="classep___senat__senator__komisja_1aa0c141b1e9aba9fed3eb13ed8901de76" kind="function"><name>get_senator_id</name></member>
+    <member refid="classep___senat__senator__komisja_1a24e5fcbf4661581e53314bf23f908b7a" kind="function"><name>get_stanowisko</name></member>
+    <member refid="classep___senat__senator__komisja_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___senat__senator__komisja_1a1d71a6ebf9406f2a818e18f4df5a5728" kind="function"><name>komisja</name></member>
+    <member refid="classep___senat__senator__komisja_1af076312b536f7707cda87563bd9113d9" kind="function"><name>senator</name></member>
+  </compound>
+  <compound refid="classep___senat__senator__zespol__parlamentarny" kind="class"><name>ep_Senat_senator_zespol_parlamentarny</name>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1af1b989415643255742cf9aaa42dc146f" kind="variable"><name>$_zespol_parlamentarny</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1af8e65cd433a9e0cbfb3dbb0f45f2d1c2" kind="variable"><name>$_senator</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1a79f62ca37b2fbee380dd942dd0c375cd" kind="function"><name>get_zespol_parlamentarny_id</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1aa0c141b1e9aba9fed3eb13ed8901de76" kind="function"><name>get_senator_id</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1a24e5fcbf4661581e53314bf23f908b7a" kind="function"><name>get_stanowisko</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1ab35c0c9aed2d5fc6af85be9289f9f2a1" kind="function"><name>zespol_parlamentarny</name></member>
+    <member refid="classep___senat__senator__zespol__parlamentarny_1af076312b536f7707cda87563bd9113d9" kind="function"><name>senator</name></member>
+  </compound>
+  <compound refid="classep___senat__senator__zespol__senacki" kind="class"><name>ep_Senat_senator_zespol_senacki</name>
+    <member refid="classep___senat__senator__zespol__senacki_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1ab991c91fede076b3f3ddffd69b98aa59" kind="variable"><name>$_zespol_senacki</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1af8e65cd433a9e0cbfb3dbb0f45f2d1c2" kind="variable"><name>$_senator</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1aebc00cea81bbc9249769237bbb71d38e" kind="function"><name>get_zespol_senacki_id</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1aa0c141b1e9aba9fed3eb13ed8901de76" kind="function"><name>get_senator_id</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1a24e5fcbf4661581e53314bf23f908b7a" kind="function"><name>get_stanowisko</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1af6439a809c6c1a83d25215a86e3f2090" kind="function"><name>zespol_senacki</name></member>
+    <member refid="classep___senat__senator__zespol__senacki_1af076312b536f7707cda87563bd9113d9" kind="function"><name>senator</name></member>
+  </compound>
+  <compound refid="classep___senat___wystapienie" kind="class"><name>ep_Senat_Wystapienie</name>
+    <member refid="classep___senat___wystapienie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat___wystapienie_1a4aeace896696ace63e1b3a8e582fc58b" kind="variable"><name>$_mowca</name></member>
+    <member refid="classep___senat___wystapienie_1a463181ef3774993bdc40d5dd3e68cb28" kind="variable"><name>$_stanowisko</name></member>
+    <member refid="classep___senat___wystapienie_1aeadd69731cd9a36627685fc588f1cfcd" kind="variable"><name>$_posiedzenie</name></member>
+    <member refid="classep___senat___wystapienie_1a218f2c8bc0742a90af521d422dfc5243" kind="variable"><name>$_debata</name></member>
+    <member refid="classep___senat___wystapienie_1a1748c9e002a54db94b87fdc8b3a2590f" kind="variable"><name>$_punkt</name></member>
+    <member refid="classep___senat___wystapienie_1a8c384d5e0f13f64cbf8c51096faa7738" kind="function"><name>__construct</name></member>
+    <member refid="classep___senat___wystapienie_1a394835ac1f34d44b5181f5e2e704deb4" kind="function"><name>set_ep_mowcy</name></member>
+    <member refid="classep___senat___wystapienie_1a0a281f2a729be7088e24f59b2a897bb6" kind="function"><name>mowca</name></member>
+    <member refid="classep___senat___wystapienie_1a57f2e23f1d143edd2d513c213b5a0f52" kind="function"><name>set_ep_stanowiska</name></member>
+    <member refid="classep___senat___wystapienie_1a3d84fd752ff96edc69fbe27a52d8d3d7" kind="function"><name>stanowisko</name></member>
+    <member refid="classep___senat___wystapienie_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senat___wystapienie_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___senat___wystapienie_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___senat___wystapienie_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___senat___wystapienie_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___senat___wystapienie_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___senat___wystapienie_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___senat___wystapienie_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___senat___wystapienie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat___zespol" kind="class"><name>ep_Senat_Zespol</name>
+    <member refid="classep___senat___zespol_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat___zespol_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___senat___zespol_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senat___zespol_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senat__zespol__parlamentarny" kind="class"><name>ep_Senat_zespol_parlamentarny</name>
+    <member refid="classep___senat__zespol__parlamentarny_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senat__zespol__parlamentarny_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___senat__zespol__parlamentarny_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senat__zespol__parlamentarny_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___senator" kind="class"><name>ep_Senator</name>
+    <member refid="classep___senator_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___senator_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___senator_1a6b2ef6ebe81b7c2a8f14448ac5d3d0f3" kind="variable"><name>$_komisje</name></member>
+    <member refid="classep___senator_1af2cda4111b87c376899389c636621540" kind="variable"><name>$_zespoly_parlamentarne</name></member>
+    <member refid="classep___senator_1a84fd7748284095b56eb55e4480e24a5b" kind="variable"><name>$_zespoly_senackie</name></member>
+    <member refid="classep___senator_1a124893647a9703d5327ab2b707ae9b99" kind="variable"><name>$_oswiadczenia_majatkowe</name></member>
+    <member refid="classep___senator_1a836a54bda8e8855fc97f94632dbf7990" kind="variable"><name>$_rejestr_korzysci</name></member>
+    <member refid="classep___senator_1acba645df0791054ea42458f51a4954e5" kind="variable"><name>$_wystapienia</name></member>
+    <member refid="classep___senator_1a2048656fee42acbb0bd6a87c65d1812c" kind="function"><name>get_mowca_id</name></member>
+    <member refid="classep___senator_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___senator_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___senator_1a66895e14014726b555618e5b409771bd" kind="function"><name>komisje</name></member>
+    <member refid="classep___senator_1acf90e2692da0f334ab0dfce03e3a9e7a" kind="function"><name>zespoly_parlamentarne</name></member>
+    <member refid="classep___senator_1ae0fd986698b921926b3d3f6f3c6fd674" kind="function"><name>zespoly_senackie</name></member>
+    <member refid="classep___senator_1ab7a97df64d38268bc2d006b6666d0275" kind="function"><name>oswiadczenia_majatkowe</name></member>
+    <member refid="classep___senator_1a6c022f0121768edc931338ecb59e0dca" kind="function"><name>rejestr_korzysci</name></member>
+    <member refid="classep___senator_1a18b1bf1c04262c23e5edc5c81a4f897c" kind="function"><name>wystapienia</name></member>
+  </compound>
+  <compound refid="classep___s_n___izba" kind="class"><name>ep_SN_Izba</name>
+    <member refid="classep___s_n___izba_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___izba_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_n___izba_1aa013b5921d7a844cc79c7e3a5ffbd03a" kind="variable"><name>$_orzeczenia</name></member>
+    <member refid="classep___s_n___izba_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_n___izba_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_n___izba_1afafcff5d2bf7a4b4dd56b1a0a7c6a275" kind="function"><name>orzeczenia</name></member>
+  </compound>
+  <compound refid="classep___s_n___jednostka" kind="class"><name>ep_SN_Jednostka</name>
+    <member refid="classep___s_n___jednostka_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___jednostka_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_n___jednostka_1a6f02468de85c0d4fa4f284d88f064662" kind="variable"><name>$_orzeczenia_sn</name></member>
+    <member refid="classep___s_n___jednostka_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_n___jednostka_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_n___jednostka_1a1da449088f8d852fb2a7a425e8036b13" kind="function"><name>orzeczenia_sn</name></member>
+  </compound>
+  <compound refid="classep___s_n___orzeczenie" kind="class"><name>ep_SN_Orzeczenie</name>
+    <member refid="classep___s_n___orzeczenie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___orzeczenie_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_n___orzeczenie_1a95b4aef311558b8233d9934bd08406ec" kind="variable"><name>$_forma</name></member>
+    <member refid="classep___s_n___orzeczenie_1ad1b42e8f431ce2f82d2ccf9395587947" kind="variable"><name>$_jednostka</name></member>
+    <member refid="classep___s_n___orzeczenie_1aeeba512286131af36395e8e6bddafbac" kind="variable"><name>$_sklad</name></member>
+    <member refid="classep___s_n___orzeczenie_1a979f172256d5c0c7e9a858abeddcfc18" kind="variable"><name>$_autorzy</name></member>
+    <member refid="classep___s_n___orzeczenie_1a32e61795984a518ce9fe14cbd1a68306" kind="variable"><name>$_izby_orzeczenia</name></member>
+    <member refid="classep___s_n___orzeczenie_1a9515f25f368eef1b6825d9568f40c4bc" kind="variable"><name>$_sedziowie</name></member>
+    <member refid="classep___s_n___orzeczenie_1a714759738f329fda5eebaffc97a6be38" kind="variable"><name>$_sprawozdawcy</name></member>
+    <member refid="classep___s_n___orzeczenie_1ad912d3fe15f8233d48bc2a574708cfc2" kind="variable"><name>$_wspolsprawozdawcy</name></member>
+    <member refid="classep___s_n___orzeczenie_1a76d66bf9d593a034ae91951dcfb8596c" kind="function"><name>get_akcept</name></member>
+    <member refid="classep___s_n___orzeczenie_1ab5976d1ba325a739761c2eb6662f58a9" kind="function"><name>get_data</name></member>
+    <member refid="classep___s_n___orzeczenie_1adc3366b534d8e1e2570fd6a80624d7ed" kind="function"><name>get_dokument_id</name></member>
+    <member refid="classep___s_n___orzeczenie_1a1bddc6deeff779552edc10c439053c9f" kind="function"><name>get_forma</name></member>
+    <member refid="classep___s_n___orzeczenie_1a4e3ee9b67d81c24fd49cc82ba5116a57" kind="function"><name>get_item_id</name></member>
+    <member refid="classep___s_n___orzeczenie_1ab3f6033539ec592f4639edf8c7561d1e" kind="function"><name>get_izby_str</name></member>
+    <member refid="classep___s_n___orzeczenie_1ad3ab86985bf3688c5de5a95d718de03c" kind="function"><name>get_jednostka_str</name></member>
+    <member refid="classep___s_n___orzeczenie_1af3ab4f45cfd59bc09d5f8154bb58d1d9" kind="function"><name>get_orzeczenie_sn_forma_id</name></member>
+    <member refid="classep___s_n___orzeczenie_1a4fa6a41af1aa00c454ba78a56b557539" kind="function"><name>get_orzeczenie_sn_jednostka_id</name></member>
+    <member refid="classep___s_n___orzeczenie_1ab5cb075dc2818876714bc49a8181543f" kind="function"><name>get_orzeczenie_sn_sklad_id</name></member>
+    <member refid="classep___s_n___orzeczenie_1a66121e5b485d83675a1e0dfeec8d0fd4" kind="function"><name>get_przewodniczacy</name></member>
+    <member refid="classep___s_n___orzeczenie_1a7351666042a6cbd5f6af727ef06e24fb" kind="function"><name>get_przewodniczacy_id</name></member>
+    <member refid="classep___s_n___orzeczenie_1a7c1260a14404fc48a9aa5da636909e71" kind="function"><name>get_sprawozdawcy_str</name></member>
+    <member refid="classep___s_n___orzeczenie_1a2816085ef7f03472a9c8aaf65df2d6d5" kind="function"><name>get_sygnatura</name></member>
+    <member refid="classep___s_n___orzeczenie_1a0853d84cd54c6da9b292b3be3b53d919" kind="function"><name>get_wspolsprawozdawcy_str</name></member>
+    <member refid="classep___s_n___orzeczenie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_n___orzeczenie_1a608fa64fd97142801ced83ea87121df2" kind="function"><name>forma</name></member>
+    <member refid="classep___s_n___orzeczenie_1a9770abfccd8d758bc47ff823619f4322" kind="function"><name>jednostka</name></member>
+    <member refid="classep___s_n___orzeczenie_1a6b9228e10a1bc1f8a597116e902d231d" kind="function"><name>sklad</name></member>
+    <member refid="classep___s_n___orzeczenie_1ac66efa4209f50d765772be02a881381e" kind="function"><name>autorzy</name></member>
+    <member refid="classep___s_n___orzeczenie_1a5f63a0d971299ec2faf962f75055dd16" kind="function"><name>izby_orzeczenia</name></member>
+    <member refid="classep___s_n___orzeczenie_1a8a15d60da65e02bae2cbdbf37b916e9f" kind="function"><name>sedziowie</name></member>
+    <member refid="classep___s_n___orzeczenie_1a76d3ecd15358754b888e8224f0bb525d" kind="function"><name>sprawozdawcy</name></member>
+    <member refid="classep___s_n___orzeczenie_1a6c6f87dc07e219e95c13638d943a60eb" kind="function"><name>wspolsprawozdawcy</name></member>
+  </compound>
+  <compound refid="classep___s_n___orzeczenie___autor" kind="class"><name>ep_SN_Orzeczenie_Autor</name>
+    <member refid="classep___s_n___orzeczenie___autor_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___orzeczenie___autor_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kind="variable"><name>$_orzeczenie_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___autor_1a9ede817d229955b98ebe3e10f5a45e94" kind="variable"><name>$_orzeczenie_sn_osoba</name></member>
+    <member refid="classep___s_n___orzeczenie___autor_1a48819f0e56cb11707ba89150dd449c71" kind="function"><name>get_orzeczenie_sn_id</name></member>
+    <member refid="classep___s_n___orzeczenie___autor_1a8a91a727290a24c4f12d72adda38d3df" kind="function"><name>get_orzeczenie_sn_osoba_id</name></member>
+    <member refid="classep___s_n___orzeczenie___autor_1ad3ca9a024234af7b90b52e8edb3406ff" kind="function"><name>orzeczenie_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___autor_1abedbfb98ce259de97cc4ddfd5496797c" kind="function"><name>orzeczenie_sn_osoba</name></member>
+  </compound>
+  <compound refid="classep___s_n___orzeczenie___forma" kind="class"><name>ep_SN_Orzeczenie_Forma</name>
+    <member refid="classep___s_n___orzeczenie___forma_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___orzeczenie___forma_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_n___orzeczenie___forma_1a6f02468de85c0d4fa4f284d88f064662" kind="variable"><name>$_orzeczenia_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___forma_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_n___orzeczenie___forma_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_n___orzeczenie___forma_1a1da449088f8d852fb2a7a425e8036b13" kind="function"><name>orzeczenia_sn</name></member>
+  </compound>
+  <compound refid="classep___s_n___orzeczenie___izba" kind="class"><name>ep_SN_Orzeczenie_Izba</name>
+    <member refid="classep___s_n___orzeczenie___izba_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___orzeczenie___izba_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kind="variable"><name>$_orzeczenie_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___izba_1a03bb0e40e6b5ea8dc5d273a501e27211" kind="variable"><name>$_orzeczenie_sn_izba</name></member>
+    <member refid="classep___s_n___orzeczenie___izba_1a48819f0e56cb11707ba89150dd449c71" kind="function"><name>get_orzeczenie_sn_id</name></member>
+    <member refid="classep___s_n___orzeczenie___izba_1aba2800f3b6be0f0951a8b061b0019ea7" kind="function"><name>get_orzeczenie_sn_izba_id</name></member>
+    <member refid="classep___s_n___orzeczenie___izba_1ad3ca9a024234af7b90b52e8edb3406ff" kind="function"><name>orzeczenie_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___izba_1ad33bb7ef5f99e5950c5994a501361b1c" kind="function"><name>orzeczenie_sn_izba</name></member>
+  </compound>
+  <compound refid="classep___s_n___orzeczenie___sedzia" kind="class"><name>ep_SN_Orzeczenie_Sedzia</name>
+    <member refid="classep___s_n___orzeczenie___sedzia_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___orzeczenie___sedzia_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kind="variable"><name>$_orzeczenie_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___sedzia_1a9ede817d229955b98ebe3e10f5a45e94" kind="variable"><name>$_orzeczenie_sn_osoba</name></member>
+    <member refid="classep___s_n___orzeczenie___sedzia_1a48819f0e56cb11707ba89150dd449c71" kind="function"><name>get_orzeczenie_sn_id</name></member>
+    <member refid="classep___s_n___orzeczenie___sedzia_1a8a91a727290a24c4f12d72adda38d3df" kind="function"><name>get_orzeczenie_sn_osoba_id</name></member>
+    <member refid="classep___s_n___orzeczenie___sedzia_1ad3ca9a024234af7b90b52e8edb3406ff" kind="function"><name>orzeczenie_sn</name></member>
+    <member refid="classep___s_n___orzeczenie___sedzia_1abedbfb98ce259de97cc4ddfd5496797c" kind="function"><name>orzeczenie_sn_osoba</name></member>
+  </compound>
+  <compound refid="classep___s_n___osoba" kind="class"><name>ep_SN_Osoba</name>
+    <member refid="classep___s_n___osoba_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___osoba_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_n___osoba_1a1631803c32c7cbe2dfd7642d66fdffeb" kind="variable"><name>$_orzeczenia_sn_autorzy</name></member>
+    <member refid="classep___s_n___osoba_1a87a2b9afde5e31d31c0d136ea7de8c94" kind="variable"><name>$_orzeczenia_sn_sedziowie</name></member>
+    <member refid="classep___s_n___osoba_1aa9207c65eeb1a9686772f302fcaa2f3a" kind="variable"><name>$_orzeczenia_sn_sprawozdawcy</name></member>
+    <member refid="classep___s_n___osoba_1a1b717768eb8101ecc84cb85e8109ba25" kind="variable"><name>$_orzeczenia_sn_wspolsprawozdawcy</name></member>
+    <member refid="classep___s_n___osoba_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_n___osoba_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_n___osoba_1ad1853509afa0c61a80737e642e6ac4b3" kind="function"><name>orzeczenia_sn_autorzy</name></member>
+    <member refid="classep___s_n___osoba_1a27c2edb4c314d7f1b6e15e46fd4f29f3" kind="function"><name>orzeczenia_sn_sedziowie</name></member>
+    <member refid="classep___s_n___osoba_1af7d6fce395a80d9a1fce72e15a178bc2" kind="function"><name>orzeczenia_sn_sprawozdawcy</name></member>
+    <member refid="classep___s_n___osoba_1a9fbf7de2cd78bb13631c5b55dd7c9d96" kind="function"><name>orzeczenia_sn_wspolsprawozdawcy</name></member>
+  </compound>
+  <compound refid="classep___s_n___sklad" kind="class"><name>ep_SN_Sklad</name>
+    <member refid="classep___s_n___sklad_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___sklad_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_n___sklad_1a6f02468de85c0d4fa4f284d88f064662" kind="variable"><name>$_orzeczenia_sn</name></member>
+    <member refid="classep___s_n___sklad_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_n___sklad_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_n___sklad_1a1da449088f8d852fb2a7a425e8036b13" kind="function"><name>orzeczenia_sn</name></member>
+  </compound>
+  <compound refid="classep___s_n___wspolsprawozdawca" kind="class"><name>ep_SN_Wspolsprawozdawca</name>
+    <member refid="classep___s_n___wspolsprawozdawca_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_n___wspolsprawozdawca_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kind="variable"><name>$_orzeczenie_sn</name></member>
+    <member refid="classep___s_n___wspolsprawozdawca_1a9ede817d229955b98ebe3e10f5a45e94" kind="variable"><name>$_orzeczenie_sn_osoba</name></member>
+    <member refid="classep___s_n___wspolsprawozdawca_1a48819f0e56cb11707ba89150dd449c71" kind="function"><name>get_orzeczenie_sn_id</name></member>
+    <member refid="classep___s_n___wspolsprawozdawca_1a8a91a727290a24c4f12d72adda38d3df" kind="function"><name>get_orzeczenie_sn_osoba_id</name></member>
+    <member refid="classep___s_n___wspolsprawozdawca_1ad3ca9a024234af7b90b52e8edb3406ff" kind="function"><name>orzeczenie_sn</name></member>
+    <member refid="classep___s_n___wspolsprawozdawca_1abedbfb98ce259de97cc4ddfd5496797c" kind="function"><name>orzeczenie_sn_osoba</name></member>
+  </compound>
+  <compound refid="classep___s_p___haslo" kind="class"><name>ep_SP_Haslo</name>
+    <member refid="classep___s_p___haslo_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___haslo_1ad00ee90f32b429d419d6e1024bcda64b" kind="variable"><name>$_orzeczenie_sp_haslo_tematyczne</name></member>
+    <member refid="classep___s_p___haslo_1aa2e1ecb50e6fae26a854ac995f7226b8" kind="variable"><name>$_orzeczenie_sp</name></member>
+    <member refid="classep___s_p___haslo_1a27b4d0ce00b8536e5032af6fcd2bd77d" kind="function"><name>get_orzeczenie_sp_haslo_tematyczne_id</name></member>
+    <member refid="classep___s_p___haslo_1a98a84a7375b3d05cb4516bbb2c7f3e04" kind="function"><name>get_orzeczenie_sp_id</name></member>
+    <member refid="classep___s_p___haslo_1a62333df073de2eff05c3084aea3c0a05" kind="function"><name>orzeczenie_sp_haslo_tematyczne</name></member>
+    <member refid="classep___s_p___haslo_1a498c7b61096c1bcb941e93a8d1385318" kind="function"><name>orzeczenie_sp</name></member>
+  </compound>
+  <compound refid="classep___s_p___haslo___tematyczne" kind="class"><name>ep_SP_Haslo_Tematyczne</name>
+    <member refid="classep___s_p___haslo___tematyczne_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___haslo___tematyczne_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_p___haslo___tematyczne_1a58fe6d4f32861f2c8beb57d8226533d4" kind="variable"><name>$_orzeczenia_sp_hasla</name></member>
+    <member refid="classep___s_p___haslo___tematyczne_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_p___haslo___tematyczne_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___haslo___tematyczne_1a84ad34834afdafdee94d64ec8fe9ab94" kind="function"><name>orzeczenia_sp_hasla</name></member>
+  </compound>
+  <compound refid="classep___s_p___orzeczenie" kind="class"><name>ep_SP_Orzeczenie</name>
+    <member refid="classep___s_p___orzeczenie_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___orzeczenie_1a811580445f6e2ef962379396050552c6" kind="variable"><name>$_sad_sp</name></member>
+    <member refid="classep___s_p___orzeczenie_1aee90f3b27d0ab721378343d2bd0d71ba" kind="variable"><name>$_bloki</name></member>
+    <member refid="classep___s_p___orzeczenie_1a7b7a4173e85d440890bd5305cfd10667" kind="variable"><name>$_hasla</name></member>
+    <member refid="classep___s_p___orzeczenie_1a652b265eb5a0c97e3cbad17334ceffe8" kind="variable"><name>$_osoby_stanowiska</name></member>
+    <member refid="classep___s_p___orzeczenie_1a070b291e5f4d9685f5e035cfe91aaa7e" kind="variable"><name>$_przepisy</name></member>
+    <member refid="classep___s_p___orzeczenie_1a76d66bf9d593a034ae91951dcfb8596c" kind="function"><name>get_akcept</name></member>
+    <member refid="classep___s_p___orzeczenie_1ab5976d1ba325a739761c2eb6662f58a9" kind="function"><name>get_data</name></member>
+    <member refid="classep___s_p___orzeczenie_1a48c2554be87c9d1d5d2007426b6e7078" kind="function"><name>get_hasla_tematyczne</name></member>
+    <member refid="classep___s_p___orzeczenie_1a1fdcf85a8e95be9b40da82735dd4a325" kind="function"><name>get_podstawa_prawna</name></member>
+    <member refid="classep___s_p___orzeczenie_1a4cc0af051119b86c2a7c1cf7f46c8fa3" kind="function"><name>get_sad_sp_id</name></member>
+    <member refid="classep___s_p___orzeczenie_1a61ac3997aeddb982bdd7895dc272a20a" kind="function"><name>get_sad</name></member>
+    <member refid="classep___s_p___orzeczenie_1a3c54f5f55e5023ca7ce3e284a91d17ce" kind="function"><name>get_str_ident</name></member>
+    <member refid="classep___s_p___orzeczenie_1a2816085ef7f03472a9c8aaf65df2d6d5" kind="function"><name>get_sygnatura</name></member>
+    <member refid="classep___s_p___orzeczenie_1a682b834334df7ce9d39ac07be04c03e6" kind="function"><name>get_teza</name></member>
+    <member refid="classep___s_p___orzeczenie_1ad1992740551b9c2895616d62fd551a3f" kind="function"><name>get_typ</name></member>
+    <member refid="classep___s_p___orzeczenie_1a4b45567d267edbb1938513035022bf89" kind="function"><name>get_typ_id</name></member>
+    <member refid="classep___s_p___orzeczenie_1a5707ecfa38e5c684b1916f810faec796" kind="function"><name>get_wydzial</name></member>
+    <member refid="classep___s_p___orzeczenie_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___orzeczenie_1a938cd0e29c0e27685e0402857cf681e7" kind="function"><name>sad_sp</name></member>
+    <member refid="classep___s_p___orzeczenie_1ac6344ab36289e3d6b79a0fdae42d2146" kind="function"><name>bloki</name></member>
+    <member refid="classep___s_p___orzeczenie_1a5aa6a641a9d13bc9350ba92b07680244" kind="function"><name>hasla</name></member>
+    <member refid="classep___s_p___orzeczenie_1aeed2d21ed1c7ed38d96e4ff27dead9cd" kind="function"><name>osoby_stanowiska</name></member>
+    <member refid="classep___s_p___orzeczenie_1a5a7fd63e53799ac8f60829be1adc37e1" kind="function"><name>przepisy</name></member>
+  </compound>
+  <compound refid="classep___s_p___orzeczenie___czesc" kind="class"><name>ep_SP_Orzeczenie_Czesc</name>
+    <member refid="classep___s_p___orzeczenie___czesc_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___orzeczenie___czesc_1aa2e1ecb50e6fae26a854ac995f7226b8" kind="variable"><name>$_orzeczenie_sp</name></member>
+    <member refid="classep___s_p___orzeczenie___czesc_1a98a84a7375b3d05cb4516bbb2c7f3e04" kind="function"><name>get_orzeczenie_sp_id</name></member>
+    <member refid="classep___s_p___orzeczenie___czesc_1a7a617fdf7cae1fab50701631abf3ad03" kind="function"><name>get_tytul</name></member>
+    <member refid="classep___s_p___orzeczenie___czesc_1a0fe99e5c9ee82a3647c1f719f51ed3c6" kind="function"><name>get_wartosc</name></member>
+    <member refid="classep___s_p___orzeczenie___czesc_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___orzeczenie___czesc_1a498c7b61096c1bcb941e93a8d1385318" kind="function"><name>orzeczenie_sp</name></member>
+  </compound>
+  <compound refid="classep___s_p___orzeczenie___przepis" kind="class"><name>ep_SP_Orzeczenie_Przepis</name>
+    <member refid="classep___s_p___orzeczenie___przepis_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___orzeczenie___przepis_1aa2e1ecb50e6fae26a854ac995f7226b8" kind="variable"><name>$_orzeczenie_sp</name></member>
+    <member refid="classep___s_p___orzeczenie___przepis_1af494981dea72d3642ed065d50f9a2db7" kind="function"><name>get_lp</name></member>
+    <member refid="classep___s_p___orzeczenie___przepis_1a98a84a7375b3d05cb4516bbb2c7f3e04" kind="function"><name>get_orzeczenie_sp_id</name></member>
+    <member refid="classep___s_p___orzeczenie___przepis_1ae5b24c445c7c4aa3596a9031016c41af" kind="function"><name>get_przepis</name></member>
+    <member refid="classep___s_p___orzeczenie___przepis_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___orzeczenie___przepis_1a498c7b61096c1bcb941e93a8d1385318" kind="function"><name>orzeczenie_sp</name></member>
+  </compound>
+  <compound refid="classep___s_p___osoba" kind="class"><name>ep_SP_Osoba</name>
+    <member refid="classep___s_p___osoba_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___osoba_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_p___osoba_1a1192326d568efecaa005d7af560a56aa" kind="variable"><name>$_stanowiska</name></member>
+    <member refid="classep___s_p___osoba_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_p___osoba_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___osoba_1a9dd4480bf7002df382ab888d880131c2" kind="function"><name>stanowiska</name></member>
+  </compound>
+  <compound refid="classep___s_p___sad" kind="class"><name>ep_SP_Sad</name>
+    <member refid="classep___s_p___sad_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___sad_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_p___sad_1a460ae26a90178f807b8ccda9dcbc90a4" kind="variable"><name>$_orzeczenia_sp</name></member>
+    <member refid="classep___s_p___sad_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_p___sad_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___sad_1a0253193f97ea82c02858e0b933a74880" kind="function"><name>orzeczenia_sp</name></member>
+  </compound>
+  <compound refid="classep___s_p___stanowisko" kind="class"><name>ep_SP_Stanowisko</name>
+    <member refid="classep___s_p___stanowisko_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___stanowisko_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___s_p___stanowisko_1a96932ccc35af06bdee80dc8ce108397e" kind="variable"><name>$_orzeczenia_sp_osoby_stanowiska</name></member>
+    <member refid="classep___s_p___stanowisko_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_p___stanowisko_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___s_p___stanowisko_1a7f13cc1eeb3f1510b76d5fccde5bfdad" kind="function"><name>orzeczenia_sp_osoby_stanowiska</name></member>
+  </compound>
+  <compound refid="classep___s_p___teza" kind="class"><name>ep_SP_Teza</name>
+    <member refid="classep___s_p___teza_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___s_p___teza_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___s_p___teza_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___s_p___teza_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___s_p___teza_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___s_p___teza_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___s_p___teza_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___s_p___teza_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___s_p___teza_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___s_p___teza_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___stanowisko" kind="class"><name>ep_Stanowisko</name>
+    <member refid="classep___stanowisko_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___stanowisko_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___stanowisko_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___stanowisko_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___stanowisko_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___stanowisko_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___stanowisko_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___stanowisko_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___stanowisko_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___stanowisko_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___stanowisko_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___twitt" kind="class"><name>ep_Twitt</name>
+    <member refid="classep___twitt_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___twitt_1a2580d1f4623afc6103d80024142d23d2" kind="variable"><name>$_posel</name></member>
+    <member refid="classep___twitt_1a6a354494d54778bcc9254b5826b5f28c" kind="function"><name>set_ep_poslowie</name></member>
+    <member refid="classep___twitt_1ad3b9fc55831f7bcabb4870306bc08f4b" kind="function"><name>posel</name></member>
+    <member refid="classep___twitt_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___twitt_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___twitt_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___twitt_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___twitt_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___twitt_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___twitt_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___twitt_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___twitt_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___twitt___tag" kind="class"><name>ep_Twitt_Tag</name>
+    <member refid="classep___twitt___tag_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___twitt___tag_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___twitt___tag_1ac4b0c85dc2a130038f2d118dbd0c3d77" kind="function"><name>get_imie</name></member>
+    <member refid="classep___twitt___tag_1abdd1d7ff92508da7f748ba1feec97af0" kind="function"><name>get_nazwisko</name></member>
+    <member refid="classep___twitt___tag_1af80ca8310b60004454dd02a387deaa2c" kind="function"><name>get_zawod</name></member>
+    <member refid="classep___twitt___tag_1ac7f9af5c3fa024e4c26a7b6bd4ce4bb4" kind="function"><name>get_plec</name></member>
+    <member refid="classep___twitt___tag_1a880b240cd2d8c336fd1709bf0cb1ae2c" kind="function"><name>get_data_urodzenia</name></member>
+    <member refid="classep___twitt___tag_1ac57c08ec5e394a19c5bd9280c8376182" kind="function"><name>get_miejsce_urodzenia</name></member>
+    <member refid="classep___twitt___tag_1a2645a9f0aa5b0ccc482943348c033d0a" kind="function"><name>get_nr_okregu</name></member>
+    <member refid="classep___twitt___tag_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___ustawa" kind="class"><name>ep_Ustawa</name>
+    <member refid="classep___ustawa_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___ustawa_1a0c7c87c0ae5fd8e78f14119b7cec230a" kind="variable"><name>$_prawo</name></member>
+    <member refid="classep___ustawa_1a66ac783137ccbe2b0a10ca90afbd3c8d" kind="variable"><name>$_projekty_zmian</name></member>
+    <member refid="classep___ustawa_1a5dcc76545ca583093765bc7e1dd3f175" kind="function"><name>set_ep_Prawo</name></member>
+    <member refid="classep___ustawa_1a07530796b374ac86eb68d756aeb2ba04" kind="function"><name>projekty_zmian</name></member>
+    <member refid="classep___ustawa_1aa2dddcb8b56680f840b6b3a40b49079f" kind="function"><name>prawo</name></member>
+    <member refid="classep___ustawa_1ac313783ab7146c71e639bf7ddf54b0db" kind="function"><name>parse_data</name></member>
+    <member refid="classep___ustawa_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="classep___wojewodztwo" kind="class"><name>ep_Wojewodztwo</name>
+    <member refid="classep___wojewodztwo_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classep___wojewodztwo_1a4a4d54ae35428077a7c61ec8a5139af3" kind="variable"><name>$_field_init_lookup</name></member>
+    <member refid="classep___wojewodztwo_1a78dbe56396c80cf6fc9d3f319bb5ec8c" kind="variable"><name>$_obszar</name></member>
+    <member refid="classep___wojewodztwo_1ac0818f0049d7b84f08f77128f54cee36" kind="function"><name>get_nazwa</name></member>
+    <member refid="classep___wojewodztwo_1a7516ca30af0db3cdbf9a7739b48ce91d" kind="function"><name>__toString</name></member>
+    <member refid="classep___wojewodztwo_1aa05db5ea090acb5d431aff0bbb8b97a6" kind="function"><name>obszar</name></member>
+  </compound>
+  <compound refid="classsp___orzeczenie___s_n___sprawozdawca" kind="class"><name>sp_Orzeczenie_SN_Sprawozdawca</name>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1ab4e31d75f0bc5d512456911e5d01366b" kind="variable"><name>$_aliases</name></member>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1a03da9aa4f10fbe1d2b4ef32521cbedb0" kind="variable"><name>$_orzeczenie_sn</name></member>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1a9ede817d229955b98ebe3e10f5a45e94" kind="variable"><name>$_orzeczenie_sn_osoba</name></member>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1a48819f0e56cb11707ba89150dd449c71" kind="function"><name>get_orzeczenie_sn_id</name></member>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1a8a91a727290a24c4f12d72adda38d3df" kind="function"><name>get_orzeczenie_sn_osoba_id</name></member>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1ad3ca9a024234af7b90b52e8edb3406ff" kind="function"><name>orzeczenie_sn</name></member>
+    <member refid="classsp___orzeczenie___s_n___sprawozdawca_1abedbfb98ce259de97cc4ddfd5496797c" kind="function"><name>orzeczenie_sn_osoba</name></member>
+  </compound>
+  <compound refid="classes_2ep___a_p_i_8php" kind="file"><name>ep_API.php</name>
+  </compound>
+  <compound refid="ep___a_p_i_8php" kind="file"><name>ep_API.php</name>
+    <member refid="ep___a_p_i_8php_1a10137df287727ac9084e9687ab25755c" kind="variable"><name>$autoloader</name></member>
+  </compound>
+  <compound refid="ep___autoloader_8php" kind="file"><name>ep_Autoloader.php</name>
+  </compound>
+  <compound refid="ep___dataset_8php" kind="file"><name>ep_Dataset.php</name>
+  </compound>
+  <compound refid="ep___object_8php" kind="file"><name>ep_Object.php</name>
+  </compound>
+  <compound refid="ep___search_8php" kind="file"><name>ep_Search.php</name>
+  </compound>
+  <compound refid="__ep___n_i_k__raport_8php" kind="file"><name>_ep_NIK_raport.php</name>
+  </compound>
+  <compound refid="ep_____dataset_8php" kind="file"><name>ep__Dataset.php</name>
+  </compound>
+  <compound refid="ep_____object_8php" kind="file"><name>ep__Object.php</name>
+  </compound>
+  <compound refid="ep___b_d_l___grupa_8php" kind="file"><name>ep_BDL_Grupa.php</name>
+  </compound>
+  <compound refid="ep___b_d_l___kategoria_8php" kind="file"><name>ep_BDL_Kategoria.php</name>
+  </compound>
+  <compound refid="ep___b_d_l___podgrupa_8php" kind="file"><name>ep_BDL_Podgrupa.php</name>
+  </compound>
+  <compound refid="ep___b_d_l___wskaznik___wariacja_8php" kind="file"><name>ep_BDL_Wskaznik_Wariacja.php</name>
+  </compound>
+  <compound refid="ep___bip___instytucja_8php" kind="file"><name>ep_Bip_Instytucja.php</name>
+  </compound>
+  <compound refid="ep___czlowiek_8php" kind="file"><name>ep_Czlowiek.php</name>
+  </compound>
+  <compound refid="ep___glosowanie___sejmowe___glos_8php" kind="file"><name>ep_Glosowanie_Sejmowe_Glos.php</name>
+  </compound>
+  <compound refid="ep___gmina_8php" kind="file"><name>ep_Gmina.php</name>
+  </compound>
+  <compound refid="ep___instytucja_8php" kind="file"><name>ep_Instytucja.php</name>
+  </compound>
+  <compound refid="ep___i_s_a_p___plik_8php" kind="file"><name>ep_ISAP_Plik.php</name>
+  </compound>
+  <compound refid="ep___kod___pocztowy_8php" kind="file"><name>ep_Kod_Pocztowy.php</name>
+  </compound>
+  <compound refid="ep___k_r_s___wpis_8php" kind="file"><name>ep_KRS_Wpis.php</name>
+  </compound>
+  <compound refid="ep___legislacja___projekt_8php" kind="file"><name>ep_Legislacja_Projekt.php</name>
+  </compound>
+  <compound refid="ep___legislacja___projekt___etap_8php" kind="file"><name>ep_Legislacja_Projekt_Etap.php</name>
+  </compound>
+  <compound refid="ep___legislacja___projekt___podpis_8php" kind="file"><name>ep_Legislacja_Projekt_Podpis.php</name>
+  </compound>
+  <compound refid="ep___legislacja___projekt___status_8php" kind="file"><name>ep_Legislacja_Projekt_Status.php</name>
+  </compound>
+  <compound refid="ep___miejscowosc_8php" kind="file"><name>ep_Miejscowosc.php</name>
+  </compound>
+  <compound refid="ep___n_i_k___raport_8php" kind="file"><name>ep_NIK_Raport.php</name>
+  </compound>
+  <compound refid="ep___orzeczenie__sp__osoba__stanowisko_8php" kind="file"><name>ep_Orzeczenie_sp_osoba_stanowisko.php</name>
+  </compound>
+  <compound refid="ep___p_n_a_8php" kind="file"><name>ep_PNA.php</name>
+  </compound>
+  <compound refid="ep___posel_8php" kind="file"><name>ep_Posel.php</name>
+  </compound>
+  <compound refid="ep___posel___aktywnosc_8php" kind="file"><name>ep_Posel_Aktywnosc.php</name>
+  </compound>
+  <compound refid="ep___posel___glos_8php" kind="file"><name>ep_Posel_Glos.php</name>
+  </compound>
+  <compound refid="ep___posel___komisja___stanowisko_8php" kind="file"><name>ep_Posel_Komisja_Stanowisko.php</name>
+  </compound>
+  <compound refid="ep___posel___oswiadczenie___majatkowe_8php" kind="file"><name>ep_Posel_Oswiadczenie_Majatkowe.php</name>
+  </compound>
+  <compound refid="ep___posel___rejestr___korzysci_8php" kind="file"><name>ep_Posel_Rejestr_Korzysci.php</name>
+  </compound>
+  <compound refid="ep___posel___wspolpracownik_8php" kind="file"><name>ep_Posel_Wspolpracownik.php</name>
+  </compound>
+  <compound refid="ep___powiat_8php" kind="file"><name>ep_Powiat.php</name>
+  </compound>
+  <compound refid="ep___prawo_8php" kind="file"><name>ep_Prawo.php</name>
+  </compound>
+  <compound refid="ep___prawo___typ_8php" kind="file"><name>ep_Prawo_Typ.php</name>
+  </compound>
+  <compound refid="ep___r_c_l___dokument_8php" kind="file"><name>ep_RCL_Dokument.php</name>
+  </compound>
+  <compound refid="ep___r_c_l___projekt_8php" kind="file"><name>ep_RCL_Projekt.php</name>
+  </compound>
+  <compound refid="ep___r_c_l___projekt___etap_8php" kind="file"><name>ep_RCL_Projekt_Etap.php</name>
+  </compound>
+  <compound refid="ep___r_c_l___projekt___status_8php" kind="file"><name>ep_RCL_Projekt_Status.php</name>
+  </compound>
+  <compound refid="ep___s_a___orzeczenie_8php" kind="file"><name>ep_SA_Orzeczenie.php</name>
+  </compound>
+  <compound refid="ep___s_a___orzeczenie___wynik_8php" kind="file"><name>ep_SA_Orzeczenie_Wynik.php</name>
+  </compound>
+  <compound refid="ep___s_a___sad_8php" kind="file"><name>ep_SA_Sad.php</name>
+  </compound>
+  <compound refid="ep___s_a___sedzia_8php" kind="file"><name>ep_SA_Sedzia.php</name>
+  </compound>
+  <compound refid="ep___s_a___skarzony___organ_8php" kind="file"><name>ep_SA_Skarzony_Organ.php</name>
+  </compound>
+  <compound refid="ep___sejm___dezyderat_8php" kind="file"><name>ep_Sejm_Dezyderat.php</name>
+  </compound>
+  <compound refid="ep___sejm___druk_8php" kind="file"><name>ep_Sejm_Druk.php</name>
+  </compound>
+  <compound refid="ep___sejm___druk___typ_8php" kind="file"><name>ep_Sejm_Druk_Typ.php</name>
+  </compound>
+  <compound refid="ep___sejm___dzien_8php" kind="file"><name>ep_Sejm_Dzien.php</name>
+  </compound>
+  <compound refid="ep___sejm___glosowanie_8php" kind="file"><name>ep_Sejm_Glosowanie.php</name>
+  </compound>
+  <compound refid="ep___sejm___glosowanie___glos_8php" kind="file"><name>ep_Sejm_Glosowanie_Glos.php</name>
+  </compound>
+  <compound refid="ep___sejm___glosowanie___typ_8php" kind="file"><name>ep_Sejm_Glosowanie_Typ.php</name>
+  </compound>
+  <compound refid="ep___sejm___interpelacja_8php" kind="file"><name>ep_Sejm_Interpelacja.php</name>
+  </compound>
+  <compound refid="ep___sejm___interpelacja___pismo_8php" kind="file"><name>ep_Sejm_Interpelacja_Pismo.php</name>
+  </compound>
+  <compound refid="ep___sejm___klub_8php" kind="file"><name>ep_Sejm_Klub.php</name>
+  </compound>
+  <compound refid="ep___sejm___komisja_8php" kind="file"><name>ep_Sejm_Komisja.php</name>
+  </compound>
+  <compound refid="ep___sejm___komunikat_8php" kind="file"><name>ep_Sejm_Komunikat.php</name>
+  </compound>
+  <compound refid="ep___sejm___okreg___wyborczy_8php" kind="file"><name>ep_Sejm_Okreg_Wyborczy.php</name>
+  </compound>
+  <compound refid="ep___sejm___posiedzenie_8php" kind="file"><name>ep_Sejm_Posiedzenie.php</name>
+  </compound>
+  <compound refid="ep___sejm___posiedzenie___debata_8php" kind="file"><name>ep_Sejm_Posiedzenie_Debata.php</name>
+  </compound>
+  <compound refid="ep___sejm___posiedzenie___punkt_8php" kind="file"><name>ep_Sejm_Posiedzenie_Punkt.php</name>
+  </compound>
+  <compound refid="ep___sejm___pytanie___biezace_8php" kind="file"><name>ep_Sejm_Pytanie_Biezace.php</name>
+  </compound>
+  <compound refid="ep___sejm___sprawozdanie_8php" kind="file"><name>ep_Sejm_Sprawozdanie.php</name>
+  </compound>
+  <compound refid="ep___sejm___wniesiony___projekt_8php" kind="file"><name>ep_Sejm_Wniesiony_Projekt.php</name>
+  </compound>
+  <compound refid="ep___sejm___wystapienie_8php" kind="file"><name>ep_Sejm_Wystapienie.php</name>
+  </compound>
+  <compound refid="ep___senat___druk_8php" kind="file"><name>ep_Senat_Druk.php</name>
+  </compound>
+  <compound refid="ep___senat__komisja_8php" kind="file"><name>ep_Senat_komisja.php</name>
+  </compound>
+  <compound refid="ep___senat___oswiadczenie___majatkowe_8php" kind="file"><name>ep_Senat_Oswiadczenie_Majatkowe.php</name>
+  </compound>
+  <compound refid="ep___senat__rejestr__korzysci_8php" kind="file"><name>ep_Senat_rejestr_korzysci.php</name>
+  </compound>
+  <compound refid="ep___senat__senator__komisja_8php" kind="file"><name>ep_Senat_senator_komisja.php</name>
+  </compound>
+  <compound refid="ep___senat__senator__zespol__parlamentarny_8php" kind="file"><name>ep_Senat_senator_zespol_parlamentarny.php</name>
+  </compound>
+  <compound refid="ep___senat__senator__zespol__senacki_8php" kind="file"><name>ep_Senat_senator_zespol_senacki.php</name>
+  </compound>
+  <compound refid="ep___senat___wystapienie_8php" kind="file"><name>ep_Senat_Wystapienie.php</name>
+  </compound>
+  <compound refid="ep___senat___zespol_8php" kind="file"><name>ep_Senat_Zespol.php</name>
+  </compound>
+  <compound refid="ep___senat__zespol__parlamentarny_8php" kind="file"><name>ep_Senat_zespol_parlamentarny.php</name>
+  </compound>
+  <compound refid="ep___senator_8php" kind="file"><name>ep_Senator.php</name>
+  </compound>
+  <compound refid="ep___s_n___izba_8php" kind="file"><name>ep_SN_Izba.php</name>
+  </compound>
+  <compound refid="ep___s_n___jednostka_8php" kind="file"><name>ep_SN_Jednostka.php</name>
+  </compound>
+  <compound refid="ep___s_n___orzeczenie_8php" kind="file"><name>ep_SN_Orzeczenie.php</name>
+  </compound>
+  <compound refid="ep___s_n___orzeczenie___autor_8php" kind="file"><name>ep_SN_Orzeczenie_Autor.php</name>
+  </compound>
+  <compound refid="ep___s_n___orzeczenie___forma_8php" kind="file"><name>ep_SN_Orzeczenie_Forma.php</name>
+  </compound>
+  <compound refid="ep___s_n___orzeczenie___izba_8php" kind="file"><name>ep_SN_Orzeczenie_Izba.php</name>
+  </compound>
+  <compound refid="ep___s_n___orzeczenie___sedzia_8php" kind="file"><name>ep_SN_Orzeczenie_Sedzia.php</name>
+  </compound>
+  <compound refid="ep___s_n___osoba_8php" kind="file"><name>ep_SN_Osoba.php</name>
+  </compound>
+  <compound refid="ep___s_n___sklad_8php" kind="file"><name>ep_SN_Sklad.php</name>
+  </compound>
+  <compound refid="ep___s_n___wspolsprawozdawca_8php" kind="file"><name>ep_SN_Wspolsprawozdawca.php</name>
+  </compound>
+  <compound refid="ep___s_p___haslo_8php" kind="file"><name>ep_SP_Haslo.php</name>
+  </compound>
+  <compound refid="ep___s_p___haslo___tematyczne_8php" kind="file"><name>ep_SP_Haslo_Tematyczne.php</name>
+  </compound>
+  <compound refid="ep___s_p___orzeczenie_8php" kind="file"><name>ep_SP_Orzeczenie.php</name>
+  </compound>
+  <compound refid="ep___s_p___orzeczenie___czesc_8php" kind="file"><name>ep_SP_Orzeczenie_Czesc.php</name>
+  </compound>
+  <compound refid="ep___s_p___orzeczenie___przepis_8php" kind="file"><name>ep_SP_Orzeczenie_Przepis.php</name>
+  </compound>
+  <compound refid="ep___s_p___osoba_8php" kind="file"><name>ep_SP_Osoba.php</name>
+  </compound>
+  <compound refid="ep___s_p___sad_8php" kind="file"><name>ep_SP_Sad.php</name>
+  </compound>
+  <compound refid="ep___s_p___stanowisko_8php" kind="file"><name>ep_SP_Stanowisko.php</name>
+  </compound>
+  <compound refid="ep___s_p___teza_8php" kind="file"><name>ep_SP_Teza.php</name>
+  </compound>
+  <compound refid="ep___stanowisko_8php" kind="file"><name>ep_Stanowisko.php</name>
+  </compound>
+  <compound refid="ep___twitt_8php" kind="file"><name>ep_Twitt.php</name>
+  </compound>
+  <compound refid="ep___twitt___tag_8php" kind="file"><name>ep_Twitt_Tag.php</name>
+  </compound>
+  <compound refid="ep___ustawa_8php" kind="file"><name>ep_Ustawa.php</name>
+  </compound>
+  <compound refid="ep___wojewodztwo_8php" kind="file"><name>ep_Wojewodztwo.php</name>
+  </compound>
+  <compound refid="sp___orzeczenie___s_n___sprawozdawca_8php" kind="file"><name>sp_Orzeczenie_SN_Sprawozdawca.php</name>
+  </compound>
+  <compound refid="dir_a79f45b500d5f9a848b1d4a40fc1a43a" kind="dir"><name>/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes</name>
+  </compound>
+  <compound refid="dir_c799d189f1c56bd83a88c886d3d7d0ca" kind="dir"><name>/Users/veriKami/GitHub/__EP__/eP_API_srokap</name>
+  </compound>
+  <compound refid="dir_f2e793d71aa7ba5470eb90e8c12925b9" kind="dir"><name>/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects</name>
+  </compound>
+</doxygenindex>

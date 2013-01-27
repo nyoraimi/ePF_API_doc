@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="classep___search" kind="class" prot="public">
+    <compoundname>ep_Search</compoundname>
+    <basecompoundref refid="classep___api" prot="public" virt="non-virtual">ep_Api</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classep___search_1abb0f8f809252372e25f48d52b63ef29d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$q</definition>
+        <argsstring></argsstring>
+        <name>$q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="4" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___search_1a737abdef83dabb219182c1e88887c6c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$items</definition>
+        <argsstring></argsstring>
+        <name>$items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="5" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___search_1ab6ac9b33076d715d3f1376b426e25da0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$tabs</definition>
+        <argsstring></argsstring>
+        <name>$tabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="6" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___search_1ae05862a0294251c88629b141b5ce329a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$limit</definition>
+        <argsstring></argsstring>
+        <name>$limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="7" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___search_1a65539c516b1dfa0af15bb2bab190193b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$items_found_rows</definition>
+        <argsstring></argsstring>
+        <name>$items_found_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="8" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___search_1a597da3e2e3e54f9e072a834551ff34db" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dataset</definition>
+        <argsstring></argsstring>
+        <name>$dataset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="9" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classep___search_1a1b8d79db0f723d8187d80a2e435b9e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_q</definition>
+        <argsstring>($q)</argsstring>
+        <name>set_q</name>
+        <param>
+          <declname>$q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="11" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___search_1a454970aff52196d59eeff994419e0d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_dataset</definition>
+        <argsstring>($dataset)</argsstring>
+        <name>set_dataset</name>
+        <param>
+          <declname>$dataset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="16" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___search_1a6a71885a6440a34e8cfc7553306f95a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>find_all</definition>
+        <argsstring>($limit, $offset)</argsstring>
+        <name>find_all</name>
+        <param>
+          <declname>$limit</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="21" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="21" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1267">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="1266">
+        <label>ep_Search</label>
+        <link refid="classep___search"/>
+        <childnode refid="1267" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1269">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="1268">
+        <label>ep_Search</label>
+        <link refid="classep___search"/>
+        <childnode refid="1269" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" line="2" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Search.php" bodystart="2" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classep___api_1a01caaf3772469caf98e39064bf5d7d8f" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$_version</name></member>
+      <member refid="classep___search_1a597da3e2e3e54f9e072a834551ff34db" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$dataset</name></member>
+      <member refid="classep___search_1a737abdef83dabb219182c1e88887c6c3" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$items</name></member>
+      <member refid="classep___search_1a65539c516b1dfa0af15bb2bab190193b" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$items_found_rows</name></member>
+      <member refid="classep___search_1ae05862a0294251c88629b141b5ce329a" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$limit</name></member>
+      <member refid="classep___search_1abb0f8f809252372e25f48d52b63ef29d" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$q</name></member>
+      <member refid="classep___api_1affbb88357e7d111cab3d11d6623828b2" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$server_address</name></member>
+      <member refid="classep___search_1ab6ac9b33076d715d3f1376b426e25da0" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>$tabs</name></member>
+      <member refid="classep___api_1a2d4655622385b620a6f18270d0026fd8" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>call</name></member>
+      <member refid="classep___search_1a6a71885a6440a34e8cfc7553306f95a6" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>find_all</name></member>
+      <member refid="classep___api_1a9f0be6ae273d3669e11c29910a0be338" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>init</name></member>
+      <member refid="classep___search_1a454970aff52196d59eeff994419e0d8c" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>set_dataset</name></member>
+      <member refid="classep___search_1a1b8d79db0f723d8187d80a2e435b9e6a" prot="public" virt="non-virtual"><scope>ep_Search</scope><name>set_q</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
