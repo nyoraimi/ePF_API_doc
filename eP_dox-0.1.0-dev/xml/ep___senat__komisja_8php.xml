@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="ep___senat__komisja_8php" kind="file">
+    <compoundname>ep_Senat_komisja.php</compoundname>
+    <innerclass refid="classep___senat__komisja" prot="public">ep_Senat_komisja</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="classep___senat__komisja" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classep___senat__komisja" kindref="compound">ep_Senat_komisja</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classep___object" kindref="compound">ep_Object</ref>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classep___senat__komisja_1ab4e31d75f0bc5d512456911e5d01366b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___senat__komisja_1ab4e31d75f0bc5d512456911e5d01366b" kindref="member">$_aliases</ref><sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;senat_komisje&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5" refid="classep___senat__komisja_1a4a4d54ae35428077a7c61ec8a5139af3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___senat__komisja_1a4a4d54ae35428077a7c61ec8a5139af3" kindref="member">$_field_init_lookup</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;nazwa&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classep___senat__komisja_1ac0818f0049d7b84f08f77128f54cee36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___senat__komisja_1ac0818f0049d7b84f08f77128f54cee36" kindref="member">get_nazwa</ref>(){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)$this-&gt;data[</highlight><highlight class="stringliteral">&apos;nazwa&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classep___senat__komisja_1a7516ca30af0db3cdbf9a7739b48ce91d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___senat__komisja_1a7516ca30af0db3cdbf9a7739b48ce91d" kindref="member">__toString</ref>(){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;<ref refid="classep___senat__komisja_1ac0818f0049d7b84f08f77128f54cee36" kindref="member">get_nazwa</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_Senat_komisja.php"/>
+  </compounddef>
+</doxygen>

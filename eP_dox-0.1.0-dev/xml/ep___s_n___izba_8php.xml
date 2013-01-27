@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="ep___s_n___izba_8php" kind="file">
+    <compoundname>ep_SN_Izba.php</compoundname>
+    <innerclass refid="classep___s_n___izba" prot="public">ep_SN_Izba</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="classep___s_n___izba" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classep___s_n___izba" kindref="compound">ep_SN_Izba</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classep___object" kindref="compound">ep_Object</ref>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classep___s_n___izba_1ab4e31d75f0bc5d512456911e5d01366b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1ab4e31d75f0bc5d512456911e5d01366b" kindref="member">$_aliases</ref><sp/>=<sp/>array(<sp/></highlight><highlight class="stringliteral">&apos;sn_izby&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classep___s_n___izba_1a4a4d54ae35428077a7c61ec8a5139af3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1a4a4d54ae35428077a7c61ec8a5139af3" kindref="member">$_field_init_lookup</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;nazwa&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classep___s_n___izba_1aa013b5921d7a844cc79c7e3a5ffbd03a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1aa013b5921d7a844cc79c7e3a5ffbd03a" kindref="member">$_orzeczenia</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classep___s_n___izba_1ac0818f0049d7b84f08f77128f54cee36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1ac0818f0049d7b84f08f77128f54cee36" kindref="member">get_nazwa</ref>(){</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>$this-&gt;data[</highlight><highlight class="stringliteral">&apos;nazwa&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classep___s_n___izba_1a7516ca30af0db3cdbf9a7739b48ce91d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1a7516ca30af0db3cdbf9a7739b48ce91d" kindref="member">__toString</ref>(){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>$this-&gt;<ref refid="classep___s_n___izba_1ac0818f0049d7b84f08f77128f54cee36" kindref="member">get_nazwa</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classep___s_n___izba_1afafcff5d2bf7a4b4dd56b1a0a7c6a275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1afafcff5d2bf7a4b4dd56b1a0a7c6a275" kindref="member">orzeczenia</ref>(){</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!$this-&gt;_orzeczenia<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_orzeczenia<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classep___dataset" kindref="compound">ep_Dataset</ref>(<sp/></highlight><highlight class="stringliteral">&apos;sn_izby-orzeczenia&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_orzeczenia-&gt;init_where(<sp/></highlight><highlight class="stringliteral">&apos;orzeczenie_sn_izba_id&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;=&apos;</highlight><highlight class="normal">,<sp/>$this-&gt;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classep___s_n___izba_1aa013b5921d7a844cc79c7e3a5ffbd03a" kindref="member">$this-&gt;_orzeczenia</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/objects/ep_SN_Izba.php"/>
+  </compounddef>
+</doxygen>

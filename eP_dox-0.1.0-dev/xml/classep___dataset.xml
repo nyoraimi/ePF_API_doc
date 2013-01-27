@@ -1,0 +1,916 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="classep___dataset" kind="class" prot="public">
+    <compoundname>ep_Dataset</compoundname>
+    <basecompoundref refid="classep___api" prot="public" virt="non-virtual">ep_Api</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classep___dataset_1ab2fc40d43824ea3e1ce5d86dee0d763b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$name</definition>
+        <argsstring></argsstring>
+        <name>$name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="4" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a3aaf40baac36e278c7d7c9139df1750c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mode</definition>
+        <argsstring></argsstring>
+        <name>$mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="5" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1aa6325e5d913d5f63195525aa6a082bc4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$items_class</definition>
+        <argsstring></argsstring>
+        <name>$items_class</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="6" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a65539c516b1dfa0af15bb2bab190193b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$items_found_rows</definition>
+        <argsstring></argsstring>
+        <name>$items_found_rows</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="7" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a737abdef83dabb219182c1e88887c6c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$items</definition>
+        <argsstring></argsstring>
+        <name>$items</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="8" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1ab2303c817e3b402b77b7f99627b9c319" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fields</definition>
+        <argsstring></argsstring>
+        <name>$fields</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="9" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$data</definition>
+        <argsstring></argsstring>
+        <name>$data</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="10" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1ae05862a0294251c88629b141b5ce329a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$limit</definition>
+        <argsstring></argsstring>
+        <name>$limit</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="11" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1aec4de82415d7f05cb9748d12d3a95a87" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$offset</definition>
+        <argsstring></argsstring>
+        <name>$offset</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="12" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a91d3d1509ebebbe642c6c820a752c75c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$performance</definition>
+        <argsstring></argsstring>
+        <name>$performance</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="13" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1abb0f8f809252372e25f48d52b63ef29d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$q</definition>
+        <argsstring></argsstring>
+        <name>$q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="14" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1af679319b32be717b99242a2d66f04d71" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$respect_limit</definition>
+        <argsstring></argsstring>
+        <name>$respect_limit</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="15" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classep___dataset_1a074fbb994b91c79a03143df21e4a38a3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_init_wheres</definition>
+        <argsstring></argsstring>
+        <name>$_init_wheres</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="17" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1ab818f3e1d0a00e62e1f1f2b7a5aa1819" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_init_layers</definition>
+        <argsstring></argsstring>
+        <name>$_init_layers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="18" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a1752dae6ac25dd0e7f2f01de7523199c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_runtime_wheres</definition>
+        <argsstring></argsstring>
+        <name>$_runtime_wheres</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="19" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1acc23fddba718484f9eee888d3b58660d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_init_orders</definition>
+        <argsstring></argsstring>
+        <name>$_init_orders</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="20" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a70162a9ae01f3d977f023a277412a799" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_runtime_orders</definition>
+        <argsstring></argsstring>
+        <name>$_runtime_orders</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="21" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1afc86aa4020238ff1f892690e0a004770" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_init_keywords</definition>
+        <argsstring></argsstring>
+        <name>$_init_keywords</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="22" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1a33c1579faca2df92507d0552643e5ffb" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_runtime_keywords</definition>
+        <argsstring></argsstring>
+        <name>$_runtime_keywords</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="23" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1ac69ccb166efb7af65bde8d9ddbd3b272" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_runtime_layers</definition>
+        <argsstring></argsstring>
+        <name>$_runtime_layers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="24" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classep___dataset_1af48695014d0704d736400749c9c09817" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_joins</definition>
+        <argsstring></argsstring>
+        <name>$_joins</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="306" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classep___dataset_1a4717bbfc70a40a57ee741ed70766c309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($name)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="26" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1aa3ade294e9edd356f3a8584ec43658e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>keyword</definition>
+        <argsstring>($keyword)</argsstring>
+        <name>keyword</name>
+        <param>
+          <declname>$keyword</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="30" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1aa850d279b606c6c1e77d3bb71e6bd65b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>where</definition>
+        <argsstring>($key, $operator, $value)</argsstring>
+        <name>where</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$operator</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="35" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a321109a87bb59bf0ec5700ef6a57cfe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>init_where</definition>
+        <argsstring>($key, $operator, $value)</argsstring>
+        <name>init_where</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$operator</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="40" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1af555192d4cf0a6efaf743e6b75b01ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>init_layer</definition>
+        <argsstring>($layer)</argsstring>
+        <name>init_layer</name>
+        <param>
+          <declname>$layer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="45" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1aa2b8f6406b39305ce49f2f4e33ce490f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>order_by</definition>
+        <argsstring>($field, $direction= &apos;ASC&apos;)</argsstring>
+        <name>order_by</name>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$direction</declname>
+          <defval>&apos;ASC&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="52" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="52" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a5815135ec6285b6f6e609d1848cfdc83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_info</definition>
+        <argsstring>()</argsstring>
+        <name>get_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="72" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="72" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1ad4b11e8b3fa1f694d0c0de60a231aa94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_limit</definition>
+        <argsstring>($l)</argsstring>
+        <name>set_limit</name>
+        <param>
+          <declname>$l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="78" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a16871786b17450d6c2d67ea1d31fc819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>find_all</definition>
+        <argsstring>($limit=null, $offset=null, $return_objects=true)</argsstring>
+        <name>find_all</name>
+        <param>
+          <declname>$limit</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$offset</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$return_objects</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="83" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="83" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1ac751e87b3d4c4bf2feb03bee8b092755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>count</definition>
+        <argsstring>()</argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="155" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="155" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a552afadc57ae009e433613a4f905fa93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>find_one</definition>
+        <argsstring>($return_objects=true)</argsstring>
+        <name>find_one</name>
+        <param>
+          <declname>$return_objects</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="166" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a72170a484e70f91313f55ad95a120308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>find</definition>
+        <argsstring>($return_objects=true)</argsstring>
+        <name>find</name>
+        <param>
+          <declname>$return_objects</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="171" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a94cd7e6181ac47fa879dfd6cd4323ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_params</definition>
+        <argsstring>()</argsstring>
+        <name>get_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="175" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="175" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a09c1fa208c116445649af36f41259a1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_runtime_wheres</definition>
+        <argsstring>()</argsstring>
+        <name>get_runtime_wheres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="238" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="238" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a3cbb752297aa6f783417ce6ecda1e50b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_runtime_wheres</definition>
+        <argsstring>($val)</argsstring>
+        <name>set_runtime_wheres</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="242" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="242" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a79d537a1e4cbaac89d78ef4dd873d0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_runtime_wheres</definition>
+        <argsstring>($val)</argsstring>
+        <name>add_runtime_wheres</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="247" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="247" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1ac807364473f967e688069c86c28ce38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_runtime_keywords</definition>
+        <argsstring>($keyword)</argsstring>
+        <name>add_runtime_keywords</name>
+        <param>
+          <declname>$keyword</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="252" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="252" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1ab3d25be1e3f5ae02359da9d8a25a3cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_init_wheres</definition>
+        <argsstring>()</argsstring>
+        <name>get_init_wheres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="259" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="259" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1acdf1110477f0d3c61b9f3c302e510ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_init_wheres</definition>
+        <argsstring>($val)</argsstring>
+        <name>set_init_wheres</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="263" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1aa46068ffadc47260874614e96ec4d5e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_init_where</definition>
+        <argsstring>($val)</argsstring>
+        <name>add_init_where</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="268" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="268" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1ad063c2f26ee29a2c05a2af161dbd2223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_init_wheres</definition>
+        <argsstring>($val)</argsstring>
+        <name>add_init_wheres</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="273" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="273" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1abb0321e4b97f9f313244d7306a90fe2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_runtime_orders</definition>
+        <argsstring>()</argsstring>
+        <name>get_runtime_orders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="278" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="278" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a988f53c5e42b3a6616b126c5e963ac73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_runtime_orders</definition>
+        <argsstring>($val)</argsstring>
+        <name>set_runtime_orders</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="282" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="282" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a682208bcd2d31f564f29725ff6506942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_runtime_orders</definition>
+        <argsstring>($val)</argsstring>
+        <name>add_runtime_orders</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="287" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a0aa0fc386c95e829c26ffd4081e9b746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_init_orders</definition>
+        <argsstring>()</argsstring>
+        <name>get_init_orders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="292" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="292" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1aee698a8bc6837880bc59d85af6f6bbd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_init_orders</definition>
+        <argsstring>($val)</argsstring>
+        <name>set_init_orders</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="296" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="296" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a4fb25086f5f699e7e33ee3454cbfc4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_init_orders</definition>
+        <argsstring>($val)</argsstring>
+        <name>add_init_orders</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="301" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="301" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a8ea26f0aaf413fdc15c46ebb209d5294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_join</definition>
+        <argsstring>($alias)</argsstring>
+        <name>add_join</name>
+        <param>
+          <declname>$alias</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="308" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="308" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a2ef7bfb715e2747ab93c9f3b8c62adb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_joins</definition>
+        <argsstring>($joins)</argsstring>
+        <name>set_joins</name>
+        <param>
+          <declname>$joins</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="312" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="312" bodyend="314"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classep___dataset_1a4cc7b151c094997a9a9f417875c14c43" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_wheres</definition>
+        <argsstring>()</argsstring>
+        <name>get_wheres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="189" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="189" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a1d545290ed264d2f541a325948faa153" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_layers</definition>
+        <argsstring>()</argsstring>
+        <name>get_layers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="201" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="201" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1a6e59d0e2fae50446d13d19e34bdeb49e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>return_objects</definition>
+        <argsstring>()</argsstring>
+        <name>return_objects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="213" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="213" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classep___dataset_1aa821bec12eaa7e0f649397c9675ff505" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="233" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="233" bodyend="236"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="957">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="956">
+        <label>ep_Dataset</label>
+        <link refid="classep___dataset"/>
+        <childnode refid="957" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="959">
+        <label>ep_Api</label>
+        <link refid="classep___api"/>
+      </node>
+      <node id="958">
+        <label>ep_Dataset</label>
+        <link refid="classep___dataset"/>
+        <childnode refid="959" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" line="2" bodyfile="/Users/veriKami/GitHub/__EP__/eP_API_srokap/classes/ep_Dataset.php" bodystart="2" bodyend="315"/>
+    <listofallmembers>
+      <member refid="classep___dataset_1afc86aa4020238ff1f892690e0a004770" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_init_keywords</name></member>
+      <member refid="classep___dataset_1ab818f3e1d0a00e62e1f1f2b7a5aa1819" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_init_layers</name></member>
+      <member refid="classep___dataset_1acc23fddba718484f9eee888d3b58660d" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_init_orders</name></member>
+      <member refid="classep___dataset_1a074fbb994b91c79a03143df21e4a38a3" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_init_wheres</name></member>
+      <member refid="classep___dataset_1af48695014d0704d736400749c9c09817" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_joins</name></member>
+      <member refid="classep___dataset_1a33c1579faca2df92507d0552643e5ffb" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_runtime_keywords</name></member>
+      <member refid="classep___dataset_1ac69ccb166efb7af65bde8d9ddbd3b272" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_runtime_layers</name></member>
+      <member refid="classep___dataset_1a70162a9ae01f3d977f023a277412a799" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_runtime_orders</name></member>
+      <member refid="classep___dataset_1a1752dae6ac25dd0e7f2f01de7523199c" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>$_runtime_wheres</name></member>
+      <member refid="classep___api_1a01caaf3772469caf98e39064bf5d7d8f" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$_version</name></member>
+      <member refid="classep___dataset_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$data</name></member>
+      <member refid="classep___dataset_1ab2303c817e3b402b77b7f99627b9c319" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$fields</name></member>
+      <member refid="classep___dataset_1a737abdef83dabb219182c1e88887c6c3" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$items</name></member>
+      <member refid="classep___dataset_1aa6325e5d913d5f63195525aa6a082bc4" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$items_class</name></member>
+      <member refid="classep___dataset_1a65539c516b1dfa0af15bb2bab190193b" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$items_found_rows</name></member>
+      <member refid="classep___dataset_1ae05862a0294251c88629b141b5ce329a" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$limit</name></member>
+      <member refid="classep___dataset_1a3aaf40baac36e278c7d7c9139df1750c" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$mode</name></member>
+      <member refid="classep___dataset_1ab2fc40d43824ea3e1ce5d86dee0d763b" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$name</name></member>
+      <member refid="classep___dataset_1aec4de82415d7f05cb9748d12d3a95a87" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$offset</name></member>
+      <member refid="classep___dataset_1a91d3d1509ebebbe642c6c820a752c75c" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$performance</name></member>
+      <member refid="classep___dataset_1abb0f8f809252372e25f48d52b63ef29d" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$q</name></member>
+      <member refid="classep___dataset_1af679319b32be717b99242a2d66f04d71" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$respect_limit</name></member>
+      <member refid="classep___api_1affbb88357e7d111cab3d11d6623828b2" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>$server_address</name></member>
+      <member refid="classep___dataset_1a4717bbfc70a40a57ee741ed70766c309" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>__construct</name></member>
+      <member refid="classep___dataset_1a4fb25086f5f699e7e33ee3454cbfc4de" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_init_orders</name></member>
+      <member refid="classep___dataset_1aa46068ffadc47260874614e96ec4d5e0" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_init_where</name></member>
+      <member refid="classep___dataset_1ad063c2f26ee29a2c05a2af161dbd2223" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_init_wheres</name></member>
+      <member refid="classep___dataset_1a8ea26f0aaf413fdc15c46ebb209d5294" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_join</name></member>
+      <member refid="classep___dataset_1ac807364473f967e688069c86c28ce38b" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_runtime_keywords</name></member>
+      <member refid="classep___dataset_1a682208bcd2d31f564f29725ff6506942" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_runtime_orders</name></member>
+      <member refid="classep___dataset_1a79d537a1e4cbaac89d78ef4dd873d0a2" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>add_runtime_wheres</name></member>
+      <member refid="classep___api_1a2d4655622385b620a6f18270d0026fd8" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>call</name></member>
+      <member refid="classep___dataset_1aa821bec12eaa7e0f649397c9675ff505" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>clear</name></member>
+      <member refid="classep___dataset_1ac751e87b3d4c4bf2feb03bee8b092755" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>count</name></member>
+      <member refid="classep___dataset_1a72170a484e70f91313f55ad95a120308" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>find</name></member>
+      <member refid="classep___dataset_1a16871786b17450d6c2d67ea1d31fc819" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>find_all</name></member>
+      <member refid="classep___dataset_1a552afadc57ae009e433613a4f905fa93" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>find_one</name></member>
+      <member refid="classep___dataset_1a5815135ec6285b6f6e609d1848cfdc83" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>get_info</name></member>
+      <member refid="classep___dataset_1a0aa0fc386c95e829c26ffd4081e9b746" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>get_init_orders</name></member>
+      <member refid="classep___dataset_1ab3d25be1e3f5ae02359da9d8a25a3cf9" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>get_init_wheres</name></member>
+      <member refid="classep___dataset_1a1d545290ed264d2f541a325948faa153" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>get_layers</name></member>
+      <member refid="classep___dataset_1a94cd7e6181ac47fa879dfd6cd4323ef5" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>get_params</name></member>
+      <member refid="classep___dataset_1abb0321e4b97f9f313244d7306a90fe2e" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>get_runtime_orders</name></member>
+      <member refid="classep___dataset_1a09c1fa208c116445649af36f41259a1f" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>get_runtime_wheres</name></member>
+      <member refid="classep___dataset_1a4cc7b151c094997a9a9f417875c14c43" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>get_wheres</name></member>
+      <member refid="classep___api_1a9f0be6ae273d3669e11c29910a0be338" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>init</name></member>
+      <member refid="classep___dataset_1af555192d4cf0a6efaf743e6b75b01ecd" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>init_layer</name></member>
+      <member refid="classep___dataset_1a321109a87bb59bf0ec5700ef6a57cfe4" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>init_where</name></member>
+      <member refid="classep___dataset_1aa3ade294e9edd356f3a8584ec43658e7" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>keyword</name></member>
+      <member refid="classep___dataset_1aa2b8f6406b39305ce49f2f4e33ce490f" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>order_by</name></member>
+      <member refid="classep___dataset_1a6e59d0e2fae50446d13d19e34bdeb49e" prot="protected" virt="non-virtual"><scope>ep_Dataset</scope><name>return_objects</name></member>
+      <member refid="classep___dataset_1aee698a8bc6837880bc59d85af6f6bbd6" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>set_init_orders</name></member>
+      <member refid="classep___dataset_1acdf1110477f0d3c61b9f3c302e510ca9" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>set_init_wheres</name></member>
+      <member refid="classep___dataset_1a2ef7bfb715e2747ab93c9f3b8c62adb3" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>set_joins</name></member>
+      <member refid="classep___dataset_1ad4b11e8b3fa1f694d0c0de60a231aa94" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>set_limit</name></member>
+      <member refid="classep___dataset_1a988f53c5e42b3a6616b126c5e963ac73" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>set_runtime_orders</name></member>
+      <member refid="classep___dataset_1a3cbb752297aa6f783417ce6ecda1e50b" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>set_runtime_wheres</name></member>
+      <member refid="classep___dataset_1aa850d279b606c6c1e77d3bb71e6bd65b" prot="public" virt="non-virtual"><scope>ep_Dataset</scope><name>where</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

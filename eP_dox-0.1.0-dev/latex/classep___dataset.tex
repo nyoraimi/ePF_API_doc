@@ -1,0 +1,680 @@
+\hypertarget{classep___dataset}{\subsection{Dokumentacja klasy ep\-\_\-\-Dataset}
+\label{classep___dataset}\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}}
+}
+
+
+Diagram dziedziczenia dla ep\-\_\-\-Dataset\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{classep___dataset__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla ep\-\_\-\-Dataset\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{classep___dataset__coll__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classep___dataset_a4717bbfc70a40a57ee741ed70766c309}{\-\_\-\-\_\-construct} (\$name)
+\item 
+\hyperlink{classep___dataset_aa3ade294e9edd356f3a8584ec43658e7}{keyword} (\$keyword)
+\item 
+\hyperlink{classep___dataset_aa850d279b606c6c1e77d3bb71e6bd65b}{where} (\$key, \$operator, \$value)
+\item 
+\hyperlink{classep___dataset_a321109a87bb59bf0ec5700ef6a57cfe4}{init\-\_\-where} (\$key, \$operator, \$value)
+\item 
+\hyperlink{classep___dataset_af555192d4cf0a6efaf743e6b75b01ecd}{init\-\_\-layer} (\$layer)
+\item 
+\hyperlink{classep___dataset_aa2b8f6406b39305ce49f2f4e33ce490f}{order\-\_\-by} (\$field, \$direction= 'A\-S\-C')
+\item 
+\hyperlink{classep___dataset_a5815135ec6285b6f6e609d1848cfdc83}{get\-\_\-info} ()
+\item 
+\hyperlink{classep___dataset_ad4b11e8b3fa1f694d0c0de60a231aa94}{set\-\_\-limit} (\$l)
+\item 
+\hyperlink{classep___dataset_a16871786b17450d6c2d67ea1d31fc819}{find\-\_\-all} (\$limit=null, \$offset=null, \$\hyperlink{classep___dataset_a6e59d0e2fae50446d13d19e34bdeb49e}{return\-\_\-objects}=true)
+\item 
+\hyperlink{classep___dataset_ac751e87b3d4c4bf2feb03bee8b092755}{count} ()
+\item 
+\hyperlink{classep___dataset_a552afadc57ae009e433613a4f905fa93}{find\-\_\-one} (\$\hyperlink{classep___dataset_a6e59d0e2fae50446d13d19e34bdeb49e}{return\-\_\-objects}=true)
+\item 
+\hyperlink{classep___dataset_a72170a484e70f91313f55ad95a120308}{find} (\$\hyperlink{classep___dataset_a6e59d0e2fae50446d13d19e34bdeb49e}{return\-\_\-objects}=true)
+\item 
+\hyperlink{classep___dataset_a94cd7e6181ac47fa879dfd6cd4323ef5}{get\-\_\-params} ()
+\item 
+\hyperlink{classep___dataset_a09c1fa208c116445649af36f41259a1f}{get\-\_\-runtime\-\_\-wheres} ()
+\item 
+\hyperlink{classep___dataset_a3cbb752297aa6f783417ce6ecda1e50b}{set\-\_\-runtime\-\_\-wheres} (\$val)
+\item 
+\hyperlink{classep___dataset_a79d537a1e4cbaac89d78ef4dd873d0a2}{add\-\_\-runtime\-\_\-wheres} (\$val)
+\item 
+\hyperlink{classep___dataset_ac807364473f967e688069c86c28ce38b}{add\-\_\-runtime\-\_\-keywords} (\$\hyperlink{classep___dataset_aa3ade294e9edd356f3a8584ec43658e7}{keyword})
+\item 
+\hyperlink{classep___dataset_ab3d25be1e3f5ae02359da9d8a25a3cf9}{get\-\_\-init\-\_\-wheres} ()
+\item 
+\hyperlink{classep___dataset_acdf1110477f0d3c61b9f3c302e510ca9}{set\-\_\-init\-\_\-wheres} (\$val)
+\item 
+\hyperlink{classep___dataset_aa46068ffadc47260874614e96ec4d5e0}{add\-\_\-init\-\_\-where} (\$val)
+\item 
+\hyperlink{classep___dataset_ad063c2f26ee29a2c05a2af161dbd2223}{add\-\_\-init\-\_\-wheres} (\$val)
+\item 
+\hyperlink{classep___dataset_abb0321e4b97f9f313244d7306a90fe2e}{get\-\_\-runtime\-\_\-orders} ()
+\item 
+\hyperlink{classep___dataset_a988f53c5e42b3a6616b126c5e963ac73}{set\-\_\-runtime\-\_\-orders} (\$val)
+\item 
+\hyperlink{classep___dataset_a682208bcd2d31f564f29725ff6506942}{add\-\_\-runtime\-\_\-orders} (\$val)
+\item 
+\hyperlink{classep___dataset_a0aa0fc386c95e829c26ffd4081e9b746}{get\-\_\-init\-\_\-orders} ()
+\item 
+\hyperlink{classep___dataset_aee698a8bc6837880bc59d85af6f6bbd6}{set\-\_\-init\-\_\-orders} (\$val)
+\item 
+\hyperlink{classep___dataset_a4fb25086f5f699e7e33ee3454cbfc4de}{add\-\_\-init\-\_\-orders} (\$val)
+\item 
+\hyperlink{classep___dataset_a8ea26f0aaf413fdc15c46ebb209d5294}{add\-\_\-join} (\$alias)
+\item 
+\hyperlink{classep___dataset_a2ef7bfb715e2747ab93c9f3b8c62adb3}{set\-\_\-joins} (\$joins)
+\end{DoxyCompactItemize}
+\subsubsection*{Pola danych}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classep___dataset_ab2fc40d43824ea3e1ce5d86dee0d763b}{\$name}
+\item 
+\hyperlink{classep___dataset_a3aaf40baac36e278c7d7c9139df1750c}{\$mode}
+\item 
+\hyperlink{classep___dataset_aa6325e5d913d5f63195525aa6a082bc4}{\$items\-\_\-class}
+\item 
+\hyperlink{classep___dataset_a65539c516b1dfa0af15bb2bab190193b}{\$items\-\_\-found\-\_\-rows} = 0
+\item 
+\hyperlink{classep___dataset_a737abdef83dabb219182c1e88887c6c3}{\$items} = array()
+\item 
+\hyperlink{classep___dataset_ab2303c817e3b402b77b7f99627b9c319}{\$fields} = array()
+\item 
+\hyperlink{classep___dataset_a6efc15b5a2314dd4b5aaa556a375c6d6}{\$data} = array()
+\item 
+\hyperlink{classep___dataset_ae05862a0294251c88629b141b5ce329a}{\$limit} = 0
+\item 
+\hyperlink{classep___dataset_aec4de82415d7f05cb9748d12d3a95a87}{\$offset} = 0
+\item 
+\hyperlink{classep___dataset_a91d3d1509ebebbe642c6c820a752c75c}{\$performance} = array()
+\item 
+\hyperlink{classep___dataset_abb0f8f809252372e25f48d52b63ef29d}{\$q}
+\item 
+\hyperlink{classep___dataset_af679319b32be717b99242a2d66f04d71}{\$respect\-\_\-limit} = true
+\end{DoxyCompactItemize}
+\subsubsection*{Metody chronione}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classep___dataset_a4cc7b151c094997a9a9f417875c14c43}{get\-\_\-wheres} ()
+\item 
+\hyperlink{classep___dataset_a1d545290ed264d2f541a325948faa153}{get\-\_\-layers} ()
+\item 
+\hyperlink{classep___dataset_a6e59d0e2fae50446d13d19e34bdeb49e}{return\-\_\-objects} ()
+\item 
+\hyperlink{classep___dataset_aa821bec12eaa7e0f649397c9675ff505}{clear} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classep___dataset_a074fbb994b91c79a03143df21e4a38a3}{\$\-\_\-init\-\_\-wheres} = array()
+\item 
+\hyperlink{classep___dataset_ab818f3e1d0a00e62e1f1f2b7a5aa1819}{\$\-\_\-init\-\_\-layers} = array()
+\item 
+\hyperlink{classep___dataset_a1752dae6ac25dd0e7f2f01de7523199c}{\$\-\_\-runtime\-\_\-wheres} = array()
+\item 
+\hyperlink{classep___dataset_acc23fddba718484f9eee888d3b58660d}{\$\-\_\-init\-\_\-orders} = array()
+\item 
+\hyperlink{classep___dataset_a70162a9ae01f3d977f023a277412a799}{\$\-\_\-runtime\-\_\-orders} = array()
+\item 
+\hyperlink{classep___dataset_afc86aa4020238ff1f892690e0a004770}{\$\-\_\-init\-\_\-keywords} = array()
+\item 
+\hyperlink{classep___dataset_a33c1579faca2df92507d0552643e5ffb}{\$\-\_\-runtime\-\_\-keywords} = array()
+\item 
+\hyperlink{classep___dataset_ac69ccb166efb7af65bde8d9ddbd3b272}{\$\-\_\-runtime\-\_\-layers} = array()
+\item 
+\hyperlink{classep___dataset_af48695014d0704d736400749c9c09817}{\$\-\_\-joins} = array()
+\end{DoxyCompactItemize}
+\subsubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\subsubsection{Opis szczegółowy}
+
+
+Definicja w linii 2 pliku ep\-\_\-\-Dataset.\-php.
+
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classep___dataset_a4717bbfc70a40a57ee741ed70766c309}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a4717bbfc70a40a57ee741ed70766c309}
+
+
+Definicja w linii 26 pliku ep\-\_\-\-Dataset.\-php.
+
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{classep___dataset_a4fb25086f5f699e7e33ee3454cbfc4de}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-init\-\_\-orders@{add\-\_\-init\-\_\-orders}}
+\index{add\-\_\-init\-\_\-orders@{add\-\_\-init\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-init\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-init\-\_\-orders (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a4fb25086f5f699e7e33ee3454cbfc4de}
+
+
+Definicja w linii 301 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aa46068ffadc47260874614e96ec4d5e0}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-init\-\_\-where@{add\-\_\-init\-\_\-where}}
+\index{add\-\_\-init\-\_\-where@{add\-\_\-init\-\_\-where}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-init\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-init\-\_\-where (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_aa46068ffadc47260874614e96ec4d5e0}
+
+
+Definicja w linii 268 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ad063c2f26ee29a2c05a2af161dbd2223}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-init\-\_\-wheres@{add\-\_\-init\-\_\-wheres}}
+\index{add\-\_\-init\-\_\-wheres@{add\-\_\-init\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-init\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-init\-\_\-wheres (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_ad063c2f26ee29a2c05a2af161dbd2223}
+
+
+Definicja w linii 273 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a8ea26f0aaf413fdc15c46ebb209d5294}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-join@{add\-\_\-join}}
+\index{add\-\_\-join@{add\-\_\-join}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-join}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-join (
+\begin{DoxyParamCaption}
+\item[{}]{\$alias}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a8ea26f0aaf413fdc15c46ebb209d5294}
+
+
+Definicja w linii 308 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ac807364473f967e688069c86c28ce38b}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-runtime\-\_\-keywords@{add\-\_\-runtime\-\_\-keywords}}
+\index{add\-\_\-runtime\-\_\-keywords@{add\-\_\-runtime\-\_\-keywords}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-runtime\-\_\-keywords}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-runtime\-\_\-keywords (
+\begin{DoxyParamCaption}
+\item[{}]{\$keyword}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_ac807364473f967e688069c86c28ce38b}
+
+
+Definicja w linii 252 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a682208bcd2d31f564f29725ff6506942}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-runtime\-\_\-orders@{add\-\_\-runtime\-\_\-orders}}
+\index{add\-\_\-runtime\-\_\-orders@{add\-\_\-runtime\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-runtime\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-runtime\-\_\-orders (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a682208bcd2d31f564f29725ff6506942}
+
+
+Definicja w linii 287 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a79d537a1e4cbaac89d78ef4dd873d0a2}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!add\-\_\-runtime\-\_\-wheres@{add\-\_\-runtime\-\_\-wheres}}
+\index{add\-\_\-runtime\-\_\-wheres@{add\-\_\-runtime\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{add\-\_\-runtime\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-runtime\-\_\-wheres (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a79d537a1e4cbaac89d78ef4dd873d0a2}
+
+
+Definicja w linii 247 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aa821bec12eaa7e0f649397c9675ff505}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!clear@{clear}}
+\index{clear@{clear}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_aa821bec12eaa7e0f649397c9675ff505}
+
+
+Definicja w linii 233 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ac751e87b3d4c4bf2feb03bee8b092755}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!count@{count}}
+\index{count@{count}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{count}]{\setlength{\rightskip}{0pt plus 5cm}count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_ac751e87b3d4c4bf2feb03bee8b092755}
+
+
+Definicja w linii 155 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a72170a484e70f91313f55ad95a120308}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!find@{find}}
+\index{find@{find}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{find}]{\setlength{\rightskip}{0pt plus 5cm}find (
+\begin{DoxyParamCaption}
+\item[{}]{\$return\-\_\-objects = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a72170a484e70f91313f55ad95a120308}
+
+
+Definicja w linii 171 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a16871786b17450d6c2d67ea1d31fc819}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!find\-\_\-all@{find\-\_\-all}}
+\index{find\-\_\-all@{find\-\_\-all}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{find\-\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}find\-\_\-all (
+\begin{DoxyParamCaption}
+\item[{}]{\$limit = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}, }
+\item[{}]{\$return\-\_\-objects = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a16871786b17450d6c2d67ea1d31fc819}
+
+
+Definicja w linii 83 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a552afadc57ae009e433613a4f905fa93}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!find\-\_\-one@{find\-\_\-one}}
+\index{find\-\_\-one@{find\-\_\-one}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{find\-\_\-one}]{\setlength{\rightskip}{0pt plus 5cm}find\-\_\-one (
+\begin{DoxyParamCaption}
+\item[{}]{\$return\-\_\-objects = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a552afadc57ae009e433613a4f905fa93}
+
+
+Definicja w linii 166 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a5815135ec6285b6f6e609d1848cfdc83}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-info@{get\-\_\-info}}
+\index{get\-\_\-info@{get\-\_\-info}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a5815135ec6285b6f6e609d1848cfdc83}
+
+
+Definicja w linii 72 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a0aa0fc386c95e829c26ffd4081e9b746}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-init\-\_\-orders@{get\-\_\-init\-\_\-orders}}
+\index{get\-\_\-init\-\_\-orders@{get\-\_\-init\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-init\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-init\-\_\-orders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a0aa0fc386c95e829c26ffd4081e9b746}
+
+
+Definicja w linii 292 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ab3d25be1e3f5ae02359da9d8a25a3cf9}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-init\-\_\-wheres@{get\-\_\-init\-\_\-wheres}}
+\index{get\-\_\-init\-\_\-wheres@{get\-\_\-init\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-init\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-init\-\_\-wheres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_ab3d25be1e3f5ae02359da9d8a25a3cf9}
+
+
+Definicja w linii 259 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a1d545290ed264d2f541a325948faa153}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-layers@{get\-\_\-layers}}
+\index{get\-\_\-layers@{get\-\_\-layers}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-layers}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-layers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a1d545290ed264d2f541a325948faa153}
+
+
+Definicja w linii 201 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a94cd7e6181ac47fa879dfd6cd4323ef5}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-params@{get\-\_\-params}}
+\index{get\-\_\-params@{get\-\_\-params}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-params}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-params (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a94cd7e6181ac47fa879dfd6cd4323ef5}
+
+
+Definicja w linii 175 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_abb0321e4b97f9f313244d7306a90fe2e}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-runtime\-\_\-orders@{get\-\_\-runtime\-\_\-orders}}
+\index{get\-\_\-runtime\-\_\-orders@{get\-\_\-runtime\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-runtime\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-runtime\-\_\-orders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_abb0321e4b97f9f313244d7306a90fe2e}
+
+
+Definicja w linii 278 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a09c1fa208c116445649af36f41259a1f}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-runtime\-\_\-wheres@{get\-\_\-runtime\-\_\-wheres}}
+\index{get\-\_\-runtime\-\_\-wheres@{get\-\_\-runtime\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-runtime\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-runtime\-\_\-wheres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a09c1fa208c116445649af36f41259a1f}
+
+
+Definicja w linii 238 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a4cc7b151c094997a9a9f417875c14c43}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!get\-\_\-wheres@{get\-\_\-wheres}}
+\index{get\-\_\-wheres@{get\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{get\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-wheres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a4cc7b151c094997a9a9f417875c14c43}
+
+
+Definicja w linii 189 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_af555192d4cf0a6efaf743e6b75b01ecd}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!init\-\_\-layer@{init\-\_\-layer}}
+\index{init\-\_\-layer@{init\-\_\-layer}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{init\-\_\-layer}]{\setlength{\rightskip}{0pt plus 5cm}init\-\_\-layer (
+\begin{DoxyParamCaption}
+\item[{}]{\$layer}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_af555192d4cf0a6efaf743e6b75b01ecd}
+
+
+Definicja w linii 45 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a321109a87bb59bf0ec5700ef6a57cfe4}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!init\-\_\-where@{init\-\_\-where}}
+\index{init\-\_\-where@{init\-\_\-where}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{init\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}init\-\_\-where (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$operator, }
+\item[{}]{\$value}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a321109a87bb59bf0ec5700ef6a57cfe4}
+
+
+Definicja w linii 40 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aa3ade294e9edd356f3a8584ec43658e7}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!keyword@{keyword}}
+\index{keyword@{keyword}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{keyword}]{\setlength{\rightskip}{0pt plus 5cm}keyword (
+\begin{DoxyParamCaption}
+\item[{}]{\$keyword}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_aa3ade294e9edd356f3a8584ec43658e7}
+
+
+Definicja w linii 30 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aa2b8f6406b39305ce49f2f4e33ce490f}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!order\-\_\-by@{order\-\_\-by}}
+\index{order\-\_\-by@{order\-\_\-by}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{order\-\_\-by}]{\setlength{\rightskip}{0pt plus 5cm}order\-\_\-by (
+\begin{DoxyParamCaption}
+\item[{}]{\$field, }
+\item[{}]{\$direction = {\ttfamily 'ASC'}}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_aa2b8f6406b39305ce49f2f4e33ce490f}
+
+
+Definicja w linii 52 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a6e59d0e2fae50446d13d19e34bdeb49e}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!return\-\_\-objects@{return\-\_\-objects}}
+\index{return\-\_\-objects@{return\-\_\-objects}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{return\-\_\-objects}]{\setlength{\rightskip}{0pt plus 5cm}return\-\_\-objects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a6e59d0e2fae50446d13d19e34bdeb49e}
+
+
+Definicja w linii 213 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aee698a8bc6837880bc59d85af6f6bbd6}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!set\-\_\-init\-\_\-orders@{set\-\_\-init\-\_\-orders}}
+\index{set\-\_\-init\-\_\-orders@{set\-\_\-init\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{set\-\_\-init\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-init\-\_\-orders (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_aee698a8bc6837880bc59d85af6f6bbd6}
+
+
+Definicja w linii 296 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_acdf1110477f0d3c61b9f3c302e510ca9}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!set\-\_\-init\-\_\-wheres@{set\-\_\-init\-\_\-wheres}}
+\index{set\-\_\-init\-\_\-wheres@{set\-\_\-init\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{set\-\_\-init\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-init\-\_\-wheres (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_acdf1110477f0d3c61b9f3c302e510ca9}
+
+
+Definicja w linii 263 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a2ef7bfb715e2747ab93c9f3b8c62adb3}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!set\-\_\-joins@{set\-\_\-joins}}
+\index{set\-\_\-joins@{set\-\_\-joins}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{set\-\_\-joins}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-joins (
+\begin{DoxyParamCaption}
+\item[{}]{\$joins}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a2ef7bfb715e2747ab93c9f3b8c62adb3}
+
+
+Definicja w linii 312 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ad4b11e8b3fa1f694d0c0de60a231aa94}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!set\-\_\-limit@{set\-\_\-limit}}
+\index{set\-\_\-limit@{set\-\_\-limit}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{set\-\_\-limit}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-limit (
+\begin{DoxyParamCaption}
+\item[{}]{\$l}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_ad4b11e8b3fa1f694d0c0de60a231aa94}
+
+
+Definicja w linii 78 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a988f53c5e42b3a6616b126c5e963ac73}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!set\-\_\-runtime\-\_\-orders@{set\-\_\-runtime\-\_\-orders}}
+\index{set\-\_\-runtime\-\_\-orders@{set\-\_\-runtime\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{set\-\_\-runtime\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-runtime\-\_\-orders (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a988f53c5e42b3a6616b126c5e963ac73}
+
+
+Definicja w linii 282 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a3cbb752297aa6f783417ce6ecda1e50b}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!set\-\_\-runtime\-\_\-wheres@{set\-\_\-runtime\-\_\-wheres}}
+\index{set\-\_\-runtime\-\_\-wheres@{set\-\_\-runtime\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{set\-\_\-runtime\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-runtime\-\_\-wheres (
+\begin{DoxyParamCaption}
+\item[{}]{\$val}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_a3cbb752297aa6f783417ce6ecda1e50b}
+
+
+Definicja w linii 242 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aa850d279b606c6c1e77d3bb71e6bd65b}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!where@{where}}
+\index{where@{where}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{where}]{\setlength{\rightskip}{0pt plus 5cm}where (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$operator, }
+\item[{}]{\$value}
+\end{DoxyParamCaption}
+)}}\label{classep___dataset_aa850d279b606c6c1e77d3bb71e6bd65b}
+
+
+Definicja w linii 35 pliku ep\-\_\-\-Dataset.\-php.
+
+
+
+\subsubsection{Dokumentacja pól}
+\hypertarget{classep___dataset_afc86aa4020238ff1f892690e0a004770}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-init\-\_\-keywords@{\$\-\_\-init\-\_\-keywords}}
+\index{\$\-\_\-init\-\_\-keywords@{\$\-\_\-init\-\_\-keywords}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-init\-\_\-keywords}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-init\-\_\-keywords = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_afc86aa4020238ff1f892690e0a004770}
+
+
+Definicja w linii 22 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ab818f3e1d0a00e62e1f1f2b7a5aa1819}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-init\-\_\-layers@{\$\-\_\-init\-\_\-layers}}
+\index{\$\-\_\-init\-\_\-layers@{\$\-\_\-init\-\_\-layers}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-init\-\_\-layers}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-init\-\_\-layers = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_ab818f3e1d0a00e62e1f1f2b7a5aa1819}
+
+
+Definicja w linii 18 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_acc23fddba718484f9eee888d3b58660d}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-init\-\_\-orders@{\$\-\_\-init\-\_\-orders}}
+\index{\$\-\_\-init\-\_\-orders@{\$\-\_\-init\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-init\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-init\-\_\-orders = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_acc23fddba718484f9eee888d3b58660d}
+
+
+Definicja w linii 20 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a074fbb994b91c79a03143df21e4a38a3}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-init\-\_\-wheres@{\$\-\_\-init\-\_\-wheres}}
+\index{\$\-\_\-init\-\_\-wheres@{\$\-\_\-init\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-init\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-init\-\_\-wheres = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a074fbb994b91c79a03143df21e4a38a3}
+
+
+Definicja w linii 17 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_af48695014d0704d736400749c9c09817}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-joins@{\$\-\_\-joins}}
+\index{\$\-\_\-joins@{\$\-\_\-joins}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-joins}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-joins = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_af48695014d0704d736400749c9c09817}
+
+
+Definicja w linii 306 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a33c1579faca2df92507d0552643e5ffb}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-runtime\-\_\-keywords@{\$\-\_\-runtime\-\_\-keywords}}
+\index{\$\-\_\-runtime\-\_\-keywords@{\$\-\_\-runtime\-\_\-keywords}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-runtime\-\_\-keywords}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-runtime\-\_\-keywords = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a33c1579faca2df92507d0552643e5ffb}
+
+
+Definicja w linii 23 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ac69ccb166efb7af65bde8d9ddbd3b272}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-runtime\-\_\-layers@{\$\-\_\-runtime\-\_\-layers}}
+\index{\$\-\_\-runtime\-\_\-layers@{\$\-\_\-runtime\-\_\-layers}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-runtime\-\_\-layers}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-runtime\-\_\-layers = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_ac69ccb166efb7af65bde8d9ddbd3b272}
+
+
+Definicja w linii 24 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a70162a9ae01f3d977f023a277412a799}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-runtime\-\_\-orders@{\$\-\_\-runtime\-\_\-orders}}
+\index{\$\-\_\-runtime\-\_\-orders@{\$\-\_\-runtime\-\_\-orders}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-runtime\-\_\-orders}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-runtime\-\_\-orders = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a70162a9ae01f3d977f023a277412a799}
+
+
+Definicja w linii 21 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a1752dae6ac25dd0e7f2f01de7523199c}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$\-\_\-runtime\-\_\-wheres@{\$\-\_\-runtime\-\_\-wheres}}
+\index{\$\-\_\-runtime\-\_\-wheres@{\$\-\_\-runtime\-\_\-wheres}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$\-\_\-runtime\-\_\-wheres}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-runtime\-\_\-wheres = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classep___dataset_a1752dae6ac25dd0e7f2f01de7523199c}
+
+
+Definicja w linii 19 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a6efc15b5a2314dd4b5aaa556a375c6d6}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$data@{\$data}}
+\index{\$data@{\$data}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$data}]{\setlength{\rightskip}{0pt plus 5cm}\$data = array()}}\label{classep___dataset_a6efc15b5a2314dd4b5aaa556a375c6d6}
+
+
+Definicja w linii 10 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ab2303c817e3b402b77b7f99627b9c319}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$fields@{\$fields}}
+\index{\$fields@{\$fields}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$fields}]{\setlength{\rightskip}{0pt plus 5cm}\$fields = array()}}\label{classep___dataset_ab2303c817e3b402b77b7f99627b9c319}
+
+
+Definicja w linii 9 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a737abdef83dabb219182c1e88887c6c3}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$items@{\$items}}
+\index{\$items@{\$items}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$items}]{\setlength{\rightskip}{0pt plus 5cm}\$items = array()}}\label{classep___dataset_a737abdef83dabb219182c1e88887c6c3}
+
+
+Definicja w linii 8 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aa6325e5d913d5f63195525aa6a082bc4}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$items\-\_\-class@{\$items\-\_\-class}}
+\index{\$items\-\_\-class@{\$items\-\_\-class}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$items\-\_\-class}]{\setlength{\rightskip}{0pt plus 5cm}\$items\-\_\-class}}\label{classep___dataset_aa6325e5d913d5f63195525aa6a082bc4}
+
+
+Definicja w linii 6 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a65539c516b1dfa0af15bb2bab190193b}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$items\-\_\-found\-\_\-rows@{\$items\-\_\-found\-\_\-rows}}
+\index{\$items\-\_\-found\-\_\-rows@{\$items\-\_\-found\-\_\-rows}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$items\-\_\-found\-\_\-rows}]{\setlength{\rightskip}{0pt plus 5cm}\$items\-\_\-found\-\_\-rows = 0}}\label{classep___dataset_a65539c516b1dfa0af15bb2bab190193b}
+
+
+Definicja w linii 7 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ae05862a0294251c88629b141b5ce329a}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$limit@{\$limit}}
+\index{\$limit@{\$limit}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$limit}]{\setlength{\rightskip}{0pt plus 5cm}\$limit = 0}}\label{classep___dataset_ae05862a0294251c88629b141b5ce329a}
+
+
+Definicja w linii 11 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a3aaf40baac36e278c7d7c9139df1750c}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$mode@{\$mode}}
+\index{\$mode@{\$mode}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$mode}]{\setlength{\rightskip}{0pt plus 5cm}\$mode}}\label{classep___dataset_a3aaf40baac36e278c7d7c9139df1750c}
+
+
+Definicja w linii 5 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_ab2fc40d43824ea3e1ce5d86dee0d763b}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$name@{\$name}}
+\index{\$name@{\$name}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$name}]{\setlength{\rightskip}{0pt plus 5cm}\$name}}\label{classep___dataset_ab2fc40d43824ea3e1ce5d86dee0d763b}
+
+
+Definicja w linii 4 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_aec4de82415d7f05cb9748d12d3a95a87}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$offset@{\$offset}}
+\index{\$offset@{\$offset}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$offset}]{\setlength{\rightskip}{0pt plus 5cm}\$offset = 0}}\label{classep___dataset_aec4de82415d7f05cb9748d12d3a95a87}
+
+
+Definicja w linii 12 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_a91d3d1509ebebbe642c6c820a752c75c}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$performance@{\$performance}}
+\index{\$performance@{\$performance}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$performance}]{\setlength{\rightskip}{0pt plus 5cm}\$performance = array()}}\label{classep___dataset_a91d3d1509ebebbe642c6c820a752c75c}
+
+
+Definicja w linii 13 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_abb0f8f809252372e25f48d52b63ef29d}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$q@{\$q}}
+\index{\$q@{\$q}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$q}]{\setlength{\rightskip}{0pt plus 5cm}\$q}}\label{classep___dataset_abb0f8f809252372e25f48d52b63ef29d}
+
+
+Definicja w linii 14 pliku ep\-\_\-\-Dataset.\-php.
+
+\hypertarget{classep___dataset_af679319b32be717b99242a2d66f04d71}{\index{ep\-\_\-\-Dataset@{ep\-\_\-\-Dataset}!\$respect\-\_\-limit@{\$respect\-\_\-limit}}
+\index{\$respect\-\_\-limit@{\$respect\-\_\-limit}!ep_Dataset@{ep\-\_\-\-Dataset}}
+\paragraph[{\$respect\-\_\-limit}]{\setlength{\rightskip}{0pt plus 5cm}\$respect\-\_\-limit = true}}\label{classep___dataset_af679319b32be717b99242a2d66f04d71}
+
+
+Definicja w linii 15 pliku ep\-\_\-\-Dataset.\-php.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/veri\-Kami/\-Git\-Hub/\-\_\-\-\_\-\-E\-P\-\_\-\-\_\-/e\-P\-\_\-\-A\-P\-I\-\_\-srokap/classes/\hyperlink{ep___dataset_8php}{ep\-\_\-\-Dataset.\-php}\end{DoxyCompactItemize}
