@@ -4,4 +4,10 @@ eP_dox-0.1.0-dev-0/
 eP_dox-0.1.0-dev-test/
 
 #: doxy conf
-Doxyfile (dev.doc.test)
+Doxyfile*
+
+#: maker's
+make_*
+
+#: dev's
+__*

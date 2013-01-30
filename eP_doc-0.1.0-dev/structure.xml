@@ -11951,15 +11951,33 @@ have different name and file name.&lt;/p&gt;</long-description>
       <error line="40" code="50012">No short description for method orzeczenie_sn_osoba()</error>
     </parse_markers>
   </file>
-  <file path="ep_API.php" hash="802904d700a92b941a46f2131b14ec23" package="Default">
-    <include line="14" type="Require Once" package="Default">
+  <file path="ep_API.php" hash="6c36af8a2ebe51ae7b8cd1565119742d" package="Default">
+    <docblock line="2">
+      <description/>
+      <long-description/>
+      <tag line="2" name="mainpage" description="Oficjalny klient platformy eP_API"/>
+      <tag line="2" name="section" description="intro_sec Wprowadzenie&#10;eP_API - Dane publiczne dostępne jak nigdy wcześniej!&#10;-----------------------------------------------------&#10;To jest oficjalny klient platformy eP_API. Umożliwia pobieranie &#10;danych publicznych, udostępnianych na portalu http://sejmometr.pl.&#10;Zobacz więcej informacji o platformie eP_API na stronie http://sejmometr.pl/api.&#10;Dokumentacja klienta jest dostępna pod adresem http://sejmometr.pl/api/docs."/>
+      <tag line="2" name="section" description="install_sec Instalacja"/>
+      <tag line="2" name="subsection" description="step1 1: Pobierz&#10;Pobierz aktualną wersję biblioteki eP_API ze strony:&#10;https://github.com/epanstwo/eP_API&#10;    $ git clone git://github.com/epanstwo/eP_API.git&#10;względnie: https://github.com/epanstwo/eP_API/archive/master.zip"/>
+      <tag line="2" name="subsection" description="step2 2: Skonfiguruj&#10;W pliku: ep_API.php wklej swoje klucze API, które możesz uzyskać rejestrując&#10;konto na portalu: http://sejmometr.pl."/>
+      <tag line="2" name="subsection" description="step3 3: Korzystaj&#10;Korzystaj z Przyjemnością — pamiętaj: Przejmujemy Państwo ;-)&#10;Uwagi, problemy, niejasności i zgłaszanie zapotrzebowania na nowe funkcje:&#10;- https://github.com/epanstwo/eP_API/issues&#10;- http://groups.google.com/group/sejmometr-api&#10;Współuczestnictwo jest Mile Widziane !!!&#10;© Fundacja ePaństwo"/>
+    </docblock>
+    <include line="55" type="Require Once" package="Default">
       <name>classes/ep_Autoloader.php</name>
+      <docblock line="53">
+        <description>Autoloader</description>
+        <long-description/>
+      </docblock>
     </include>
-    <include line="17" type="Require Once" package="Default">
+    <include line="61" type="Require Once" package="Default">
       <name>classes/ep_API.php</name>
+      <docblock line="59">
+        <description>ep_API</description>
+        <long-description/>
+      </docblock>
     </include>
     <parse_markers>
-      <error line="0" code="50007">No page-level DocBlock was found in file ep_API.php</error>
+      <critical line="2" code="50008">No short description for file ep_API.php</critical>
     </parse_markers>
   </file>
   <package name="Default" full_name="Default"/>
