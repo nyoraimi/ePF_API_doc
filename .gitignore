@@ -6,7 +6,7 @@ eP_*
 
 #: doxy conf
 Doxyfile*
-doxy*
+doxy/*
 
 #: maker's
 make/*
