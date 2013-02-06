@@ -17,11 +17,7 @@ Zobacz więcej informacji o platformie ePF_API na stronie http://sejmometr.pl/ap
 Dokumentacja klienta jest dostępna pod adresem http://sejmometr.pl/api/docs
 ```
 
--przygotowana na podstawie wersji dev:-
-
--* https://github.com/Srokap/eP_API/tree/development-
-
-przygotowana na podstawie wersji master:
+przygotowana na podstawie wersji master (submodule):
 
 https://github.com/epforgpl/ePF_API
 
