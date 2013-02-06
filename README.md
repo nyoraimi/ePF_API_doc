@@ -1,25 +1,30 @@
-eP_API_doc (0.1.0-dev)
+ePF_API_doc (0.1.1-dev)
 ======================
 
 * http://verikami.github.com/eP_API_doc/
 
-Szkicowa wersja automatycznie generowanej dokumentacji platformy klienta eP_API [Fundacji ePaństwo](http://epanstwo.org.pl/)
+Szkicowa wersja automatycznie generowanej dokumentacji platformy klienta ePF_API [Fundacji ePaństwo](http://epanstwo.org.pl/)
 
-* https://github.com/epanstwo/eP_API
+* https://github.com/epforgpl/ePF_API
 
 ```
-eP_API - Dane publiczne dostępne jak nigdy wcześniej!
+ePF_API - Dane publiczne dostępne jak nigdy wcześniej!
 
-To jest oficjalny klient platformy eP_API. Umożliwia pobieranie 
+To jest oficjalny klient platformy ePF_API. Umożliwia pobieranie 
 danych publicznych, udostępnianych na portalu http://sejmometr.pl
 
-Zobacz więcej informacji o platformie eP_API na stronie http://sejmometr.pl/api
+Zobacz więcej informacji o platformie ePF_API na stronie http://sejmometr.pl/api
 Dokumentacja klienta jest dostępna pod adresem http://sejmometr.pl/api/docs
 ```
 
-przygotowana na podstawie wersji dev:
+-przygotowana na podstawie wersji dev:-
 
-* https://github.com/Srokap/eP_API/tree/development
+-* https://github.com/Srokap/eP_API/tree/development-
+
+przygotowana na podstawie wersji master:
+
+https://github.com/epforgpl/ePF_API
+
 
 wygenerowana za pomocą:
 -----------------------
