@@ -1,6 +1,0 @@
-<map id="get_params" name="get_params">
-<area shape="rect" id="node2" href="$classep___dataset.html#a4cc7b151c094997a9a9f417875c14c43" title="get_wheres" alt="" coords="150,5,245,32"/>
-<area shape="rect" id="node5" href="$classep___dataset.html#a1d545290ed264d2f541a325948faa153" title="get_layers" alt="" coords="154,56,241,83"/>
-<area shape="rect" id="node3" href="$classep___dataset.html#ac751e87b3d4c4bf2feb03bee8b092755" title="count" alt="" coords="293,56,349,83"/>
-<area shape="rect" id="node4" href="$classep___api.html#a2d4655622385b620a6f18270d0026fd8" title="ep_Api\\call" alt="" coords="397,56,485,83"/>
-</map>
