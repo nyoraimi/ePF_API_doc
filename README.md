@@ -3,6 +3,7 @@ ePF_API_doc (0.1.1-dev)
 
 * http://verikami.github.com/eP_API_doc/
 
+[![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png)](https://travis-ci.org/veriKami/eP_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png?branch=gh-pages)](https://travis-ci.org/veriKami/eP_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png?branch=master)](https://travis-ci.org/veriKami/eP_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png?branch=master,gh-pages)](https://travis-ci.org/veriKami/eP_API_doc)
