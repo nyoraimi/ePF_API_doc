@@ -1,3 +1,18 @@
+###: branches
+#: blacklist
+#branches:
+#  except:
+#    - legacy
+#    - experimental
+
+#: whitelist
+branches:
+  only:
+    - master
+    - stable
+    - gh-pages
+
+
 ###: see http://about.travis-ci.org/docs/user/languages/php/ for more hints
 #language: php
 
