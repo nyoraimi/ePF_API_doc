@@ -17,3 +17,6 @@ __*/*
 __.*
 __*.html
 __*.php
+
+#: jekyll's
+_site/
