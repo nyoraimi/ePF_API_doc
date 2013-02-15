@@ -2,7 +2,10 @@
 .phar/*
 
 #: dev dirs
-eP_*
+#ePF_API/
+!ePF_API_apigen-0.x.x-dev/*
+!ePF_API_doxy-0.x.x-dev/*
+!ePF_API_phpdoc-0.x.x-dev/*
 
 #: doxy conf
 Doxyfile*
@@ -13,10 +16,10 @@ make/*
 make_*
 
 #: dev's
-__*/*
-__.*
-__*.html
-__*.php
+/__*/*
+/__.*
+/__*.html
+/__*.php
 
 #: jekyll's
-_site/
+/_site/
