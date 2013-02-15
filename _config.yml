@@ -1,0 +1,5 @@
+
+###: Jekyll ignores filenames with _*
+###: see https://github.com/mojombo/jekyll/issues/324
+include: ["_something", "ePF_API_doxy-0.x.x-dev"]
+exclude: ["Rakefile", "README.md"]

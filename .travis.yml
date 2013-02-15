@@ -12,11 +12,6 @@ branches:
     - stable
     - gh-pages
 
-###: Jekyll ignores filenames with _*
-###: see https://github.com/mojombo/jekyll/issues/324
-include: ["_something", "ePF_API_doxy-0.x.x-dev"]
-exclude: ["Rakefile", "README.md"]
-
 ###: see http://about.travis-ci.org/docs/user/languages/php/ for more hints
 #language: php
 
