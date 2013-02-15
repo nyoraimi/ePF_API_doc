@@ -14,4 +14,4 @@ safe:         true
 ###: Jekyll ignores filenames with _*
 ###: see https://github.com/mojombo/jekyll/issues/324
 include: ["_something", "ePF_API_doxy-0.x.x-dev"]
-exclude: ["Rakefile", "README.md"]
+exclude: ["ePF_API", "README.md", "lib", "make", "vendor", "Icon", "make_doc.sh", "package.json"]
