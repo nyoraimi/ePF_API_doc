@@ -1,0 +1,5 @@
+<map id="init" name="init">
+<area shape="rect" id="node2" href="$classep___gmina.html#aa05db5ea090acb5d431aff0bbb8b97a6" title="ep_Gmina\\obszar" alt="" coords="119,5,246,32"/>
+<area shape="rect" id="node3" href="$classep___powiat.html#aa05db5ea090acb5d431aff0bbb8b97a6" title="ep_Powiat\\obszar" alt="" coords="117,56,248,83"/>
+<area shape="rect" id="node4" href="$classep___wojewodztwo.html#aa05db5ea090acb5d431aff0bbb8b97a6" title="ep_Wojewodztwo\\obszar" alt="" coords="93,107,272,133"/>
+</map>
