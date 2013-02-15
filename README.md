@@ -1,14 +1,12 @@
-ePF_API_doc (0.1.1-dev)
+ePF_API_doc (0.x.x-dev)
 ======================
 
 * http://verikami.github.com/eP_API_doc/
 
-[![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png)](https://travis-ci.org/veriKami/eP_API_doc)
-[![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png?branch=gh-pages)](https://travis-ci.org/veriKami/eP_API_doc)
-[![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png?branch=master)](https://travis-ci.org/veriKami/eP_API_doc)
-[![Build Status](https://travis-ci.org/veriKami/eP_API_doc.png?branch=master,gh-pages)](https://travis-ci.org/veriKami/eP_API_doc)
-
-
+[![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png)](https://travis-ci.org/veriKami/ePF_API_doc)
+[![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=gh-pages)](https://travis-ci.org/veriKami/ePF_API_doc)
+[![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=master)](https://travis-ci.org/veriKami/ePF_API_doc)
+[![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=master,gh-pages)](https://travis-ci.org/veriKami/ePF_API_doc)
 
 Szkicowa wersja automatycznie generowanej dokumentacji platformy klienta ePF_API [Fundacji ePaństwo](http://epanstwo.org.pl/)
 
@@ -28,20 +26,23 @@ przygotowana na podstawie wersji master (submodule):
 
 https://github.com/epforgpl/ePF_API
 
-
 wygenerowana za pomocą:
 -----------------------
 
-### 1) Doxygen
+### 1) Apigen
+
+* http://apigen.org/
+
+### 2) Doxygen
 
 * http://www.doxygen.org
 
-### 2) phpDocumentor
+### 3) phpDocumentor
 
 * http://www.phpdoc.org
 
-wersje:
--------
+konfekcjonowanie:
+-----------------
 
 ### (SemVer) Semantic Versioning
 
