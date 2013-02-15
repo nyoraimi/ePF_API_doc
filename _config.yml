@@ -1,7 +1,11 @@
 ###: defaults
 ###: see: https://github.com/mojombo/jekyll/wiki/configuration
 auto:   true
-server: true
+server: false
+
+#: ++
+url:     http://verikami.github.com/ePF_API_doc/
+baseurl: http://verikami.github.com/ePF_API_doc/
 
 ###: (some) overides
 ###: see: https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
