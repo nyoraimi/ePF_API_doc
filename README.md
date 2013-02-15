@@ -1,7 +1,7 @@
 ePF_API_doc (0.x.x-dev)
 ======================
 
-* http://verikami.github.com/eP_API_doc/
+* http://verikami.github.com/ePF_API_doc/
 
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png)](https://travis-ci.org/veriKami/ePF_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=gh-pages)](https://travis-ci.org/veriKami/ePF_API_doc)
