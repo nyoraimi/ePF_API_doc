@@ -1,3 +1,5 @@
+#: system
+.phar/*
 
 #: dev dirs
 eP_dox-0.1.0-dev-0/
