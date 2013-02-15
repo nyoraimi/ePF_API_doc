@@ -2,7 +2,7 @@
 .phar/*
 
 #: dev dirs
-#ePF_API/
+ePF_API/
 !ePF_API_apigen-0.x.x-dev/*
 !ePF_API_doxy-0.x.x-dev/*
 !ePF_API_phpdoc-0.x.x-dev/*
