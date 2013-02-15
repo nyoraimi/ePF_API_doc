@@ -2,8 +2,6 @@
 .phar/*
 
 #: dev dirs
-eP_dox-0.1.0-dev-0/
-eP_dox-0.1.0-dev-test/
 eP_*
 
 #: doxy conf
@@ -15,4 +13,7 @@ make/*
 make_*
 
 #: dev's
-__*
+__*/*
+__.*
+__*.html
+__*.php
