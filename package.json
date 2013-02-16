@@ -4,7 +4,7 @@
     "main": "./index.html",
     "description": "Szkicowa wersja automatycznie generowanej dokumentacji platformy klienta ePF_API Fundacji ePaństwo.",
     "keywords": ["doc", "design", "democracy"],
-    "url": "http://github.com/veriKami/ePF_API_doc",
+    "url": "https://github.com/veriKami/ePF_API_doc",
     "repository": {
         "type": "git",
         "url": "git://github.com/veriKami/ePF_API_doc.git"
