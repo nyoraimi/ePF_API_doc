@@ -1,5 +1,5 @@
-ePF_API_doc (0.x.x-dev)
-======================
+ePF_API_doc (dev) 0.x.x
+=======================
 
 * http://verikami.github.com/ePF_API_doc/
 
@@ -29,17 +29,17 @@ https://github.com/epforgpl/ePF_API
 wygenerowana za pomocą:
 -----------------------
 
-### 1) Apigen
+### (1) ApiGen
 
-* http://apigen.org/
+* http://apigen.org
 
-### 2) Doxygen
+### (2) Doxygen
 
-* http://www.doxygen.org
+* http://doxygen.org
 
-### 3) phpDocumentor
+### (3) phpDocumentor
 
-* http://www.phpdoc.org
+* http://phpdoc.org
 
 konfekcjonowanie:
 -----------------
