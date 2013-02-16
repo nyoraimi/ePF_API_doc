@@ -1,7 +1,7 @@
 ePF_API_doc (dev) 0.x.x
 =======================
 
-* http://verikami.github.com/ePF_API_doc/
+* http://verikami.github.com/ePF_API_doc
 
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png)](https://travis-ci.org/veriKami/ePF_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=gh-pages)](https://travis-ci.org/veriKami/ePF_API_doc)
@@ -46,6 +46,6 @@ konfekcjonowanie:
 
 ### (SemVer) Semantic Versioning
 
-* http://semver.org/
+* http://semver.org
 
 (.)
