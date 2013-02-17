@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"classep___s_p___sad.html#a4a4d54ae35428077a7c61ec8a5139af3":[4,0,94,4],
 "classep___s_p___sad.html#a7516ca30af0db3cdbf9a7739b48ce91d":[4,0,94,0],
 "classep___s_p___sad.html#a79dabf680e30ee6e62508a8df24ed243":[4,0,94,1],
 "classep___s_p___sad.html#ab4e31d75f0bc5d512456911e5d01366b":[4,0,94,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "classep___twitt___tag.html":[4,0,99],
 "classep___twitt___tag.html#a7516ca30af0db3cdbf9a7739b48ce91d":[4,0,99,0],
 "classep___twitt___tag.html#a79dabf680e30ee6e62508a8df24ed243":[4,0,99,1],
-"classep___twitt___tag.html#ab4e31d75f0bc5d512456911e5d01366b":[4,0,99,2]
+"classep___twitt___tag.html#ab4e31d75f0bc5d512456911e5d01366b":[4,0,99,2],
+"classep___ustawa.html":[4,0,100]
 };

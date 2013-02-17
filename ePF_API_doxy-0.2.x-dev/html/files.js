@@ -6,9 +6,7 @@ var files =
     [ "ep__Object.php", "ep_____object_8php.html", [
       [ "ep__Object", "classep_____object.html", "classep_____object" ]
     ] ],
-    [ "classes/ep_API.php", "classes_2ep___a_p_i_8php.html", [
-      [ "ep_Api", "classep___api.html", "classep___api" ]
-    ] ],
+    [ "classes/ep_API.php", "classes_2ep___a_p_i_8php.html", "classes_2ep___a_p_i_8php" ],
     [ "ep_API.php", "ep___a_p_i_8php.html", "ep___a_p_i_8php" ],
     [ "ep_Autoloader.php", "ep___autoloader_8php.html", [
       [ "ep_Autoloader", "classep___autoloader.html", "classep___autoloader" ]

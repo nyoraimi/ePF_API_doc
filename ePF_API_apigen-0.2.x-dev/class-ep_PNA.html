@@ -27,11 +27,11 @@
 						<ul>
 				<li><a href="package-ePF.API.Core.html">Core</a>
 						</li>
+				<li><a href="package-ePF.API.Helpers.html">Helpers</a>
+						</li>
 				<li class="active"><a href="package-ePF.API.Objects.html">Objects</a>
 						</li>
 							</ul></li></ul></li>
-				<li><a href="package-None.html">None</a>
-						</li>
 			</ul>
 		</div>
 
@@ -181,9 +181,20 @@
 
 	<div class="description">
 	
-<p>Klasa obiektu ep_PNA.</p>
+<p>Obiekt ep_PNA.</p>
 
-<p>Alias: kody_pocztowe_miejsca</p>
+<p>Aliasy: kody_pocztowe_miejsca</p>
+
+<p>Przykładowe zastosowanie:</p>
+
+<pre>
+<span class="php-var">$dataset</span> = <span
+class="php-keyword1">new</span> ep_Dataset(<span
+class="php-quote">'kody_pocztowe_miejsca'</span>);
+<span
+class="php-var">$data</span> = <span
+class="php-var">$dataset</span>-&gt;find_all();
+</pre>
 
 	</div>
 
@@ -228,7 +239,11 @@
 				0.x.x-dev<br />
 				<b>Since:</b>
 				version 0.1.0<br />
-		<b>Located at</b> <a href="source-class-ep_PNA.html#8-86" title="Go to source code">classes/objects/ep_PNA.php</a><br />
+				<b>See:</b>
+				<code><code><a href="class-ep_PNA.html#$_aliases">ep_PNA::<var>$_aliases</var></a></code></code><br />
+				<b>Example:</b>
+				objects/ep_PNA<br />
+		<b>Located at</b> <a href="source-class-ep_PNA.html#8-96" title="Go to source code">classes/objects/ep_PNA.php</a><br />
 	</div>
 
 
@@ -246,7 +261,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getDataStruct">#</a>
-		<code><a href="source-class-ep_PNA.html#21-38" title="Go to source code">getDataStruct</a>( )</code>
+		<code><a href="source-class-ep_PNA.html#31-48" title="Go to source code">getDataStruct</a>( )</code>
 
 		<div class="description short">
 			
@@ -287,7 +302,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_gmina">#</a>
-		<code><a href="source-class-ep_PNA.html#57-65" title="Go to source code">gmina</a>( )</code>
+		<code><a href="source-class-ep_PNA.html#67-75" title="Go to source code">gmina</a>( )</code>
 
 		<div class="description short">
 			
@@ -320,7 +335,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_powiat">#</a>
-		<code><a href="source-class-ep_PNA.html#67-75" title="Go to source code">powiat</a>( )</code>
+		<code><a href="source-class-ep_PNA.html#77-85" title="Go to source code">powiat</a>( )</code>
 
 		<div class="description short">
 			
@@ -353,7 +368,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_wojewodztwo">#</a>
-		<code><a href="source-class-ep_PNA.html#77-85" title="Go to source code">wojewodztwo</a>( )</code>
+		<code><a href="source-class-ep_PNA.html#87-95" title="Go to source code">wojewodztwo</a>( )</code>
 
 		<div class="description short">
 			
@@ -435,7 +450,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_PNA.html#40" title="Go to source code"><var>$_aliases</var></a>
+				<a href="source-class-ep_PNA.html#50" title="Go to source code"><var>$_aliases</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'kody_pocztowe_miejsca'</span>)</code></td>
 		<td class="description"><div>
@@ -458,7 +473,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_PNA.html#42-45" title="Go to source code"><var>$_gmina</var></a>
+				<a href="source-class-ep_PNA.html#52-55" title="Go to source code"><var>$_gmina</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>
@@ -481,7 +496,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_PNA.html#47-50" title="Go to source code"><var>$_powiat</var></a>
+				<a href="source-class-ep_PNA.html#57-60" title="Go to source code"><var>$_powiat</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>
@@ -504,7 +519,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_PNA.html#52-55" title="Go to source code"><var>$_wojewodztwo</var></a>
+				<a href="source-class-ep_PNA.html#62-65" title="Go to source code"><var>$_wojewodztwo</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>

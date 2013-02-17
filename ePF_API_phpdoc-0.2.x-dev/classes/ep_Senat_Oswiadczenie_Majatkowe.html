@@ -20,7 +20,6 @@
 <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
-<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
 <li><a href="../packages/ePF.html"><i class="icon-folder-open"></i> ePF</a></li>
 </ul>
 </li>
@@ -34,9 +33,14 @@
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
                 <span class="label label-info">860</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
-                <ul><li>fixme 
+                <ul>
+<li>todo 
+                <span class="label label-info">2</span>
+</li>
+<li>fixme 
                 <span class="label label-info">16</span>
-</li></ul></a></li>
+</li>
+</ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
                 <span class="label label-info">0</span></a></li>
 </ul>
@@ -140,10 +144,25 @@
 </li>
 </ul>
 <div class="element class">
-<p class="short_description">Klasa obiektu ep_Senat_Oswiadczenie_Majatkowe.</p>
+<p class="short_description">Obiekt ep_Senat_Oswiadczenie_Majatkowe.</p>
 <div class="details">
-<div class="long_description"><p>Alias: senatorowie_oswiadczenia_majatkowe</p></div>
+<div class="long_description"><p>Aliasy:
+  senatorowie_oswiadczenia_majatkowe</p>
+
+<p>Przykładowe zastosowanie:</p>
+
+<pre><code>  $dataset = new ep_Dataset('senatorowie_oswiadczenia_majatkowe');
+  $data = $dataset->find_all();
+</code></pre></div>
 <table class="table table-bordered">
+<tr>
+<th>example</th>
+<td>objects/ep_Senat_Oswiadczenie_Majatkowe</td>
+</tr>
+<tr>
+<th>see</th>
+<td><a href="">\global\ep_Senat_Oswiadczenie_Majatkowe::$_aliases</a></td>
+</tr>
 <tr>
 <th>category</th>
 <td>System</td>
@@ -650,7 +669,7 @@
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-02-16T02:10:04+01:00.<br></footer></div>
+            generated on 2013-02-17T13:55:54+01:00.<br></footer></div>
 </div>
 </body>
 </html>

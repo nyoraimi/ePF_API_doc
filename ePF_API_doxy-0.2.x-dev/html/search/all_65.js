@@ -204,6 +204,6 @@ var searchData=
   ['ep_5fwojewodztwo_2ephp',['ep_Wojewodztwo.php',['../ep___wojewodztwo_8php.html',1,'']]],
   ['epf_5fapi',['ePF_API',['../namespacee_p_f___a_p_i.html',1,'']]],
   ['etapy',['etapy',['../classep___legislacja___projekt.html#a3dcbe271e680ead3863303e13573c195',1,'ep_Legislacja_Projekt']]],
-  ['epf_5fapi_20_2d_20historia',['ePF_API - historia',['../md__h_i_s_t_o_r_y.html',1,'']]],
+  ['epf_5fapi_20_2d_20historia_20i_20dzie_c5_84_20dzisiejszy',['ePF_API - Historia i dzień dzisiejszy',['../md__h_i_s_t_o_r_y.html',1,'']]],
   ['epf_5fapi_20_2d_20dane_20publiczne_20dost_c4_99pne_20jak_20nigdy_20wcze_c5_9bniej_21',['ePF_API - Dane publiczne dostępne jak nigdy wcześniej!',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

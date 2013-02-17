@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classep___posel.html#aedba85bfa40b8bf60cfad39464010834":[4,0,27,4],
 "classep___posel.html#af32786fc0cc85c7b2d9d66c3923b3197":[4,0,27,1],
 "classep___posel___aktywnosc.html":[4,0,28],
 "classep___posel___aktywnosc.html#a7516ca30af0db3cdbf9a7739b48ce91d":[4,0,28,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "classep___s_p___osoba.html#ab4e31d75f0bc5d512456911e5d01366b":[4,0,93,3],
 "classep___s_p___sad.html":[4,0,94],
 "classep___s_p___sad.html#a0253193f97ea82c02858e0b933a74880":[4,0,94,2],
-"classep___s_p___sad.html#a460ae26a90178f807b8ccda9dcbc90a4":[4,0,94,5]
+"classep___s_p___sad.html#a460ae26a90178f807b8ccda9dcbc90a4":[4,0,94,5],
+"classep___s_p___sad.html#a4a4d54ae35428077a7c61ec8a5139af3":[4,0,94,4]
 };

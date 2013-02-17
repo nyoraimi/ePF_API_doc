@@ -103,6 +103,5 @@ var hierarchy =
       ] ],
       [ "ep_Search", "classep___search.html", null ]
     ] ],
-    [ "ep_Autoloader", "classep___autoloader.html", null ],
-    [ "if", "categoryif.html", null ]
+    [ "ep_Autoloader", "classep___autoloader.html", null ]
 ];

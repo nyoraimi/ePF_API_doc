@@ -1,9 +1,9 @@
 var NAVTREE =
 [
   [ "ePF_API", "index.html", [
-    [ "ePF_API - historia", "md__h_i_s_t_o_r_y.html", null ],
+    [ "ePF_API - Historia i dzień dzisiejszy", "md__h_i_s_t_o_r_y.html", null ],
     [ "ePF_API - Dane publiczne dostępne jak nigdy wcześniej!", "md__r_e_a_d_m_e.html", null ],
-    [ "Lista rzeczy do zrobienia", "todo.html", null ],
+    [ "Moduły", "modules.html", "modules" ],
     [ "Przestrzenie nazw", null, [
       [ "Lista przestrzeni nazw", "namespaces.html", "namespaces" ]
     ] ],
@@ -21,18 +21,21 @@ var NAVTREE =
       [ "Lista plików", "files.html", "files" ],
       [ "Globalne", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Funkcje", "globals_func.html", null ],
         [ "Zmienne", "globals_vars.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Przykłady", "examples.html", "examples" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classep___posel.html#aedba85bfa40b8bf60cfad39464010834",
-"classep___s_p___sad.html#a4a4d54ae35428077a7c61ec8a5139af3",
-"classep___ustawa.html"
+"classep___posel.html#af32786fc0cc85c7b2d9d66c3923b3197",
+"classep___s_p___sad.html#a7516ca30af0db3cdbf9a7739b48ce91d",
+"classep___ustawa.html#a07530796b374ac86eb68d756aeb2ba04",
+"objects_2ep__sejm__glosowanie-example.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

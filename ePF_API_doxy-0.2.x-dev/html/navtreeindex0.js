@@ -1,7 +1,6 @@
 var NAVTREEINDEX0 =
 {
 "annotated.html":[4,0],
-"categoryif.html":[4,0,102],
 "classep_____dataset.html":[4,0,1],
 "classep_____dataset.html#a4a4d54ae35428077a7c61ec8a5139af3":[4,0,1,4],
 "classep_____dataset.html#a7516ca30af0db3cdbf9a7739b48ce91d":[4,0,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "classep___posel.html#aab9cc82c80e91ad71187a3c4a9999561":[4,0,27,3],
 "classep___posel.html#ab4e31d75f0bc5d512456911e5d01366b":[4,0,27,16],
 "classep___posel.html#ab7a97df64d38268bc2d006b6666d0275":[4,0,27,7],
-"classep___posel.html#ab890bc062f51edbd126a1b10bd326e71":[4,0,27,12]
+"classep___posel.html#ab890bc062f51edbd126a1b10bd326e71":[4,0,27,12],
+"classep___posel.html#aedba85bfa40b8bf60cfad39464010834":[4,0,27,4]
 };

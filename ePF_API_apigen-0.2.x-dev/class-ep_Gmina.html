@@ -27,11 +27,11 @@
 						<ul>
 				<li><a href="package-ePF.API.Core.html">Core</a>
 						</li>
+				<li><a href="package-ePF.API.Helpers.html">Helpers</a>
+						</li>
 				<li class="active"><a href="package-ePF.API.Objects.html">Objects</a>
 						</li>
 							</ul></li></ul></li>
-				<li><a href="package-None.html">None</a>
-						</li>
 			</ul>
 		</div>
 
@@ -181,9 +181,19 @@
 
 	<div class="description">
 	
-<p>Klasa obiektu ep_Gmina.</p>
+<p>Obiekt ep_Gmina.</p>
 
-<p>Alias: gminy</p>
+<p>Aliasy: gminy</p>
+
+<p>Przykładowe zastosowanie:</p>
+
+<pre>
+<span class="php-var">$dataset</span> = <span
+class="php-keyword1">new</span> ep_Dataset(<span
+class="php-quote">'gminy'</span>);
+<span class="php-var">$data</span> = <span
+class="php-var">$dataset</span>-&gt;find_all();
+</pre>
 
 	</div>
 
@@ -228,7 +238,11 @@
 				0.x.x-dev<br />
 				<b>Since:</b>
 				version 0.1.0<br />
-		<b>Located at</b> <a href="source-class-ep_Gmina.html#8-184" title="Go to source code">classes/objects/ep_Gmina.php</a><br />
+				<b>See:</b>
+				<code><code><a href="class-ep_Gmina.html#$_aliases">ep_Gmina::<var>$_aliases</var></a></code></code><br />
+				<b>Example:</b>
+				objects/ep_Gmina<br />
+		<b>Located at</b> <a href="source-class-ep_Gmina.html#8-194" title="Go to source code">classes/objects/ep_Gmina.php</a><br />
 	</div>
 
 
@@ -246,7 +260,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getDataStruct">#</a>
-		<code><a href="source-class-ep_Gmina.html#21-49" title="Go to source code">getDataStruct</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#31-59" title="Go to source code">getDataStruct</a>( )</code>
 
 		<div class="description short">
 			
@@ -287,7 +301,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_parse_data">#</a>
-		<code><a href="source-class-ep_Gmina.html#56-73" title="Go to source code">parse_data</a>( <span>mixed <var>$data</var></span> )</code>
+		<code><a href="source-class-ep_Gmina.html#66-83" title="Go to source code">parse_data</a>( <span>mixed <var>$data</var></span> )</code>
 
 		<div class="description short">
 			
@@ -318,7 +332,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_pna">#</a>
-		<code><a href="source-class-ep_Gmina.html#75-81" title="Go to source code">pna</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#85-91" title="Go to source code">pna</a>( )</code>
 
 		<div class="description short">
 			
@@ -347,7 +361,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_wojewodztwo">#</a>
-		<code><a href="source-class-ep_Gmina.html#98-103" title="Go to source code">wojewodztwo</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#108-113" title="Go to source code">wojewodztwo</a>( )</code>
 
 		<div class="description short">
 			
@@ -380,7 +394,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_poslowie">#</a>
-		<code><a href="source-class-ep_Gmina.html#106-114" title="Go to source code">poslowie</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#116-124" title="Go to source code">poslowie</a>( )</code>
 
 		<div class="description short">
 			
@@ -409,7 +423,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_powiat">#</a>
-		<code><a href="source-class-ep_Gmina.html#116-121" title="Go to source code">powiat</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#126-131" title="Go to source code">powiat</a>( )</code>
 
 		<div class="description short">
 			
@@ -442,7 +456,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_set_ep_wojewodztwa">#</a>
-		<code><a href="source-class-ep_Gmina.html#123-137" title="Go to source code">set_ep_wojewodztwa</a>( <span>array|<code><a href="class-ep_Wojewodztwo.html">ep_Wojewodztwo</a></code> <var>$data</var></span> )</code>
+		<code><a href="source-class-ep_Gmina.html#133-147" title="Go to source code">set_ep_wojewodztwa</a>( <span>array|<code><a href="class-ep_Wojewodztwo.html">ep_Wojewodztwo</a></code> <var>$data</var></span> )</code>
 
 		<div class="description short">
 			
@@ -476,7 +490,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_set_ep_powiaty">#</a>
-		<code><a href="source-class-ep_Gmina.html#139-153" title="Go to source code">set_ep_powiaty</a>( <span>array|<code><a href="class-ep_Powiat.html">ep_Powiat</a></code> <var>$data</var></span> )</code>
+		<code><a href="source-class-ep_Gmina.html#149-163" title="Go to source code">set_ep_powiaty</a>( <span>array|<code><a href="class-ep_Powiat.html">ep_Powiat</a></code> <var>$data</var></span> )</code>
 
 		<div class="description short">
 			
@@ -510,7 +524,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_set_ep_Powiat">#</a>
-		<code><a href="source-class-ep_Gmina.html#155-166" title="Go to source code">set_ep_Powiat</a>( <span>mixed <var>$data</var></span> )</code>
+		<code><a href="source-class-ep_Gmina.html#165-176" title="Go to source code">set_ep_Powiat</a>( <span>mixed <var>$data</var></span> )</code>
 
 		<div class="description short">
 			
@@ -539,7 +553,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#___toString">#</a>
-		<code><a href="source-class-ep_Gmina.html#168-173" title="Go to source code">__toString</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#178-183" title="Go to source code">__toString</a>( )</code>
 
 		<div class="description short">
 			
@@ -572,7 +586,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_obszar">#</a>
-		<code><a href="source-class-ep_Gmina.html#175-183" title="Go to source code">obszar</a>( )</code>
+		<code><a href="source-class-ep_Gmina.html#185-193" title="Go to source code">obszar</a>( )</code>
 
 		<div class="description short">
 			
@@ -653,7 +667,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Gmina.html#51" title="Go to source code"><var>$_aliases</var></a>
+				<a href="source-class-ep_Gmina.html#61" title="Go to source code"><var>$_aliases</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'gminy'</span>)</code></td>
 		<td class="description"><div>
@@ -676,7 +690,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Gmina.html#52" title="Go to source code"><var>$_field_init_lookup</var></a>
+				<a href="source-class-ep_Gmina.html#62" title="Go to source code"><var>$_field_init_lookup</var></a>
 		</td>
 		<td class="value"><code><span class="php-quote">'nazwa'</span></code></td>
 		<td class="description"><div>
@@ -699,7 +713,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Gmina.html#83-86" title="Go to source code"><var>$_wojewodztwo</var></a>
+				<a href="source-class-ep_Gmina.html#93-96" title="Go to source code"><var>$_wojewodztwo</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>
@@ -722,7 +736,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Gmina.html#88-91" title="Go to source code"><var>$_powiat</var></a>
+				<a href="source-class-ep_Gmina.html#98-101" title="Go to source code"><var>$_powiat</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>
@@ -745,7 +759,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Gmina.html#93-96" title="Go to source code"><var>$_obszar</var></a>
+				<a href="source-class-ep_Gmina.html#103-106" title="Go to source code"><var>$_obszar</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>
@@ -768,7 +782,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Gmina.html#105" title="Go to source code"><var>$_poslowie_dataset</var></a>
+				<a href="source-class-ep_Gmina.html#115" title="Go to source code"><var>$_poslowie_dataset</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>

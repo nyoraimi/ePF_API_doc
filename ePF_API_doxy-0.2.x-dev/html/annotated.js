@@ -102,6 +102,5 @@ var annotated =
     [ "ep_Twitt_Tag", "classep___twitt___tag.html", "classep___twitt___tag" ],
     [ "ep_Ustawa", "classep___ustawa.html", "classep___ustawa" ],
     [ "ep_Wojewodztwo", "classep___wojewodztwo.html", "classep___wojewodztwo" ],
-    [ "if", "categoryif.html", null ],
     [ "sp_Orzeczenie_SN_Sprawozdawca", "classsp___orzeczenie___s_n___sprawozdawca.html", "classsp___orzeczenie___s_n___sprawozdawca" ]
 ];

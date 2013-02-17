@@ -27,11 +27,11 @@
 						<ul>
 				<li><a href="package-ePF.API.Core.html">Core</a>
 						</li>
+				<li><a href="package-ePF.API.Helpers.html">Helpers</a>
+						</li>
 				<li class="active"><a href="package-ePF.API.Objects.html">Objects</a>
 						</li>
 							</ul></li></ul></li>
-				<li><a href="package-None.html">None</a>
-						</li>
 			</ul>
 		</div>
 
@@ -181,9 +181,19 @@
 
 	<div class="description">
 	
-<p>Klasa obiektu ep_Ustawa.</p>
+<p>Obiekt ep_Ustawa.</p>
 
-<p>Alias: ustawy, prawo_typy, isap_pliki</p>
+<p>Aliasy: ustawy prawo_typy isap_pliki</p>
+
+<p>Przykładowe zastosowanie:</p>
+
+<pre>
+<span class="php-var">$dataset</span> = <span
+class="php-keyword1">new</span> ep_Dataset(<span
+class="php-quote">'ustawy'</span>);
+<span class="php-var">$data</span> = <span
+class="php-var">$dataset</span>-&gt;find_all();
+</pre>
 
 	</div>
 
@@ -228,7 +238,11 @@
 				0.x.x-dev<br />
 				<b>Since:</b>
 				version 0.1.0<br />
-		<b>Located at</b> <a href="source-class-ep_Ustawa.html#8-88" title="Go to source code">classes/objects/ep_Ustawa.php</a><br />
+				<b>See:</b>
+				<code><code><a href="class-ep_Ustawa.html#$_aliases">ep_Ustawa::<var>$_aliases</var></a></code></code><br />
+				<b>Example:</b>
+				objects/ep_Ustawa<br />
+		<b>Located at</b> <a href="source-class-ep_Ustawa.html#8-98" title="Go to source code">classes/objects/ep_Ustawa.php</a><br />
 	</div>
 
 
@@ -246,7 +260,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getDataStruct">#</a>
-		<code><a href="source-class-ep_Ustawa.html#23-49" title="Go to source code">getDataStruct</a>( )</code>
+		<code><a href="source-class-ep_Ustawa.html#33-59" title="Go to source code">getDataStruct</a>( )</code>
 
 		<div class="description short">
 			
@@ -287,7 +301,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_set_ep_Prawo">#</a>
-		<code><a href="source-class-ep_Ustawa.html#56-58" title="Go to source code">set_ep_Prawo</a>( <span>mixed <var>$data</var></span> )</code>
+		<code><a href="source-class-ep_Ustawa.html#66-68" title="Go to source code">set_ep_Prawo</a>( <span>mixed <var>$data</var></span> )</code>
 
 		<div class="description short">
 			
@@ -316,7 +330,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_projekty_zmian">#</a>
-		<code><a href="source-class-ep_Ustawa.html#60-67" title="Go to source code">projekty_zmian</a>( )</code>
+		<code><a href="source-class-ep_Ustawa.html#70-77" title="Go to source code">projekty_zmian</a>( )</code>
 
 		<div class="description short">
 			
@@ -345,7 +359,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_prawo">#</a>
-		<code><a href="source-class-ep_Ustawa.html#69-71" title="Go to source code">prawo</a>( )</code>
+		<code><a href="source-class-ep_Ustawa.html#79-81" title="Go to source code">prawo</a>( )</code>
 
 		<div class="description short">
 			
@@ -374,7 +388,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#_parse_data">#</a>
-		<code><a href="source-class-ep_Ustawa.html#73-80" title="Go to source code">parse_data</a>( <span>mixed <var>$data</var></span> )</code>
+		<code><a href="source-class-ep_Ustawa.html#83-90" title="Go to source code">parse_data</a>( <span>mixed <var>$data</var></span> )</code>
 
 		<div class="description short">
 			
@@ -405,7 +419,7 @@ getter methods and should be read this way.<br />
 
 		<td class="name"><div>
 		<a class="anchor" href="#___toString">#</a>
-		<code><a href="source-class-ep_Ustawa.html#82-87" title="Go to source code">__toString</a>( )</code>
+		<code><a href="source-class-ep_Ustawa.html#92-97" title="Go to source code">__toString</a>( )</code>
 
 		<div class="description short">
 			
@@ -486,7 +500,7 @@ getter methods and should be read this way.<br />
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-ep_Ustawa.html#51" title="Go to source code"><var>$_aliases</var></a>
+				<a href="source-class-ep_Ustawa.html#61" title="Go to source code"><var>$_aliases</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'ustawy'</span>,<span class="php-quote">'prawo_typy'</span>,<span class="php-quote">'isap_pliki'</span>)</code></td>
 		<td class="description"><div>
