@@ -8,7 +8,8 @@ ePF_API_doc (dev) 0.x.x
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=master)](https://travis-ci.org/veriKami/ePF_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=master,gh-pages)](https://travis-ci.org/veriKami/ePF_API_doc)
 
-Szkicowa wersja automatycznie generowanej dokumentacji platformy klienta ePF_API [Fundacji ePaństwo](http://epanstwo.org.pl/)
+Szkicowa wersja automatycznie generowanej dokumentacji  
+platformy klienta [ePF_API](https://github.com/epforgpl/ePF_API) [Fundacji ePaństwo](http://epanstwo.org.pl/)
 
 * https://github.com/epforgpl/ePF_API
 
@@ -22,9 +23,9 @@ Zobacz więcej informacji o platformie ePF_API na stronie http://sejmometr.pl/ap
 Dokumentacja klienta jest dostępna pod adresem http://sejmometr.pl/api/docs
 ```
 
-przygotowana na podstawie wersji master (submodule):
+przygotowana na podstawie wersji develop (branch):
 
-https://github.com/epforgpl/ePF_API
+https://github.com/veriKami/ePF_API
 
 wygenerowana za pomocą:
 -----------------------
