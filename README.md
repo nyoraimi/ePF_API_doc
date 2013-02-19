@@ -1,7 +1,8 @@
-ePF_API_doc (dev) 0.x.x
+ePF_API_doc (dev) 0.2.x
 =======================
+-----------------------
 
-:octocat: &nbsp; http://verikami.github.com/ePF_API_doc
+&nbsp; :octocat: &nbsp; http://verikami.github.com/ePF_API_doc
 
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png)](https://travis-ci.org/veriKami/ePF_API_doc)
 [![Build Status](https://travis-ci.org/veriKami/ePF_API_doc.png?branch=gh-pages)](https://travis-ci.org/veriKami/ePF_API_doc)
@@ -11,7 +12,7 @@ ePF_API_doc (dev) 0.x.x
 Szkicowa wersja automatycznie generowanej dokumentacji  
 platformy klienta [ePF_API](https://github.com/epforgpl/ePF_API) Fundacji [ePaństwo](http://epf.org.pl/)
 
-:octocat: &nbsp; https://github.com/epforgpl/ePF_API
+&nbsp; :octocat: &nbsp; https://github.com/epforgpl/ePF_API
 
 ```
 ePF_API - Dane publiczne dostępne jak nigdy wcześniej!
@@ -25,7 +26,7 @@ Dokumentacja klienta jest dostępna pod adresem http://sejmometr.pl/api/docs
 
 przygotowana na podstawie wersji (branch) develop:
 
-:octocat: &nbsp; https://github.com/veriKami/ePF_API
+&nbsp; :octocat: &nbsp; https://github.com/veriKami/ePF_API
 
 wygenerowana za pomocą:
 -----------------------
@@ -49,4 +50,8 @@ konfekcjonowanie:
 
 * http://semver.org
 
-:octocat:
+&nbsp;  
+
+------
+&nbsp; :octocat: &nbsp; _(...) Ku Chwale Ojczyzny (...) Przejmujemy Państwo_
+
