@@ -23,7 +23,7 @@ Zobacz więcej informacji o platformie ePF_API na stronie http://sejmometr.pl/ap
 Dokumentacja klienta jest dostępna pod adresem http://sejmometr.pl/api/docs
 ```
 
-przygotowana na podstawie wersji develop (branch):
+przygotowana na podstawie wersji (branch) develop:
 
 :octocat: &nbsp; https://github.com/veriKami/ePF_API
 
@@ -49,4 +49,4 @@ konfekcjonowanie:
 
 * http://semver.org
 
-(.)
+:octocat:
